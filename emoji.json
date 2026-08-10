@@ -698,282 +698,1288 @@
     "platform": "douyin",
     "emojis": [
       {
-        "url": "output/douyin/dy_01.avif",
+        "url": "output/douyin/dy_001.avif",
         "name": "微笑",
-        "tags": ["positive", "sarcastic", "smiling", "judging", "hinting"],
-        "keywords": ["微笑", "呵呵", "笑而不语", "坐等后续", "不简单"]
+        "tags": [],
+        "keywords": ["微笑"]
       },
       {
-        "url": "output/douyin/dy_02.avif",
-        "name": "发呆",
-        "tags": ["neutral", "plain", "dazed", "confused", "speechless"],
-        "keywords": ["发呆", "放空", "愣住", "没听懂", "状况外"]
-      },
-      {
-        "url": "output/douyin/dy_03.avif",
-        "name": "流泪",
-        "tags": ["negative", "plain", "crying", "sad", "moved"],
-        "keywords": ["流泪", "哭了", "感动", "破防了", "心疼"]
-      },
-      {
-        "url": "output/douyin/dy_04.avif",
-        "name": "捂脸",
-        "tags": ["negative", "plain", "facepalm", "speechless", "awkward"],
-        "keywords": ["捂脸", "没眼看", "尴尬", "我错了", "别秀了"]
-      },
-      {
-        "url": "output/douyin/dy_05.avif",
-        "name": "龇牙",
-        "tags": ["positive", "playful", "grinning", "happy"],
-        "keywords": ["龇牙", "嘿嘿", "开心", "笑"]
-      },
-      {
-        "url": "output/douyin/dy_06.avif",
-        "name": "尬笑",
-        "tags": [
-          "negative",
-          "sarcastic",
-          "humorous",
-          "awkward-smile",
-          "cringing",
-          "speechless"
-        ],
-        "keywords": ["尬笑", "尴尬", "我真的会谢", "脚趾抠地", "笑不出来"]
-      },
-      {
-        "url": "output/douyin/dy_07.avif",
-        "name": "害羞",
-        "tags": ["positive", "playful", "blushing", "flattered"],
-        "keywords": ["害羞", "脸红", "不好意思", "谢谢"]
-      },
-      {
-        "url": "output/douyin/dy_08.avif",
-        "name": "调皮",
-        "tags": ["positive", "playful", "tongue-out", "joking"],
-        "keywords": ["调皮", "吐舌", "略略略", "开玩笑"]
-      },
-      {
-        "url": "output/douyin/dy_09.avif",
+        "url": "output/douyin/dy_002.avif",
         "name": "色",
-        "tags": ["positive", "playful", "heart-eyes", "loving", "desiring"],
-        "keywords": ["色", "爱了", "喜欢", "馋了", "姐姐（哥哥）我可以"]
+        "tags": [],
+        "keywords": ["色"]
       },
       {
-        "url": "output/douyin/dy_10.avif",
-        "name": "看",
-        "tags": ["neutral", "plain", "looking", "observing", "curious"],
-        "keywords": ["看", "瞅瞅", "围观", "让我看看"]
+        "url": "output/douyin/dy_003.avif",
+        "name": "呆住",
+        "tags": [],
+        "keywords": ["呆住", "发呆"]
       },
       {
-        "url": "output/douyin/dy_11.avif",
+        "url": "output/douyin/dy_004.avif",
+        "name": "生气",
+        "tags": [],
+        "keywords": ["生气", "酷拽"]
+      },
+      {
+        "url": "output/douyin/dy_005.avif",
+        "name": "抠鼻",
+        "tags": [],
+        "keywords": ["抠鼻"]
+      },
+      {
+        "url": "output/douyin/dy_006.avif",
+        "name": "流泪",
+        "tags": [],
+        "keywords": ["流泪"]
+      },
+      {
+        "url": "output/douyin/dy_007.avif",
+        "name": "捂脸",
+        "tags": [],
+        "keywords": ["捂脸"]
+      },
+      {
+        "url": "output/douyin/dy_008.avif",
+        "name": "发怒",
+        "tags": [],
+        "keywords": ["发怒"]
+      },
+      {
+        "url": "output/douyin/dy_009.avif",
+        "name": "呲牙",
+        "tags": [],
+        "keywords": ["呲牙"]
+      },
+      {
+        "url": "output/douyin/dy_010.avif",
+        "name": "尬笑",
+        "tags": [],
+        "keywords": ["尬笑"]
+      },
+      {
+        "url": "output/douyin/dy_011.avif",
+        "name": "害羞",
+        "tags": [],
+        "keywords": ["害羞"]
+      },
+      {
+        "url": "output/douyin/dy_012.avif",
+        "name": "调皮",
+        "tags": [],
+        "keywords": ["调皮"]
+      },
+      {
+        "url": "output/douyin/dy_013.avif",
+        "name": "舔屏",
+        "tags": [],
+        "keywords": ["舔屏"]
+      },
+      {
+        "url": "output/douyin/dy_014.avif",
+        "name": "狗头",
+        "tags": [],
+        "keywords": ["狗头", "看"]
+      },
+      {
+        "url": "output/douyin/dy_015.avif",
+        "name": "爱心",
+        "tags": [],
+        "keywords": ["爱心"]
+      },
+      {
+        "url": "output/douyin/dy_016.avif",
+        "name": "比心",
+        "tags": [],
+        "keywords": ["比心"]
+      },
+      {
+        "url": "output/douyin/dy_017.avif",
+        "name": "赞",
+        "tags": [],
+        "keywords": ["赞"]
+      },
+      {
+        "url": "output/douyin/dy_018.avif",
+        "name": "鼓掌",
+        "tags": [],
+        "keywords": ["鼓掌"]
+      },
+      {
+        "url": "output/douyin/dy_019.avif",
+        "name": "双手合十",
+        "tags": [],
+        "keywords": ["双手合十", "感谢"]
+      },
+      {
+        "url": "output/douyin/dy_020.avif",
         "name": "抱抱你",
-        "tags": ["positive", "supportive", "hugging", "comforting"],
-        "keywords": ["抱抱你", "抱抱", "安慰", "别难过", "摸摸"]
+        "tags": [],
+        "keywords": ["抱抱你"]
       },
       {
-        "url": "output/douyin/dy_12.avif",
+        "url": "output/douyin/dy_021.avif",
+        "name": "玫瑰",
+        "tags": [],
+        "keywords": ["玫瑰"]
+      },
+      {
+        "url": "output/douyin/dy_022.avif",
+        "name": "尴尬",
+        "tags": [],
+        "keywords": ["尴尬", "尴尬流汗"]
+      },
+      {
+        "url": "output/douyin/dy_023.avif",
+        "name": "戳手手",
+        "tags": [],
+        "keywords": ["戳手手"]
+      },
+      {
+        "url": "output/douyin/dy_024.avif",
+        "name": "星星眼",
+        "tags": [],
+        "keywords": ["星星眼"]
+      },
+      {
+        "url": "output/douyin/dy_025.avif",
+        "name": "杀马特",
+        "tags": [],
+        "keywords": ["杀马特"]
+      },
+      {
+        "url": "output/douyin/dy_026.avif",
+        "name": "干杯",
+        "tags": [],
+        "keywords": ["干杯", "黄脸干杯"]
+      },
+      {
+        "url": "output/douyin/dy_027.avif",
+        "name": "抱紧自己",
+        "tags": [],
+        "keywords": ["抱紧自己"]
+      },
+      {
+        "url": "output/douyin/dy_028.avif",
+        "name": "拜拜",
+        "tags": [],
+        "keywords": ["拜拜"]
+      },
+      {
+        "url": "output/douyin/dy_029.avif",
+        "name": "热化了",
+        "tags": [],
+        "keywords": ["热化了"]
+      },
+      {
+        "url": "output/douyin/dy_030.avif",
+        "name": "祈祷",
+        "tags": [],
+        "keywords": ["祈祷", "黄脸祈祷"]
+      },
+      {
+        "url": "output/douyin/dy_031.avif",
+        "name": "懵",
+        "tags": [],
+        "keywords": ["懵"]
+      },
+      {
+        "url": "output/douyin/dy_032.avif",
+        "name": "举手",
+        "tags": [],
+        "keywords": ["举手"]
+      },
+      {
+        "url": "output/douyin/dy_033.avif",
+        "name": "加功德",
+        "tags": [],
+        "keywords": ["加功德"]
+      },
+      {
+        "url": "output/douyin/dy_034.avif",
+        "name": "摊手",
+        "tags": [],
+        "keywords": ["摊手"]
+      },
+      {
+        "url": "output/douyin/dy_035.avif",
+        "name": "无语",
+        "tags": [],
+        "keywords": ["无语", "无语流汗"]
+      },
+      {
+        "url": "output/douyin/dy_036.avif",
+        "name": "续火花",
+        "tags": [],
+        "keywords": ["续火花", "续火花吧"]
+      },
+      {
+        "url": "output/douyin/dy_037.avif",
+        "name": "点火",
+        "tags": [],
+        "keywords": ["点火"]
+      },
+      {
+        "url": "output/douyin/dy_038.avif",
+        "name": "哭哭",
+        "tags": [],
+        "keywords": ["哭哭"]
+      },
+      {
+        "url": "output/douyin/dy_039.avif",
+        "name": "吐舌小狗",
+        "tags": [],
+        "keywords": ["吐舌小狗"]
+      },
+      {
+        "url": "output/douyin/dy_040.avif",
+        "name": "送花",
+        "tags": [],
+        "keywords": ["送花"]
+      },
+      {
+        "url": "output/douyin/dy_041.avif",
+        "name": "爱心手",
+        "tags": [],
+        "keywords": ["爱心手"]
+      },
+      {
+        "url": "output/douyin/dy_042.avif",
+        "name": "贴贴",
+        "tags": [],
+        "keywords": ["贴贴"]
+      },
+      {
+        "url": "output/douyin/dy_043.avif",
+        "name": "灵机一动",
+        "tags": [],
+        "keywords": ["灵机一动"]
+      },
+      {
+        "url": "output/douyin/dy_044.avif",
+        "name": "耶",
+        "tags": [],
+        "keywords": ["耶"]
+      },
+      {
+        "url": "output/douyin/dy_045.avif",
+        "name": "打脸",
+        "tags": [],
+        "keywords": ["打脸"]
+      },
+      {
+        "url": "output/douyin/dy_046.avif",
         "name": "大笑",
-        "tags": ["positive", "humorous", "laughing", "amused"],
-        "keywords": ["大笑", "哈哈哈哈", "笑不活了", "神评论"]
+        "tags": [],
+        "keywords": ["大笑"]
       },
       {
-        "url": "output/douyin/dy_13.avif",
+        "url": "output/douyin/dy_047.avif",
+        "name": "还得是你",
+        "tags": [],
+        "keywords": ["还得是你", "机智"]
+      },
+      {
+        "url": "output/douyin/dy_048.avif",
         "name": "送心",
-        "tags": ["positive", "supportive", "heart", "loving", "grateful"],
-        "keywords": ["送心", "比心", "爱心", "喜欢你", "支持"]
+        "tags": [],
+        "keywords": ["送心"]
       },
       {
-        "url": "output/douyin/dy_14.avif",
+        "url": "output/douyin/dy_049.avif",
+        "name": "666",
+        "tags": [],
+        "keywords": ["666"]
+      },
+      {
+        "url": "output/douyin/dy_050.avif",
+        "name": "闭嘴",
+        "tags": [],
+        "keywords": ["闭嘴"]
+      },
+      {
+        "url": "output/douyin/dy_051.avif",
+        "name": "关注我",
+        "tags": [],
+        "keywords": ["关注我", "来看我"]
+      },
+      {
+        "url": "output/douyin/dy_052.avif",
+        "name": "加油",
+        "tags": [],
+        "keywords": ["加油", "一起加油"]
+      },
+      {
+        "url": "output/douyin/dy_053.avif",
+        "name": "哈欠",
+        "tags": [],
+        "keywords": ["哈欠"]
+      },
+      {
+        "url": "output/douyin/dy_054.avif",
+        "name": "震惊",
+        "tags": [],
+        "keywords": ["震惊"]
+      },
+      {
+        "url": "output/douyin/dy_055.avif",
+        "name": "晕",
+        "tags": [],
+        "keywords": ["晕"]
+      },
+      {
+        "url": "output/douyin/dy_056.avif",
+        "name": "衰",
+        "tags": [],
+        "keywords": ["衰"]
+      },
+      {
+        "url": "output/douyin/dy_057.avif",
+        "name": "困",
+        "tags": [],
+        "keywords": ["困"]
+      },
+      {
+        "url": "output/douyin/dy_058.avif",
+        "name": "疑惑",
+        "tags": [],
+        "keywords": ["疑惑", "疑问"]
+      },
+      {
+        "url": "output/douyin/dy_059.avif",
         "name": "泣不成声",
-        "tags": [
-          "negative",
-          "humorous",
-          "crying-hard",
-          "exaggerated",
-          "overwhelmed",
-          "frustrated"
-        ],
-        "keywords": ["泣不成声", "爆哭", "破防了", "我太难了", "呜呜呜"]
+        "tags": [],
+        "keywords": ["泣不成声"]
       },
       {
-        "url": "output/douyin/dy_15.avif",
+        "url": "output/douyin/dy_060.avif",
+        "name": "真棒",
+        "tags": [],
+        "keywords": ["真棒", "小鼓掌"]
+      },
+      {
+        "url": "output/douyin/dy_061.avif",
         "name": "大金牙",
-        "tags": [
-          "positive",
-          "humorous",
-          "surreal",
-          "grinning",
-          "playful",
-          "showing-off"
-        ],
-        "keywords": ["大金牙", "嘿嘿", "土豪", "bling bling", "亮了"]
+        "tags": [],
+        "keywords": ["大金牙"]
       },
       {
-        "url": "output/douyin/dy_16.avif",
+        "url": "output/douyin/dy_062.avif",
         "name": "偷笑",
-        "tags": [
-          "positive",
-          "playful",
-          "laughing",
-          "mouth-covered",
-          "scheming"
-        ],
-        "keywords": ["偷笑", "憋笑", "嘿嘿", "有点东西"]
+        "tags": [],
+        "keywords": ["偷笑"]
       },
       {
-        "url": "output/douyin/dy_17.avif",
+        "url": "output/douyin/dy_063.avif",
+        "name": "石化",
+        "tags": [],
+        "keywords": ["石化"]
+      },
+      {
+        "url": "output/douyin/dy_064.avif",
+        "name": "思考",
+        "tags": [],
+        "keywords": ["思考"]
+      },
+      {
+        "url": "output/douyin/dy_065.avif",
+        "name": "吐血",
+        "tags": [],
+        "keywords": ["吐血"]
+      },
+      {
+        "url": "output/douyin/dy_066.avif",
         "name": "可怜",
-        "tags": ["negative", "plain", "sad-eyes", "seeking-comfort"],
-        "keywords": ["可怜", "心疼", "抱抱", "太惨了"]
+        "tags": [],
+        "keywords": ["可怜"]
       },
       {
-        "url": "output/douyin/dy_18.avif",
+        "url": "output/douyin/dy_067.avif",
+        "name": "嘘",
+        "tags": [],
+        "keywords": ["嘘"]
+      },
+      {
+        "url": "output/douyin/dy_068.avif",
+        "name": "撇嘴",
+        "tags": [],
+        "keywords": ["撇嘴"]
+      },
+      {
+        "url": "output/douyin/dy_069.avif",
         "name": "笑哭",
-        "tags": [
-          "positive",
-          "humorous",
-          "laughing",
-          "crying",
-          "amused",
-          "plot-twist"
-        ],
-        "keywords": ["笑哭", "笑死", "哈哈哈哈", "这是什么神操作"]
+        "tags": [],
+        "keywords": ["笑哭"]
       },
       {
-        "url": "output/douyin/dy_19.avif",
+        "url": "output/douyin/dy_070.avif",
         "name": "奸笑",
-        "tags": [
-          "negative",
-          "sarcastic",
-          "smirking",
-          "evil-grin",
-          "scheming",
-          "anticipating"
-        ],
-        "keywords": ["奸笑", "坏笑", "搞事情", "不怀好意"]
+        "tags": [],
+        "keywords": ["奸笑"]
       },
       {
-        "url": "output/douyin/dy_20.avif",
+        "url": "output/douyin/dy_071.avif",
         "name": "得意",
-        "tags": ["positive", "playful", "smug", "proud"],
-        "keywords": ["得意", "骄傲", "你看我怎么样", "厉害吧"]
+        "tags": [],
+        "keywords": ["得意"]
       },
       {
-        "url": "output/douyin/dy_21.avif",
+        "url": "output/douyin/dy_072.avif",
+        "name": "憨笑",
+        "tags": [],
+        "keywords": ["憨笑"]
+      },
+      {
+        "url": "output/douyin/dy_073.avif",
         "name": "坏笑",
-        "tags": ["positive", "sarcastic", "playful", "smirking", "flirting"],
-        "keywords": ["坏笑", "嘿嘿", "你懂的", "有点意思"]
+        "tags": [],
+        "keywords": ["坏笑"]
       },
       {
-        "url": "output/douyin/dy_22.avif",
+        "url": "output/douyin/dy_074.avif",
+        "name": "抓狂",
+        "tags": [],
+        "keywords": ["抓狂"]
+      },
+      {
+        "url": "output/douyin/dy_075.avif",
         "name": "泪奔",
-        "tags": [
-          "negative",
-          "humorous",
-          "crying-hard",
-          "moved",
-          "overwhelmed",
-          "exaggerated"
-        ],
-        "keywords": ["泪奔", "感动哭了", "破防了家人们", "绷不住了"]
+        "tags": [],
+        "keywords": ["泪奔"]
       },
       {
-        "url": "output/douyin/dy_23.avif",
+        "url": "output/douyin/dy_076.avif",
+        "name": "爱钱",
+        "tags": [],
+        "keywords": ["爱钱", "钱"]
+      },
+      {
+        "url": "output/douyin/dy_077.avif",
         "name": "恐惧",
-        "tags": ["negative", "plain", "scared", "shocked"],
-        "keywords": ["恐惧", "害怕", "吓人", "我不敢看"]
+        "tags": [],
+        "keywords": ["恐惧"]
       },
       {
-        "url": "output/douyin/dy_24.avif",
+        "url": "output/douyin/dy_078.avif",
+        "name": "愉快",
+        "tags": [],
+        "keywords": ["愉快"]
+      },
+      {
+        "url": "output/douyin/dy_079.avif",
         "name": "快哭了",
-        "tags": ["negative", "plain", "crying", "sad", "frustrated"],
-        "keywords": ["快哭了", "委屈", "要哭了", "别骂了"]
+        "tags": [],
+        "keywords": ["快哭了"]
       },
       {
-        "url": "output/douyin/dy_25.avif",
-        "name": "飞吻",
-        "tags": ["positive", "playful", "blowing-kiss", "loving"],
-        "keywords": ["飞吻", "mua", "爱你", "亲一个"]
+        "url": "output/douyin/dy_080.avif",
+        "name": "翻白眼",
+        "tags": [],
+        "keywords": ["翻白眼"]
       },
       {
-        "url": "output/douyin/dy_26.avif",
+        "url": "output/douyin/dy_081.avif",
+        "name": "互粉",
+        "tags": [],
+        "keywords": ["互粉"]
+      },
+      {
+        "url": "output/douyin/dy_082.avif",
+        "name": "我想静静",
+        "tags": [],
+        "keywords": ["我想静静"]
+      },
+      {
+        "url": "output/douyin/dy_083.avif",
+        "name": "委屈",
+        "tags": [],
+        "keywords": ["委屈"]
+      },
+      {
+        "url": "output/douyin/dy_084.avif",
+        "name": "鄙视",
+        "tags": [],
+        "keywords": ["鄙视"]
+      },
+      {
+        "url": "output/douyin/dy_085.avif",
+        "name": "爱心飞吻",
+        "tags": [],
+        "keywords": ["爱心飞吻", "飞吻"]
+      },
+      {
+        "url": "output/douyin/dy_086.avif",
+        "name": "再见",
+        "tags": [],
+        "keywords": ["再见"]
+      },
+      {
+        "url": "output/douyin/dy_087.avif",
+        "name": "别走",
+        "tags": [],
+        "keywords": ["别走", "紫薇别走"]
+      },
+      {
+        "url": "output/douyin/dy_088.avif",
+        "name": "听歌",
+        "tags": [],
+        "keywords": ["听歌"]
+      },
+      {
+        "url": "output/douyin/dy_089.avif",
+        "name": "求抱抱",
+        "tags": [],
+        "keywords": ["求抱抱"]
+      },
+      {
+        "url": "output/douyin/dy_090.avif",
+        "name": "无语凝视",
+        "tags": [],
+        "keywords": ["无语凝视", "绝望的凝视"]
+      },
+      {
+        "url": "output/douyin/dy_091.avif",
+        "name": "礼貌微笑",
+        "tags": [],
+        "keywords": ["礼貌微笑", "不失礼貌的微笑"]
+      },
+      {
+        "url": "output/douyin/dy_092.avif",
+        "name": "没眼看",
+        "tags": [],
+        "keywords": ["没眼看", "不看"]
+      },
+      {
+        "url": "output/douyin/dy_093.avif",
+        "name": "裂开",
+        "tags": [],
+        "keywords": ["裂开"]
+      },
+      {
+        "url": "output/douyin/dy_094.avif",
+        "name": "干饭",
+        "tags": [],
+        "keywords": ["干饭", "干饭人"]
+      },
+      {
+        "url": "output/douyin/dy_095.avif",
+        "name": "庆祝",
+        "tags": [],
+        "keywords": ["庆祝"]
+      },
+      {
+        "url": "output/douyin/dy_096.avif",
+        "name": "吐舌",
+        "tags": [],
+        "keywords": ["吐舌"]
+      },
+      {
+        "url": "output/douyin/dy_097.avif",
+        "name": "呆",
+        "tags": [],
+        "keywords": ["呆", "呆无辜"]
+      },
+      {
+        "url": "output/douyin/dy_098.avif",
+        "name": "白眼",
+        "tags": [],
+        "keywords": ["白眼"]
+      },
+      {
+        "url": "output/douyin/dy_099.avif",
+        "name": "猪头",
+        "tags": [],
+        "keywords": ["猪头"]
+      },
+      {
+        "url": "output/douyin/dy_100.avif",
+        "name": "冷漠",
+        "tags": [],
+        "keywords": ["冷漠"]
+      },
+      {
+        "url": "output/douyin/dy_101.avif",
+        "name": "暗中观察",
+        "tags": [],
+        "keywords": ["暗中观察"]
+      },
+      {
+        "url": "output/douyin/dy_102.avif",
+        "name": "二哈",
+        "tags": [],
+        "keywords": ["二哈"]
+      },
+      {
+        "url": "output/douyin/dy_103.avif",
+        "name": "菜狗",
+        "tags": [],
+        "keywords": ["菜狗"]
+      },
+      {
+        "url": "output/douyin/dy_104.avif",
+        "name": "黑脸",
+        "tags": [],
+        "keywords": ["黑脸"]
+      },
+      {
+        "url": "output/douyin/dy_105.avif",
+        "name": "展开说说",
+        "tags": [],
+        "keywords": ["展开说说"]
+      },
+      {
+        "url": "output/douyin/dy_106.avif",
+        "name": "蜜蜂小狗",
+        "tags": [],
+        "keywords": ["蜜蜂小狗", "蜜蜂狗"]
+      },
+      {
+        "url": "output/douyin/dy_107.avif",
+        "name": "柴犬",
+        "tags": [],
+        "keywords": ["柴犬"]
+      },
+      {
+        "url": "output/douyin/dy_108.avif",
         "name": "摸头",
-        "tags": ["positive", "supportive", "pat-head", "comforting", "caring"],
-        "keywords": ["摸头", "乖", "安慰", "抱抱", "心疼你"]
+        "tags": [],
+        "keywords": ["摸头"]
       },
       {
-        "url": "output/douyin/dy_27.avif",
+        "url": "output/douyin/dy_109.avif",
+        "name": "皱眉",
+        "tags": [],
+        "keywords": ["皱眉"]
+      },
+      {
+        "url": "output/douyin/dy_110.avif",
+        "name": "擦汗",
+        "tags": [],
+        "keywords": ["擦汗"]
+      },
+      {
+        "url": "output/douyin/dy_111.avif",
+        "name": "脸红",
+        "tags": [],
+        "keywords": ["脸红", "红脸"]
+      },
+      {
+        "url": "output/douyin/dy_112.avif",
+        "name": "做鬼脸",
+        "tags": [],
+        "keywords": ["做鬼脸"]
+      },
+      {
+        "url": "output/douyin/dy_113.avif",
+        "name": "强",
+        "tags": [],
+        "keywords": ["强"]
+      },
+      {
+        "url": "output/douyin/dy_114.avif",
+        "name": "如花",
+        "tags": [],
+        "keywords": ["如花"]
+      },
+      {
+        "url": "output/douyin/dy_115.avif",
+        "name": "吐",
+        "tags": [],
+        "keywords": ["吐"]
+      },
+      {
+        "url": "output/douyin/dy_116.avif",
         "name": "惊喜",
-        "tags": ["positive", "plain", "surprised", "amazed"],
-        "keywords": ["惊喜", "哇", "真的吗", "爱了爱了"]
+        "tags": [],
+        "keywords": ["惊喜"]
       },
       {
-        "url": "output/douyin/dy_28.avif",
+        "url": "output/douyin/dy_117.avif",
+        "name": "敲打",
+        "tags": [],
+        "keywords": ["敲打"]
+      },
+      {
+        "url": "output/douyin/dy_118.avif",
         "name": "奋斗",
-        "tags": [
-          "positive",
-          "supportive",
-          "flexing",
-          "motivating",
-          "self-mockery",
-          "ironic"
-        ],
-        "keywords": ["奋斗", "加油", "努力", "打工人", "奥利给"]
+        "tags": [],
+        "keywords": ["奋斗"]
       },
       {
-        "url": "output/douyin/dy_29.avif",
+        "url": "output/douyin/dy_119.avif",
+        "name": "吐彩虹",
+        "tags": [],
+        "keywords": ["吐彩虹"]
+      },
+      {
+        "url": "output/douyin/dy_120.avif",
         "name": "大哭",
-        "tags": ["negative", "plain", "crying-hard", "sad", "overwhelmed"],
-        "keywords": ["大哭", "爆哭", "呜呜呜", "伤心"]
+        "tags": [],
+        "keywords": ["大哭"]
       },
       {
-        "url": "output/douyin/dy_30.avif",
+        "url": "output/douyin/dy_121.avif",
         "name": "嘿哈",
-        "tags": [
-          "positive",
-          "humorous",
-          "fighting",
-          "energetic",
-          "challenging",
-          "playful"
-        ],
-        "keywords": ["嘿哈", "加油", "必胜", "干活了", "挑战"]
+        "tags": [],
+        "keywords": ["嘿哈"]
       },
       {
-        "url": "output/douyin/dy_31.avif",
+        "url": "output/douyin/dy_122.avif",
+        "name": "惊恐",
+        "tags": [],
+        "keywords": ["惊恐"]
+      },
+      {
+        "url": "output/douyin/dy_123.avif",
         "name": "囧",
-        "tags": ["neutral", "embarrassed", "awkward", "speechless", "confused"],
-        "keywords": ["囧", "尴尬", "无语", "囧rz", "郁闷"]
+        "tags": [],
+        "keywords": ["囧"]
       },
       {
-        "url": "output/douyin/dy_32.avif",
+        "url": "output/douyin/dy_124.avif",
+        "name": "难过",
+        "tags": [],
+        "keywords": ["难过"]
+      },
+      {
+        "url": "output/douyin/dy_125.avif",
+        "name": "斜眼",
+        "tags": [],
+        "keywords": ["斜眼"]
+      },
+      {
+        "url": "output/douyin/dy_126.avif",
+        "name": "阴险",
+        "tags": [],
+        "keywords": ["阴险"]
+      },
+      {
+        "url": "output/douyin/dy_127.avif",
+        "name": "悠闲",
+        "tags": [],
+        "keywords": ["悠闲"]
+      },
+      {
+        "url": "output/douyin/dy_128.avif",
+        "name": "咒骂",
+        "tags": [],
+        "keywords": ["咒骂"]
+      },
+      {
+        "url": "output/douyin/dy_129.avif",
+        "name": "吃瓜群众",
+        "tags": [],
+        "keywords": ["吃瓜群众"]
+      },
+      {
+        "url": "output/douyin/dy_130.avif",
+        "name": "绿帽子",
+        "tags": [],
+        "keywords": ["绿帽子"]
+      },
+      {
+        "url": "output/douyin/dy_131.avif",
+        "name": "怒不敢言",
+        "tags": [],
+        "keywords": ["怒不敢言", "敢怒不敢言"]
+      },
+      {
+        "url": "output/douyin/dy_132.avif",
+        "name": "求求了",
+        "tags": [],
+        "keywords": ["求求了"]
+      },
+      {
+        "url": "output/douyin/dy_133.avif",
         "name": "眼含热泪",
-        "tags": ["negative", "emotional", "touched", "sad", "moved"],
-        "keywords": ["眼含热泪", "感动", "泪目", "哽咽", "心疼"]
+        "tags": [],
+        "keywords": ["眼含热泪"]
       },
       {
-        "url": "output/douyin/dy_33.avif",
-        "name": "噢买尬",
-        "tags": ["negative", "embarrassed", "cringe", "awkward", "facepalm"],
-        "keywords": ["噢买尬", "OMG", "尴尬", "羞耻", "社死"]
+        "url": "output/douyin/dy_134.avif",
+        "name": "叹气",
+        "tags": [],
+        "keywords": ["叹气"]
       },
       {
-        "url": "output/douyin/dy_34.avif",
+        "url": "output/douyin/dy_135.avif",
+        "name": "好开心",
+        "tags": [],
+        "keywords": ["好开心"]
+      },
+      {
+        "url": "output/douyin/dy_136.avif",
+        "name": "不是吧",
+        "tags": [],
+        "keywords": ["不是吧"]
+      },
+      {
+        "url": "output/douyin/dy_137.avif",
+        "name": "鞠躬",
+        "tags": [],
+        "keywords": ["鞠躬"]
+      },
+      {
+        "url": "output/douyin/dy_138.avif",
+        "name": "躺平",
+        "tags": [],
+        "keywords": ["躺平"]
+      },
+      {
+        "url": "output/douyin/dy_139.avif",
+        "name": "九转大肠",
+        "tags": [],
+        "keywords": ["九转大肠"]
+      },
+      {
+        "url": "output/douyin/dy_140.avif",
+        "name": "别说了",
+        "tags": [],
+        "keywords": ["别说了", "不你不想"]
+      },
+      {
+        "url": "output/douyin/dy_141.avif",
+        "name": "一头乱麻",
+        "tags": [],
+        "keywords": ["一头乱麻"]
+      },
+      {
+        "url": "output/douyin/dy_142.avif",
+        "name": "飞吻",
+        "tags": [],
+        "keywords": ["飞吻", "kisskiss"]
+      },
+      {
+        "url": "output/douyin/dy_143.avif",
+        "name": "你不大行",
+        "tags": [],
+        "keywords": ["你不大行"]
+      },
+      {
+        "url": "output/douyin/dy_144.avif",
+        "name": "OMG",
+        "tags": [],
+        "keywords": ["OMG", "噢买尬"]
+      },
+      {
+        "url": "output/douyin/dy_145.avif",
         "name": "宕机",
-        "tags": ["neutral", "confused", "system-error", "stunned", "blank"],
-        "keywords": ["宕机", "死机", "卡住了", "懵了", "脑子空白"]
+        "tags": [],
+        "keywords": ["宕机"]
       },
       {
-        "url": "output/douyin/dy_35.avif",
+        "url": "output/douyin/dy_146.avif",
         "name": "苦涩",
-        "tags": ["negative", "bitter", "helpless", "resigned", "disappointed"],
-        "keywords": ["苦涩", "心酸", "无奈", "苦笑", "心情复杂"]
+        "tags": [],
+        "keywords": ["苦涩"]
       },
       {
-        "url": "output/douyin/dy_36.avif",
+        "url": "output/douyin/dy_147.avif",
         "name": "逞强落泪",
-        "tags": ["negative", "emotional", "pretending", "crying", "vulnerable"],
-        "keywords": ["逞强落泪", "强颜欢笑", "憋不住了", "破防", "委屈"]
+        "tags": [],
+        "keywords": ["逞强落泪"]
+      },
+      {
+        "url": "output/douyin/dy_148.avif",
+        "name": "求机位",
+        "tags": [],
+        "keywords": ["求机位", "求机位-黄脸"]
+      },
+      {
+        "url": "output/douyin/dy_149.avif",
+        "name": "求机位",
+        "tags": [],
+        "keywords": ["求机位", "求机位3"]
+      },
+      {
+        "url": "output/douyin/dy_150.avif",
+        "name": "点赞",
+        "tags": [],
+        "keywords": ["点赞"]
+      },
+      {
+        "url": "output/douyin/dy_151.avif",
+        "name": "精选",
+        "tags": [],
+        "keywords": ["精选"]
+      },
+      {
+        "url": "output/douyin/dy_152.avif",
+        "name": "强壮",
+        "tags": [],
+        "keywords": ["强壮"]
+      },
+      {
+        "url": "output/douyin/dy_153.avif",
+        "name": "碰拳",
+        "tags": [],
+        "keywords": ["碰拳"]
+      },
+      {
+        "url": "output/douyin/dy_154.avif",
+        "name": "好的",
+        "tags": [],
+        "keywords": ["好的", "OK"]
+      },
+      {
+        "url": "output/douyin/dy_155.avif",
+        "name": "击掌",
+        "tags": [],
+        "keywords": ["击掌"]
+      },
+      {
+        "url": "output/douyin/dy_156.avif",
+        "name": "指",
+        "tags": [],
+        "keywords": ["指", "左上"]
+      },
+      {
+        "url": "output/douyin/dy_157.avif",
+        "name": "握手",
+        "tags": [],
+        "keywords": ["握手"]
+      },
+      {
+        "url": "output/douyin/dy_158.avif",
+        "name": "抱拳",
+        "tags": [],
+        "keywords": ["抱拳"]
+      },
+      {
+        "url": "output/douyin/dy_159.avif",
+        "name": "勾引",
+        "tags": [],
+        "keywords": ["勾引"]
+      },
+      {
+        "url": "output/douyin/dy_160.avif",
+        "name": "拳头",
+        "tags": [],
+        "keywords": ["拳头"]
+      },
+      {
+        "url": "output/douyin/dy_161.avif",
+        "name": "弱",
+        "tags": [],
+        "keywords": ["弱"]
+      },
+      {
+        "url": "output/douyin/dy_162.avif",
+        "name": "比耶",
+        "tags": [],
+        "keywords": ["比耶", "胜利"]
+      },
+      {
+        "url": "output/douyin/dy_163.avif",
+        "name": "右边",
+        "tags": [],
+        "keywords": ["右边"]
+      },
+      {
+        "url": "output/douyin/dy_164.avif",
+        "name": "左边",
+        "tags": [],
+        "keywords": ["左边"]
+      },
+      {
+        "url": "output/douyin/dy_165.avif",
+        "name": "亲",
+        "tags": [],
+        "keywords": ["亲", "嘴唇"]
+      },
+      {
+        "url": "output/douyin/dy_166.avif",
+        "name": "心碎",
+        "tags": [],
+        "keywords": ["心碎"]
+      },
+      {
+        "url": "output/douyin/dy_167.avif",
+        "name": "凋谢",
+        "tags": [],
+        "keywords": ["凋谢"]
+      },
+      {
+        "url": "output/douyin/dy_168.avif",
+        "name": "愤怒",
+        "tags": [],
+        "keywords": ["愤怒"]
+      },
+      {
+        "url": "output/douyin/dy_169.avif",
+        "name": "垃圾",
+        "tags": [],
+        "keywords": ["垃圾"]
+      },
+      {
+        "url": "output/douyin/dy_170.avif",
+        "name": "啤酒",
+        "tags": [],
+        "keywords": ["啤酒"]
+      },
+      {
+        "url": "output/douyin/dy_171.avif",
+        "name": "咖啡",
+        "tags": [],
+        "keywords": ["咖啡"]
+      },
+      {
+        "url": "output/douyin/dy_172.avif",
+        "name": "蛋糕",
+        "tags": [],
+        "keywords": ["蛋糕"]
+      },
+      {
+        "url": "output/douyin/dy_173.avif",
+        "name": "礼物",
+        "tags": [],
+        "keywords": ["礼物"]
+      },
+      {
+        "url": "output/douyin/dy_174.avif",
+        "name": "撒花",
+        "tags": [],
+        "keywords": ["撒花"]
+      },
+      {
+        "url": "output/douyin/dy_175.avif",
+        "name": "加一",
+        "tags": [],
+        "keywords": ["加一"]
+      },
+      {
+        "url": "output/douyin/dy_176.avif",
+        "name": "减一",
+        "tags": [],
+        "keywords": ["减一"]
+      },
+      {
+        "url": "output/douyin/dy_177.avif",
+        "name": "OK",
+        "tags": [],
+        "keywords": ["OK", "okk"]
+      },
+      {
+        "url": "output/douyin/dy_178.avif",
+        "name": "V5",
+        "tags": [],
+        "keywords": ["V5"]
+      },
+      {
+        "url": "output/douyin/dy_179.avif",
+        "name": "绝",
+        "tags": [],
+        "keywords": ["绝"]
+      },
+      {
+        "url": "output/douyin/dy_180.avif",
+        "name": "给力",
+        "tags": [],
+        "keywords": ["给力"]
+      },
+      {
+        "url": "output/douyin/dy_181.avif",
+        "name": "红包",
+        "tags": [],
+        "keywords": ["红包"]
+      },
+      {
+        "url": "output/douyin/dy_182.avif",
+        "name": "便便",
+        "tags": [],
+        "keywords": ["便便", "屎"]
+      },
+      {
+        "url": "output/douyin/dy_183.avif",
+        "name": "发",
+        "tags": [],
+        "keywords": ["发"]
+      },
+      {
+        "url": "output/douyin/dy_184.avif",
+        "name": "18禁",
+        "tags": [],
+        "keywords": ["18禁"]
+      },
+      {
+        "url": "output/douyin/dy_185.avif",
+        "name": "炸弹",
+        "tags": [],
+        "keywords": ["炸弹"]
+      },
+      {
+        "url": "output/douyin/dy_186.avif",
+        "name": "西瓜",
+        "tags": [],
+        "keywords": ["西瓜"]
+      },
+      {
+        "url": "output/douyin/dy_187.avif",
+        "name": "加鸡腿",
+        "tags": [],
+        "keywords": ["加鸡腿"]
+      },
+      {
+        "url": "output/douyin/dy_188.avif",
+        "name": "握爪",
+        "tags": [],
+        "keywords": ["握爪"]
+      },
+      {
+        "url": "output/douyin/dy_189.avif",
+        "name": "太阳",
+        "tags": [],
+        "keywords": ["太阳"]
+      },
+      {
+        "url": "output/douyin/dy_190.avif",
+        "name": "月亮",
+        "tags": [],
+        "keywords": ["月亮"]
+      },
+      {
+        "url": "output/douyin/dy_191.avif",
+        "name": "给跪了",
+        "tags": [],
+        "keywords": ["给跪了"]
+      },
+      {
+        "url": "output/douyin/dy_192.avif",
+        "name": "蕉绿",
+        "tags": [],
+        "keywords": ["蕉绿"]
+      },
+      {
+        "url": "output/douyin/dy_193.avif",
+        "name": "扎心",
+        "tags": [],
+        "keywords": ["扎心"]
+      },
+      {
+        "url": "output/douyin/dy_194.avif",
+        "name": "黄瓜",
+        "tags": [],
+        "keywords": ["黄瓜", "胡瓜"]
+      },
+      {
+        "url": "output/douyin/dy_195.avif",
+        "name": "打call",
+        "tags": [],
+        "keywords": ["打call"]
+      },
+      {
+        "url": "output/douyin/dy_196.avif",
+        "name": "栓Q猫",
+        "tags": [],
+        "keywords": ["栓Q猫", "栓Q"]
+      },
+      {
+        "url": "output/douyin/dy_197.avif",
+        "name": "雪花",
+        "tags": [],
+        "keywords": ["雪花"]
+      },
+      {
+        "url": "output/douyin/dy_198.avif",
+        "name": "圣诞树",
+        "tags": [],
+        "keywords": ["圣诞树"]
+      },
+      {
+        "url": "output/douyin/dy_199.avif",
+        "name": "苹果",
+        "tags": [],
+        "keywords": ["苹果", "平安果"]
+      },
+      {
+        "url": "output/douyin/dy_200.avif",
+        "name": "圣诞帽",
+        "tags": [],
+        "keywords": ["圣诞帽"]
+      },
+      {
+        "url": "output/douyin/dy_201.avif",
+        "name": "气球",
+        "tags": [],
+        "keywords": ["气球"]
+      },
+      {
+        "url": "output/douyin/dy_202.avif",
+        "name": "烟花",
+        "tags": [],
+        "keywords": ["烟花"]
+      },
+      {
+        "url": "output/douyin/dy_203.avif",
+        "name": "福",
+        "tags": [],
+        "keywords": ["福"]
+      },
+      {
+        "url": "output/douyin/dy_204.avif",
+        "name": "糖果",
+        "tags": [],
+        "keywords": ["糖果", "candy"]
+      },
+      {
+        "url": "output/douyin/dy_205.avif",
+        "name": "糖葫芦",
+        "tags": [],
+        "keywords": ["糖葫芦"]
+      },
+      {
+        "url": "output/douyin/dy_206.avif",
+        "name": "鞭炮",
+        "tags": [],
+        "keywords": ["鞭炮"]
+      },
+      {
+        "url": "output/douyin/dy_207.avif",
+        "name": "元宝",
+        "tags": [],
+        "keywords": ["元宝"]
+      },
+      {
+        "url": "output/douyin/dy_208.avif",
+        "name": "灯笼",
+        "tags": [],
+        "keywords": ["灯笼"]
+      },
+      {
+        "url": "output/douyin/dy_209.avif",
+        "name": "锦鲤",
+        "tags": [],
+        "keywords": ["锦鲤"]
+      },
+      {
+        "url": "output/douyin/dy_210.avif",
+        "name": "巧克力",
+        "tags": [],
+        "keywords": ["巧克力"]
+      },
+      {
+        "url": "output/douyin/dy_211.avif",
+        "name": "戒指",
+        "tags": [],
+        "keywords": ["戒指"]
+      },
+      {
+        "url": "output/douyin/dy_212.avif",
+        "name": "棒棒糖",
+        "tags": [],
+        "keywords": ["棒棒糖"]
+      },
+      {
+        "url": "output/douyin/dy_213.avif",
+        "name": "纸飞机",
+        "tags": [],
+        "keywords": ["纸飞机"]
+      },
+      {
+        "url": "output/douyin/dy_214.avif",
+        "name": "粽子",
+        "tags": [],
+        "keywords": ["粽子"]
       }
     ]
   },
