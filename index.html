@@ -3,22 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>社区表情包收录工程</title>
+    <title>UniEmoji</title>
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <h1>🤣国内社区表情包收录</h1>
-        <p>收录贴吧、知乎、小红书、抖音、B站、QQ、微博表情包</p>
+        <h1>UniEmoji</h1>
+        <p>统一的 emoji 协议，用同一套语义替换任何表情。</p>
+        <p>
+          模型或用户给出受控 Unicode，显示端按 40 个稳定语义换成当前表情包。下面这些图来自贴吧、B 站、抖音、QQ、小红书、微博、知乎，是素材库和候选包，不是终局形态。
+        </p>
+        <p>
+          <a href="PROTOCOL.md">协议说明</a>
+          ·
+          <a href="EMOJI_KEYS.md">40 个语义 key</a>
+        </p>
         <div class="stats" id="stats">
           <div class="stat-card">
             <div class="stat-number" id="totalEmojis">0</div>
-            <div class="stat-label">总表情包</div>
+            <div class="stat-label">素材图</div>
           </div>
           <div class="stat-card">
             <div class="stat-number">7</div>
-            <div class="stat-label">平台数量</div>
+            <div class="stat-label">平台</div>
           </div>
         </div>
       </div>
@@ -27,13 +35,13 @@
         <input
           type="text"
           class="search-input"
-          placeholder="搜索表情包..."
+          placeholder="搜索素材..."
           id="searchInput"
         />
       </div>
 
       <div id="platformsContainer">
-        <div class="loading">正在加载表情包数据...</div>
+        <div class="loading">正在加载素材...</div>
       </div>
     </div>
 

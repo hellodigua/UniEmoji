@@ -32,6 +32,15 @@ body {
 .header p {
   font-size: 1.2rem;
   opacity: 0.9;
+  max-width: 42em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+}
+
+.header a {
+  color: inherit;
+  text-decoration: underline;
 }
 
 .stats {
