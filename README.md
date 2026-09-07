@@ -1,25 +1,31 @@
 # UniEmoji
 
-统一的 emoji 协议，用同一套语义替换任何表情。
+**统一的 emoji 协议，用一套语义连接不同的表情。**
 
-UniEmoji is a unified emoji protocol. Same meanings, any face.
+Same meanings, any face.
 
-模型或用户给出的是受控 Unicode 表情；显示端按 40 个稳定语义 key，换成当前表情包的图。换一套包，就是换一副脸，语义不变。贴吧、B 站、抖音、QQ、小红书、微博、知乎，以及以后任何画风，都可以成为一副可替换的皮。
+开心、无语、吃瓜、大哭……看看不同平台怎么表达同一种心情。UniEmoji 是一个面向个人娱乐与表情探索的非营利小项目，把熟悉的表情放在一起，帮你发现更有趣的表达。
 
-本仓库是协议和素材的大本营，不是收录站。
+[开始找表情](https://hellodigua.github.io/uniemoji/)
 
-## 协议
+## 同样是大哭，你是哪一种？
 
-当前契约是 [`uniemoji-core@1`](PROTOCOL.md)。40 个 key 的含义、Unicode 映射和绘制边界见 [EMOJI_KEYS.md](EMOJI_KEYS.md)。
+| 贴吧 | 知乎 | B 站 |
+| :---: | :---: | :---: |
+| <img src="origins/tieba/tb_09.png" width="64" alt="贴吧的大哭表情" /> | <img src="origins/zhihu/zh_13.png" width="64" alt="知乎的大哭表情" /> | <img src="output/bilibili/bl_07.avif" width="64" alt="B 站的大哭表情" /> |
 
-线协议只用这 40 个规范 Unicode，另外接受 `😄→laughing`、`🙂→happy` 两个别名。Host 负责换成图；其他 Unicode 保持原样，不猜情绪，也不自动补图。
+同一种心情，换张脸就多了一点不同的味道。有些表情一眼就懂，有些得靠老网友才能意会。
 
-第一个适配器是 [dsh-emoji](https://www.npmjs.com/package/dsh-emoji)。以后如果出现浏览器插件、输入法或其他 Host，它们也按同一份契约工作；那些适配器不在本仓库实现。
+## 找找你的聊天心情
 
-## 素材库
+- **找一张合适的脸**：输入「大哭」「微笑」等表情名称，看看有哪些表达。
+- **逛逛熟悉的平台**：浏览贴吧、B 站、抖音、QQ、小红书、微博和知乎的 548 张表情，也可以用平台英文名搜索。
+- **比较表达的趣味**：同样是开心、害羞或无语，不同画风各有各的神态。
 
-现有 7 个平台、548 张图，是素材库和候选包，不是终局产品形态。站点仍可浏览这些图：
+[去逛逛 →](https://hellodigua.github.io/uniemoji/)
 
-https://hellodigua.github.io/uniemoji/
+## 许可与素材权利
 
-GitHub 仓库已从 `hellodigua/emoji` 改名为 `hellodigua/uniemoji`。GitHub Pages 地址随之变为上面这一条；旧地址 `https://hellodigua.github.io/emoji/` 会断开，不会自动跳转。
+本项目原创代码及文档采用 [MIT 许可证](LICENSE)。第三方表情素材的相关权利归各自权利人所有，**不适用 MIT 许可证**。
+
+**本项目未取得相关平台或权利人的授权。** 收录或提供下载不构成对使用者的授权，个人娱乐用途也不代表素材可自由使用或再分发。详见 [第三方素材权利说明](THIRD_PARTY_NOTICES.md)。
