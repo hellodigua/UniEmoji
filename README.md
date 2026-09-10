@@ -4,15 +4,15 @@
 
 Same meanings, any face.
 
-开心、无语、吃瓜、大哭……看看不同平台怎么表达同一种心情。UniEmoji 是一个面向个人娱乐与表情探索的非营利小项目，把熟悉的表情放在一起，帮你发现更有趣的表达。
+一句话解释：UniEmoji 让 AI 用上丰富多样的表情包。通过统一 emoji 的语义，关联不同风格的表情图片，AI 回复中的 emoji 就能呈现为对应的表情包，让同一种表达拥有不同的面孔。
 
 [开始找表情](https://hellodigua.github.io/uniemoji/)
 
 ## 同样是大哭，你是哪一种？
 
-| 贴吧 | 知乎 | B 站 |
-| :---: | :---: | :---: |
-| <img src="origins/tieba/tb_09.png" width="64" alt="贴吧的大哭表情" /> | <img src="origins/zhihu/zh_13.png" width="64" alt="知乎的大哭表情" /> | <img src="output/bilibili/bl_07.avif" width="64" alt="B 站的大哭表情" /> |
+| 贴吧 | 知乎 | 小红书 | 抖音 | QQ | B 站 | 微博 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img src="origins/tieba/tb_09.png" width="40" alt="贴吧的大哭表情" /> | <img src="origins/zhihu/zh_13.png" width="40" alt="知乎的大哭表情" /> | <img src="output/xiaohongshu/xhs_15.avif" width="40" alt="小红书的哭惹表情" /> | <img src="output/douyin/dy_120.avif" width="40" alt="抖音的大哭表情" /> | <img src="output/qq/qq_009.avif" width="40" alt="QQ的大哭表情" /> | <img src="output/bilibili/bl_07.avif" width="40" alt="B 站的大哭表情" /> | <img src="output/weibo/wb_23.avif" width="40" alt="微博的泪奔表情" /> |
 
 同一种心情，换张脸就多了一点不同的味道。有些表情一眼就懂，有些得靠老网友才能意会。
 
