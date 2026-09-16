@@ -12,7 +12,7 @@ Same meanings, any face.
 
 | 贴吧 | 知乎 | 小红书 | 抖音 | QQ | B 站 | 微博 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="origins/tieba/tb_09.png" width="40" alt="贴吧的大哭表情" /> | <img src="origins/zhihu/zh_13.png" width="40" alt="知乎的大哭表情" /> | <img src="output/xiaohongshu/xhs_15.avif" width="40" alt="小红书的哭惹表情" /> | <img src="output/douyin/dy_120.avif" width="40" alt="抖音的大哭表情" /> | <img src="output/qq/qq_009.avif" width="40" alt="QQ的大哭表情" /> | <img src="output/bilibili/bl_07.avif" width="40" alt="B 站的大哭表情" /> | <img src="output/weibo/wb_23.avif" width="40" alt="微博的泪奔表情" /> |
+| <img src="origins/tieba/tb_09.png" width="40" alt="贴吧的大哭表情" /> | <img src="origins/zhihu/zh_13.png" width="40" alt="知乎的大哭表情" /> | <img src="output/xiaohongshu/xhs_15.avif" width="40" alt="小红书的哭惹表情" /> | <img src="output/douyin/dy_120.avif" width="40" alt="抖音的大哭表情" /> | <img src="output/qq/qq_009.avif" width="40" alt="QQ的大哭表情" /> | <img src="output/bilibili/bl_07.avif" width="40" alt="B 站的大哭表情" /> | <img src="output/weibo/wb_11.avif" width="40" alt="微博的流泪表情" /> |
 
 同一种心情，换张脸就多了一点不同的味道。有些表情一眼就懂，有些得靠老网友才能意会。
 
