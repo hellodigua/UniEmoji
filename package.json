@@ -1,7 +1,7 @@
 {
   "name": "uniemoji",
   "version": "1.0.0",
-  "description": "统一的 emoji 协议，用同一套语义替换任何表情。UniEmoji is a unified emoji protocol. Same meanings, any face.",
+  "description": "统一的 emoji 协议，用一套语义连接不同的表情。 Same meanings, any face.",
   "main": "index.html",
   "scripts": {
     "copy-images": "rm -rf dist && mkdir -p dist && find output -name '*.avif' -exec cp {} dist/ \\; && cp LICENSE THIRD_PARTY_NOTICES.md dist/ && echo 'All images copied to dist directory' && find dist -name '*.avif' | wc -l | xargs echo 'Total files copied:'",
@@ -11,7 +11,6 @@
   "keywords": [
     "uniemoji",
     "emoji",
-    "protocol",
     "unicode",
     "emoji-pack",
     "bilibili",
@@ -23,7 +22,7 @@
   ],
   "author": "",
   "license": "MIT",
-  "homepage": "https://hellodigua.github.io/uniemoji/",
+  "homepage": "https://hellodigua.github.io/UniEmoji/",
   "repository": {
     "type": "git",
     "url": "https://github.com/hellodigua/uniemoji.git"
