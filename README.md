@@ -23,3 +23,9 @@ UniEmoji is a unified emoji protocol. Same meanings, any face.
 https://hellodigua.github.io/uniemoji/
 
 GitHub 仓库已从 `hellodigua/emoji` 改名为 `hellodigua/uniemoji`。GitHub Pages 地址随之变为上面这一条；旧地址 `https://hellodigua.github.io/emoji/` 会断开，不会自动跳转。
+
+## 许可与素材权利
+
+本项目原创代码及文档采用 [MIT 许可证](LICENSE)。第三方表情素材的相关权利归各自权利人所有，**不适用 MIT 许可证**。
+
+**本项目内表情图片未取得相关平台或权利人的授权。** 收录或提供下载不构成对使用者的授权，个人娱乐用途也不代表素材可自由使用或再分发。详见 [第三方素材权利说明](THIRD_PARTY_NOTICES.md)。
