@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>协议文档 · UniEmoji</title>
+    <meta
+      name="description"
+      content="了解 UniEmoji 的语义映射与当前 dsh-emoji 实现的表情包格式和接入边界。"
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/site.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳至正文</a>
+    <header class="site-nav">
+      <a class="wordmark" href="index.html"
+        ><span class="brand-mark">u.</span> UniEmoji</a
+      >
+      <nav aria-label="主导航">
+        <a href="index.html">首页</a
+        ><a href="protocol.html" aria-current="page">协议文档</a
+        ><a href="gallery.html">素材库</a
+        ><a href="https://github.com/hellodigua/UniEmoji">GitHub ↗</a>
+      </nav>
+    </header>
+    <main id="main" class="docs-layout">
+      <aside class="docs-nav">
+        <span class="eyebrow">PROTOCOL GUIDE</span
+        ><a href="#overview">01　工作约定</a
+        ><a href="#semantics">02　语义映射</a><a href="#packs">03　表情包格式</a
+        ><a href="#integration">04　接入与边界</a>
+      </aside>
+      <article class="protocol-content">
+        <header class="doc-heading">
+          <p class="eyebrow">UNIEMOJI / 协议文档</p>
+          <h1>先约定含义，<br />再选择表情。</h1>
+          <p>以 emoji 作为表达入口，以稳定的 key 连接不同的表情图片。</p>
+        </header>
+        <section id="overview">
+          <h2>01　工作约定</h2>
+          <p>
+            AI 输出规范 Unicode 表情；应用将它映射到语义
+            key，再从当前表情包取出对应图片。表情包更换画风，不更改 key 的含义或
+            Unicode 映射。
+          </p>
+          <pre><code>😭 → crying → 当前表情包中的大哭图片</code></pre>
+          <div class="doc-note">
+            <strong>当前实现与兼容性</strong>
+            <p>
+              本页按 dsh-emoji 的当前代码整理。它接受的语义集标识是
+              <code>dsh-emoji-core@1</code>。历史设计中的
+              <code>uniemoji-core@1</code>
+              不是该实现支持的上传包标识，请勿混用。未来实现的包格式与能力以各自文档为准。
+            </p>
+          </div>
+        </section>
+        <section id="semantics">
+          <h2>02　40 种语义映射</h2>
+          <p>
+            每个规范 emoji 唯一对应一个 key。另接受
+            <code>😄 → laughing</code>、<code>🙂 → happy</code>
+            两个输入别名；其他 emoji 保持原样，不根据上下文猜测，也不自动补图。
+          </p>
+          <div
+            class="table-scroll"
+            tabindex="0"
+            role="region"
+            aria-label="40 种语义映射表"
+          >
+            <table>
+              <thead>
+                <tr>
+                  <th>Emoji</th>
+                  <th>Key</th>
+                  <th>含义</th>
+                  <th>表达边界</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="unicode">😊</td>
+                  <td><code>happy</code></td>
+                  <td>开心</td>
+                  <td>温和、友好的愉快</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😢</td>
+                  <td><code>sad</code></td>
+                  <td>难过</td>
+                  <td>低落、伤心</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😕</td>
+                  <td><code>confused</code></td>
+                  <td>困惑</td>
+                  <td>没听懂、疑问、不确定</td>
+                </tr>
+                <tr>
+                  <td class="unicode">👀</td>
+                  <td><code>watching</code></td>
+                  <td>围观</td>
+                  <td>关注事态、看热闹、旁观</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😠</td>
+                  <td><code>angry</code></td>
+                  <td>生气</td>
+                  <td>直接的愤怒、不满</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😑</td>
+                  <td><code>speechless</code></td>
+                  <td>无语</td>
+                  <td>尴尬到无话可说、难以评价</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😉</td>
+                  <td><code>doge</code></td>
+                  <td>狗头</td>
+                  <td>玩笑式免责声明、反讽缓冲</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😵‍💫</td>
+                  <td><code>overloaded</code></td>
+                  <td>过载</td>
+                  <td>信息或任务太多，脑子处理不过来</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😐</td>
+                  <td><code>neutral</code></td>
+                  <td>平静</td>
+                  <td>无明显情绪、客观陈述</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😆</td>
+                  <td><code>laughing</code></td>
+                  <td>大笑</td>
+                  <td>明显、强烈的开心大笑</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😭</td>
+                  <td><code>crying</code></td>
+                  <td>大哭</td>
+                  <td>正在强烈哭泣、悲伤外露</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😅</td>
+                  <td><code>sweating</code></td>
+                  <td>流汗</td>
+                  <td>紧张、尴尬、压力或心虚</td>
+                </tr>
+                <tr>
+                  <td class="unicode">🤔</td>
+                  <td><code>thinking</code></td>
+                  <td>思考</td>
+                  <td>正在推理、权衡或回忆</td>
+                </tr>
+                <tr>
+                  <td class="unicode">👌</td>
+                  <td><code>okay</code></td>
+                  <td>好的</td>
+                  <td>收到、可以、没问题、确认执行</td>
+                </tr>
+                <tr>
+                  <td class="unicode">🙂‍↕️</td>
+                  <td><code>nodding</code></td>
+                  <td>点头</td>
+                  <td>理解、认同、回应</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😴</td>
+                  <td><code>sleeping</code></td>
+                  <td>睡觉</td>
+                  <td>困倦、休息、晚安</td>
+                </tr>
+                <tr>
+                  <td class="unicode">🥺</td>
+                  <td><code>hurt</code></td>
+                  <td>委屈</td>
+                  <td>被误解、受伤、觉得不公平</td>
+                </tr>
+                <tr>
+                  <td class="unicode">🫣</td>
+                  <td><code>peeking</code></td>
+                  <td>偷看</td>
+                  <td>好奇地悄悄观察</td>
+                </tr>
+                <tr>
+                  <td class="unicode">👍</td>
+                  <td><code>approve</code></td>
+                  <td>赞同</td>
+                  <td>肯定、认可、称赞</td>
+                </tr>
+                <tr>
+                  <td class="unicode">🫶</td>
+                  <td><code>heart</code></td>
+                  <td>爱心</td>
+                  <td>喜爱、关心、支持</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😳</td>
+                  <td><code>shy</code></td>
+                  <td>害羞</td>
+                  <td>腼腆、脸红、不好意思</td>
+                </tr>
+                <tr>
+                  <td class="unicode">🤩</td>
+                  <td><code>star-eyes</code></td>
+                  <td>星星眼</td>
+                  <td>崇拜、惊艳、充满期待</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😂</td>
+                  <td><code>laugh-cry</code></td>
+                  <td>笑哭</td>
+                  <td>好笑到流泪、哭笑混合</td>
+                </tr>
+                <tr>
+                  <td class="unicode">🥹</td>
+                  <td><code>touched</code></td>
+                  <td>感动</td>
+                  <td>被善意打动、正向热泪</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😱</td>
+                  <td><code>scared</code></td>
+                  <td>害怕</td>
+                  <td>恐惧、受惊、担忧危险</td>
+                </tr>
+                <tr>
+                  <td class="unicode">🤦</td>
+                  <td><code>facepalm</code></td>
+                  <td>捂脸</td>
+                  <td>尴尬、替人尴尬、无奈到捂脸</td>
+                </tr>
+                <tr>
+                  <td class="unicode">🙄</td>
+                  <td><code>eye-roll</code></td>
+                  <td>白眼</td>
+                  <td>不以为然、嫌弃、轻蔑</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😮‍💨</td>
+                  <td><code>sigh</code></td>
+                  <td>叹气</td>
+                  <td>无奈、认命、疲惫地接受</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😫</td>
+                  <td><code>frustrated</code></td>
+                  <td>抓狂</td>
+                  <td>受阻后的烦躁、崩溃、焦头烂额</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😜</td>
+                  <td><code>playful</code></td>
+                  <td>调皮</td>
+                  <td>可爱地捣蛋、逗趣、轻松挑逗</td>
+                </tr>
+                <tr>
+                  <td class="unicode">🤭</td>
+                  <td><code>snickering</code></td>
+                  <td>偷笑</td>
+                  <td>忍住不公开笑、暗自觉得好笑</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😏</td>
+                  <td><code>sarcastic</code></td>
+                  <td>阴阳</td>
+                  <td>冷淡或被动攻击式的讽刺</td>
+                </tr>
+                <tr>
+                  <td class="unicode">😎</td>
+                  <td><code>cool</code></td>
+                  <td>酷</td>
+                  <td>自信、潇洒、有型</td>
+                </tr>
+                <tr>
+                  <td class="unicode">🎉</td>
+                  <td><code>celebrate</code></td>
+                  <td>庆祝</td>
+                  <td>对结果、里程碑或成功进行庆祝</td>
+                </tr>
+                <tr>
+                  <td class="unicode">💪</td>
+                  <td><code>cheer</code></td>
+                  <td>加油</td>
+                  <td>鼓励、打气、支持继续努力</td>
+                </tr>
+                <tr>
+                  <td class="unicode">🙏</td>
+                  <td><code>thanks</code></td>
+                  <td>谢谢</td>
+                  <td>明确表达感谢</td>
+                </tr>
+                <tr>
+                  <td class="unicode">🙇</td>
+                  <td><code>sorry</code></td>
+                  <td>抱歉</td>
+                  <td>道歉、愧疚、请求谅解</td>
+                </tr>
+                <tr>
+                  <td class="unicode">🤗</td>
+                  <td><code>hug</code></td>
+                  <td>抱抱</td>
+                  <td>安慰、陪伴、给予支持</td>
+                </tr>
+                <tr>
+                  <td class="unicode">🤲</td>
+                  <td><code>please</code></td>
+                  <td>拜托</td>
+                  <td>请求、恳求、希望对方答应</td>
+                </tr>
+                <tr>
+                  <td class="unicode">👏</td>
+                  <td><code>applause</code></td>
+                  <td>鼓掌</td>
+                  <td>公开赞扬、祝贺、致敬</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            例如 <code>crying</code> 表达悲伤哭泣，<code>laugh-cry</code>
+            表达笑到流泪。名称相似的素材不一定适合相同语义，制作时应核对实际画面。
+          </p>
+        </section>
+        <section id="packs">
+          <h2>03　dsh-emoji 表情包格式</h2>
+          <p>
+            这是当前实现的导入格式。ZIP
+            内直接放置以下文件，或在外面包一层目录。每个标准 key
+            必须且只能提供一张同名 PNG，共 40 张。
+          </p>
+          <pre><code>my-pack.zip
+├── pack.json
+└── images/
+    ├── happy.png
+    ├── crying.png
+    └── ...其余 38 个 key.png</code></pre>
+          <pre><code>{
+  "schemaVersion": 1,
+  "keySet": "dsh-emoji-core@1",
+  "id": "my-pack",
+  "name": "我的表情包",
+  "version": "1.0.0"
+}</code></pre>
+          <p>
+            <code>schemaVersion</code> 标识文件格式，<code>keySet</code>
+            标识语义集合。id 使用小写字母、数字与连字符，版本遵循 SemVer。同一个
+            id 与版本的素材不可覆盖，更新图片须提升版本。
+          </p>
+          <p>
+            dsh-emoji 限制 ZIP 不超过 20 MiB、解压后不超过 80 MiB、单文件不超过
+            2 MiB，图片宽高不超过 512 像素。更多命名校验及上传步骤见
+            <a href="https://github.com/hellodigua/dsh-emoji#readme"
+              >实现文档 ↗</a
+            >。
+          </p>
+          <div class="doc-note">
+            <strong>素材库 ≠ 可导入的表情包</strong>
+            <p>
+              <a href="gallery.html">素材库</a> 按平台收录原始表达，尚未逐套完成
+              40 个 key 的标准映射。AVIF 素材不能直接当作上述 PNG
+              包导入。制作或分发表情包时还需确认素材使用权限。
+            </p>
+          </div>
+        </section>
+        <section id="integration">
+          <h2>04　接入与边界</h2>
+          <p>
+            应用负责识别规范 emoji、选择表情包并展示图片。建议保留原始 emoji
+            作为替代文本，让图片加载失败时仍能传达含义。
+          </p>
+          <p>
+            dsh-emoji 会保护代码、链接及普通 Markdown
+            图片，不将它们当作待替换的表情。不同应用需要根据自身的文本格式、流式输出和消息存储方式实现转换，不能仅对整段
+            Markdown 做无差别替换。
+          </p>
+          <p>
+            想体验已有实现？前往
+            <a href="https://github.com/hellodigua/dsh-emoji">dsh-emoji</a
+            >。也欢迎为其他应用开发实现。
+          </p>
+          <p>
+            第三方素材未取得相关平台或权利人的授权。协议约定不授予图片使用权，详见
+            <a href="THIRD_PARTY_NOTICES.md">素材权利说明</a>。
+          </p>
+        </section>
+        <p class="source-note">
+          核对日期：2026-09-24 · 依据 dsh-emoji 源码
+          <a
+            href="https://github.com/hellodigua/dsh-emoji/tree/41aa06edc5de8b07fe244a19bb65b34a2d4a0af2/src"
+            >41aa06e</a
+          >
+          的 reaction-emoji.ts、pack-model.ts 与 packs.ts。<a
+            href="docs/archive/README.md"
+            >旧设计归档</a
+          >保留供参考。
+        </p>
+      </article>
+    </main>
+    <footer class="site-footer">
+      <a class="wordmark" href="index.html"
+        >UniEmoji <small>Same meanings, any face.</small></a
+      >
+      <p>
+        第三方素材未获授权，不适用代码的 MIT 许可证。<a
+          href="THIRD_PARTY_NOTICES.md"
+          >素材权利说明 ↗</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
