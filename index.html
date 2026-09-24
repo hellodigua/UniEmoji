@@ -1,335 +1,1961 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UniEmoji</title>
-    <link rel="stylesheet" href="./assets/style.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>UniEmoji — Same meanings, any face.</title>
+    <meta
+      name="description"
+      content="统一的 emoji 协议，用一套语义连接不同的表情。查看 emoji 语义及各平台表情对照。"
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/site.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <h1>UniEmoji</h1>
-        <p>统一的 emoji 协议，用一套语义连接不同的表情。</p>
+    <a class="skip-link" href="#main">跳至正文</a>
+    <header class="site-nav">
+      <a class="wordmark" href="index.html"
+        ><span class="brand-mark">u.</span> UniEmoji</a
+      >
+      <nav aria-label="主导航">
+        <a href="index.html" aria-current="page">首页</a
+        ><a href="protocol.html">协议文档</a><a href="gallery.html">素材库</a
+        ><a href="https://github.com/hellodigua/UniEmoji">GitHub ↗</a>
+      </nav>
+    </header>
+    <main id="main" class="mapping-home">
+      <header class="mapping-intro">
+        <h1>统一的 emoji 协议，<br />用一套语义连接不同的表情。</h1>
+        <p class="english">Same meanings, any face.</p>
         <p>
-          开心、无语、吃瓜、大哭……看看不同平台怎么表达同一种心情。逛逛熟悉的表情，发现有趣的表达。UniEmoji 是一个面向个人娱乐与表情探索的非营利小项目。
+          AI 用 emoji
+          表达语义，应用将它替换为对应的表情图片。含义不变，表情自由切换。
         </p>
-        <p>
-          第三方表情素材不适用本项目的 MIT 许可证，相关权利归各自权利人所有。
-          本项目未取得相关平台或权利人的授权，收录或提供下载不构成对使用者的授权。
-          <a href="THIRD_PARTY_NOTICES.md">素材权利说明</a>
-        </p>
-        <div class="stats" id="stats">
-          <div class="stat-card">
-            <div class="stat-number" id="totalEmojis">0</div>
-            <div class="stat-label">素材图</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-number">7</div>
-            <div class="stat-label">平台</div>
-          </div>
+      </header>
+      <section aria-labelledby="mapping-title">
+        <div class="mapping-heading">
+          <h2 id="mapping-title">语义与表情对照</h2>
+          <p>40 种语义 · 7 个平台 <span>／ — 暂未映射</span></p>
         </div>
-      </div>
-
-      <div class="search-container">
-        <input
-          type="text"
-          class="search-input"
-          placeholder="搜索表情名称或平台英文名..."
-          id="searchInput"
-        />
-      </div>
-
-      <div id="platformsContainer">
-        <div class="loading">正在加载素材...</div>
-      </div>
-    </div>
-
-    <script>
-      let emojiData = [];
-      let filteredData = [];
-      let currentOrder = [];
-
-      const ORDER_STORAGE_KEY = "emoji_platform_order";
-
-      function loadStoredOrder(validNames) {
-        try {
-          const raw = localStorage.getItem(ORDER_STORAGE_KEY);
-          if (!raw) return null;
-          const arr = JSON.parse(raw);
-          if (!Array.isArray(arr)) return null;
-          const validSet = new Set(validNames);
-          const filtered = arr.filter((name) => validSet.has(name));
-          const missing = validNames.filter((name) => !filtered.includes(name));
-          return [...filtered, ...missing];
-        } catch (e) {
-          return null;
-        }
-      }
-
-      function saveOrder() {
-        try {
-          localStorage.setItem(ORDER_STORAGE_KEY, JSON.stringify(currentOrder));
-        } catch (e) {}
-      }
-
-      // 平台配置
-      const platformConfig = {
-        tieba: { icon: "贴", class: "tieba" },
-        zhihu: { icon: "知", class: "zhihu" },
-        xiaohongshu: { icon: "红", class: "xiaohongshu" },
-        douyin: { icon: "抖", class: "douyin" },
-        qq: { icon: "Q", class: "qq" },
-        bilibili: { icon: "B", class: "bilibili" },
-        weibo: { icon: "微", class: "weibo" },
-      };
-
-      // 加载表情包数据
-      async function loadEmojiData() {
-        try {
-          const response = await fetch("emoji.json");
-          emojiData = await response.json();
-          filteredData = [...emojiData];
-          const names = emojiData.map((p) => p.platform);
-          const stored = loadStoredOrder(names);
-          currentOrder = stored ?? names.slice();
-          applyOrdering();
-          renderPlatforms();
-          updateStats();
-        } catch (error) {
-          console.error("加载数据失败:", error);
-          document.getElementById("platformsContainer").innerHTML =
-            '<div class="loading">❌ 加载失败，请确保 emoji.json 文件存在</div>';
-        }
-      }
-
-      // 渲染平台
-      function renderPlatforms() {
-        const container = document.getElementById("platformsContainer");
-
-        if (filteredData.length === 0) {
-          container.innerHTML =
-            '<div class="loading">😢 没有找到匹配的表情包</div>';
-          return;
-        }
-
-        container.innerHTML = filteredData
-          .map((platform, idx) => {
-            const config = platformConfig[platform.platform] || {
-              icon: "?",
-              class: "default",
-            };
-            const showMoveUp = idx > 0; // 最顶部的不显示按钮
-
-            return `
-                    <div class="platform-section">
-                        <div class="platform-header">
-                            <div class="platform-title">
-                                <div class="platform-icon ${config.class}">${
-              config.icon
-            }</div>
-                                ${platform.platform}
-                            </div>
-                            <div class="platform-actions">
-                                ${
-                                  showMoveUp
-                                    ? `<button class="pin-button" title="上移一位" onclick="moveUp('${platform.platform}')">上移</button>`
-                                    : ""
-                                }
-                                <div class="platform-count">${
-                                  platform.emojis.length
-                                } 个表情</div>
-                            </div>
-                        </div>
-                        <div class="emoji-grid">
-                            ${platform.emojis
-                              .map(
-                                (emoji, index) => `
-                                <div class="emoji-item" onclick="copyImageToClipboard('${
-                                  emoji.url
-                                }')">
-                                    <img src="${emoji.url}" alt="${
-                                  emoji.name || "表情"
-                                }" class="emoji-image"
-                                         onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiByeD0iOCIgZmlsbD0iI0Y1RjVGNSIvPgo8dGV4dCB4PSIzMCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzk5OTk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+YvjwvdGV4dD4KPHN2Zz4K'">
-                                    <div class="emoji-name">${
-                                      emoji.name || `表情 ${index + 1}`
-                                    }</div>
-                                </div>
-                            `
-                              )
-                              .join("")}
-                        </div>
-                    </div>
-                `;
-          })
-          .join("");
-      }
-
-      // 更新统计信息
-      function updateStats() {
-        const totalEmojis = filteredData.reduce(
-          (sum, platform) => sum + platform.emojis.length,
-          0
-        );
-        document.getElementById("totalEmojis").textContent = totalEmojis;
-      }
-
-      // 按自定义顺序排序
-      function applyOrdering() {
-        const orderIndex = new Map(currentOrder.map((n, i) => [n, i]));
-        filteredData.sort(
-          (a, b) =>
-            (orderIndex.get(a.platform) ?? 0) -
-            (orderIndex.get(b.platform) ?? 0)
-        );
-      }
-
-      // 搜索功能
-      function filterEmojis(searchTerm) {
-        if (!searchTerm.trim()) {
-          filteredData = [...emojiData];
-        } else {
-          filteredData = emojiData
-            .map((platform) => ({
-              ...platform,
-              emojis: platform.emojis.filter(
-                (emoji) =>
-                  (emoji.name || "")
-                    .toLowerCase()
-                    .includes(searchTerm.toLowerCase()) ||
-                  platform.platform
-                    .toLowerCase()
-                    .includes(searchTerm.toLowerCase())
-              ),
-            }))
-            .filter((platform) => platform.emojis.length > 0);
-        }
-
-        applyOrdering();
-        renderPlatforms();
-        updateStats();
-      }
-
-      function moveUp(name) {
-        const idx = currentOrder.indexOf(name);
-        if (idx > 0) {
-          const tmp = currentOrder[idx - 1];
-          currentOrder[idx - 1] = currentOrder[idx];
-          currentOrder[idx] = tmp;
-          saveOrder();
-          applyOrdering();
-          renderPlatforms();
-          updateStats();
-        }
-      }
-
-      // 复制图片到剪贴板
-      async function copyImageToClipboard(imageSrc) {
-        try {
-          // 创建一个临时的 canvas 来处理图片
-          const canvas = document.createElement("canvas");
-          const ctx = canvas.getContext("2d");
-          const img = new Image();
-
-          // 设置跨域属性
-          img.crossOrigin = "anonymous";
-
-          return new Promise((resolve, reject) => {
-            img.onload = async () => {
-              try {
-                // 设置 canvas 尺寸
-                canvas.width = img.width;
-                canvas.height = img.height;
-
-                // 绘制图片到 canvas
-                ctx.drawImage(img, 0, 0);
-
-                // 将 canvas 转换为 blob
-                canvas.toBlob(async (blob) => {
-                  try {
-                    // 使用 Clipboard API 复制图片
-                    await navigator.clipboard.write([
-                      new ClipboardItem({
-                        [blob.type]: blob,
-                      }),
-                    ]);
-
-                    showToast("✅ 图片已复制到剪贴板！", "#4CAF50");
-                    resolve();
-                  } catch (err) {
-                    // 如果复制图片失败，回退到复制路径
-                    console.warn("复制图片失败，回退到复制路径:", err);
-                    await fallbackCopyText(imageSrc);
-                    resolve();
-                  }
-                }, "image/png");
-              } catch (err) {
-                console.error("处理图片失败:", err);
-                await fallbackCopyText(imageSrc);
-                resolve();
-              }
-            };
-
-            img.onerror = async () => {
-              console.error("加载图片失败:", imageSrc);
-              await fallbackCopyText(imageSrc);
-              resolve();
-            };
-
-            // 开始加载图片
-            img.src = imageSrc;
-          });
-        } catch (err) {
-          console.error("复制功能不支持:", err);
-          await fallbackCopyText(imageSrc);
-        }
-      }
-
-      // 回退方案：复制文本路径
-      async function fallbackCopyText(text) {
-        try {
-          await navigator.clipboard.writeText(text);
-          showToast("📋 图片路径已复制到剪贴板", "#FF9800");
-        } catch (err) {
-          console.error("复制路径也失败了:", err);
-          showToast("❌ 复制失败，请手动保存图片", "#f44336");
-        }
-      }
-
-      // 显示提示消息
-      function showToast(message, backgroundColor = "#4CAF50") {
-        const toast = document.createElement("div");
-        toast.textContent = message;
-        toast.style.cssText = `
-                position: fixed;
-                top: 20px;
-                right: 20px;
-                background: ${backgroundColor};
-                color: white;
-                padding: 12px 20px;
-                border-radius: 8px;
-                z-index: 1000;
-                font-size: 14px;
-                font-weight: 500;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-                animation: fadeInOut 3s ease-in-out;
-            `;
-        document.body.appendChild(toast);
-        setTimeout(() => {
-          if (document.body.contains(toast)) {
-            document.body.removeChild(toast);
-          }
-        }, 3000);
-      }
-
-      // 事件监听
-      document.getElementById("searchInput").addEventListener("input", (e) => {
-        filterEmojis(e.target.value);
-      });
-
-      // 初始化
-      loadEmojiData();
-    </script>
+        <div
+          class="mapping-scroll"
+          role="region"
+          aria-label="各平台表情语义对照表，可横向滚动"
+          tabindex="0"
+        >
+          <table class="mapping-table">
+            <thead>
+              <tr>
+                <th scope="col">Emoji / 语义</th>
+                <th scope="col">贴吧</th>
+                <th scope="col">知乎</th>
+                <th scope="col">小红书</th>
+                <th scope="col">抖音</th>
+                <th scope="col">QQ</th>
+                <th scope="col">B 站</th>
+                <th scope="col">微博</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😊</span
+                  ><span class="mapping-label">开心<code>happy</code></span>
+                </th>
+                <td>
+                  <img
+                    src="output/tieba/tb_07.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="开心"
+                    title="贴吧 · 开心"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/zhihu/zh_25.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="开心"
+                    title="知乎 · 开心"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_01.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="微笑"
+                    title="小红书 · 微笑"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_001.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="微笑"
+                    title="抖音 · 微笑"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_001.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="微笑"
+                    title="QQ · 微笑"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_03.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="微笑"
+                    title="B 站 · 微笑"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/weibo/wb_03.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="太开心"
+                    title="微博 · 太开心"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😢</span
+                  ><span class="mapping-label">难过<code>sad</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_03.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="失望"
+                    title="小红书 · 失望"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_124.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="难过"
+                    title="抖音 · 难过"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_015.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="难过"
+                    title="QQ · 难过"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/weibo/wb_10.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="悲伤"
+                    title="微博 · 悲伤"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😕</span
+                  ><span class="mapping-label">困惑<code>confused</code></span>
+                </th>
+                <td>
+                  <img
+                    src="output/tieba/tb_13.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="疑问"
+                    title="贴吧 · 疑问"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_058.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="疑惑"
+                    title="抖音 · 疑惑"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_048.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="疑问"
+                    title="QQ · 疑问"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">👀</span
+                  ><span class="mapping-label">围观<code>watching</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/zhihu/zh_21.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="吃瓜"
+                    title="知乎 · 吃瓜"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_26.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="吃瓜"
+                    title="小红书 · 吃瓜"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_129.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="吃瓜群众"
+                    title="抖音 · 吃瓜群众"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_109.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="吃瓜"
+                    title="QQ · 吃瓜"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_04.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="吃瓜"
+                    title="B 站 · 吃瓜"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/weibo/wb_22.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="吃瓜"
+                    title="微博 · 吃瓜"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😠</span
+                  ><span class="mapping-label">生气<code>angry</code></span>
+                </th>
+                <td>
+                  <img
+                    src="output/tieba/tb_24.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="生气"
+                    title="贴吧 · 生气"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/zhihu/zh_14.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="生气"
+                    title="知乎 · 生气"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_004.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="生气"
+                    title="抖音 · 生气"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_100.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="生气"
+                    title="QQ · 生气"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😑</span
+                  ><span class="mapping-label"
+                    >无语<code>speechless</code></span
+                  >
+                </th>
+                <td>
+                  <img
+                    src="output/tieba/tb_10.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="黑线"
+                    title="贴吧 · 黑线"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_035.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="无语"
+                    title="抖音 · 无语"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_31.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="无语"
+                    title="B 站 · 无语"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😉</span
+                  ><span class="mapping-label">狗头<code>doge</code></span>
+                </th>
+                <td>
+                  <img
+                    src="output/tieba/tb_19.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="滑稽"
+                    title="贴吧 · 滑稽"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/zhihu/zh_24.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="滑稽"
+                    title="知乎 · 滑稽"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_29.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="doge"
+                    title="小红书 · doge"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_014.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="狗头"
+                    title="抖音 · 狗头"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_050.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="doge"
+                    title="QQ · doge"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_06.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="doge"
+                    title="B 站 · doge"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😵‍💫</span
+                  ><span class="mapping-label"
+                    >过载<code>overloaded</code></span
+                  >
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_09.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="石化"
+                    title="小红书 · 石化"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_145.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="宕机"
+                    title="抖音 · 宕机"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_143.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="裂开"
+                    title="QQ · 裂开"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/weibo/wb_20.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="裂开"
+                    title="微博 · 裂开"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😐</span
+                  ><span class="mapping-label">平静<code>neutral</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_100.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="冷漠"
+                    title="抖音 · 冷漠"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_117.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="面无表情"
+                    title="QQ · 面无表情"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😆</span
+                  ><span class="mapping-label">大笑<code>laughing</code></span>
+                </th>
+                <td>
+                  <img
+                    src="output/tieba/tb_02.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="哈哈"
+                    title="贴吧 · 哈哈"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/zhihu/zh_06.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="大笑"
+                    title="知乎 · 大笑"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_13.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="大笑"
+                    title="小红书 · 大笑"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_046.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="大笑"
+                    title="抖音 · 大笑"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_116.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="狂笑"
+                    title="QQ · 狂笑"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_27.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="大笑"
+                    title="B 站 · 大笑"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/weibo/wb_05.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="哈哈"
+                    title="微博 · 哈哈"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😭</span
+                  ><span class="mapping-label">大哭<code>crying</code></span>
+                </th>
+                <td>
+                  <img
+                    src="output/tieba/tb_09.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="大哭"
+                    title="贴吧 · 大哭"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/zhihu/zh_13.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="大哭"
+                    title="知乎 · 大哭"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_15.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="哭惹"
+                    title="小红书 · 哭惹"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_120.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="大哭"
+                    title="抖音 · 大哭"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_009.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="大哭"
+                    title="QQ · 大哭"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_07.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="大哭"
+                    title="B 站 · 大哭"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/weibo/wb_12.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="允悲"
+                    title="微博 · 允悲"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😅</span
+                  ><span class="mapping-label">流汗<code>sweating</code></span>
+                </th>
+                <td>
+                  <img
+                    src="output/tieba/tb_08.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="汗"
+                    title="贴吧 · 汗"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_04.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="汗颜"
+                    title="小红书 · 汗颜"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_110.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="擦汗"
+                    title="抖音 · 擦汗"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_043.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="流汗"
+                    title="QQ · 流汗"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/weibo/wb_24.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="流汗"
+                    title="微博 · 流汗"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">🤔</span
+                  ><span class="mapping-label">思考<code>thinking</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/zhihu/zh_04.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="思考"
+                    title="知乎 · 思考"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_064.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="思考"
+                    title="抖音 · 思考"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_053.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="托腮"
+                    title="QQ · 托腮"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_35.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="思考"
+                    title="B 站 · 思考"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">👌</span
+                  ><span class="mapping-label">好的<code>okay</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_177.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="OK"
+                    title="抖音 · OK"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_161.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="OK"
+                    title="QQ · OK"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_05.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="OK"
+                    title="B 站 · OK"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">🙂‍↕️</span
+                  ><span class="mapping-label">点头<code>nodding</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/qq/qq_134.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="对的对的"
+                    title="QQ · 对的对的"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😴</span
+                  ><span class="mapping-label">睡觉<code>sleeping</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_057.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="困"
+                    title="抖音 · 困"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_008.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="睡"
+                    title="QQ · 睡"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">🥺</span
+                  ><span class="mapping-label">委屈<code>hurt</code></span>
+                </th>
+                <td>
+                  <img
+                    src="output/tieba/tb_16.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="委屈"
+                    title="贴吧 · 委屈"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_18.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="可怜"
+                    title="小红书 · 可怜"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_083.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="委屈"
+                    title="抖音 · 委屈"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_073.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="委屈"
+                    title="QQ · 委屈"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_32.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="委屈"
+                    title="B 站 · 委屈"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/weibo/wb_08.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="可怜"
+                    title="微博 · 可怜"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">🫣</span
+                  ><span class="mapping-label">偷看<code>peeking</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_12.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="暗中观察"
+                    title="小红书 · 暗中观察"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_101.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="暗中观察"
+                    title="抖音 · 暗中观察"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_107.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="暗中观察"
+                    title="QQ · 暗中观察"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">👍</span
+                  ><span class="mapping-label">赞同<code>approve</code></span>
+                </th>
+                <td>
+                  <img
+                    src="output/tieba/tb_12.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="真棒"
+                    title="贴吧 · 真棒"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_11.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="赞"
+                    title="小红书 · 赞"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_150.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="点赞"
+                    title="抖音 · 点赞"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_170.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="点赞"
+                    title="QQ · 点赞"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_30.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="点赞"
+                    title="B 站 · 点赞"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/weibo/wb_28.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="点赞"
+                    title="微博 · 点赞"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">🫶</span
+                  ><span class="mapping-label">爱心<code>heart</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/zhihu/zh_01.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="爱"
+                    title="知乎 · 爱"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_016.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="比心"
+                    title="抖音 · 比心"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_031.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="比心"
+                    title="QQ · 比心"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_18.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="给心心"
+                    title="B 站 · 给心心"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/weibo/wb_14.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="爱你"
+                    title="微博 · 爱你"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😳</span
+                  ><span class="mapping-label">害羞<code>shy</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/zhihu/zh_02.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="害羞"
+                    title="知乎 · 害羞"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_02.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="害羞"
+                    title="小红书 · 害羞"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_011.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="害羞"
+                    title="抖音 · 害羞"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_006.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="害羞"
+                    title="QQ · 害羞"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_23.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="害羞"
+                    title="B 站 · 害羞"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">🤩</span
+                  ><span class="mapping-label"
+                    >星星眼<code>star-eyes</code></span
+                  >
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_024.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="星星眼"
+                    title="抖音 · 星星眼"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_030.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="崇拜"
+                    title="QQ · 崇拜"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_02.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="星星眼"
+                    title="B 站 · 星星眼"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😂</span
+                  ><span class="mapping-label">笑哭<code>laugh-cry</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/zhihu/zh_26.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="笑哭"
+                    title="知乎 · 笑哭"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_10.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="笑哭"
+                    title="小红书 · 笑哭"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_069.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="笑哭"
+                    title="抖音 · 笑哭"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_049.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="笑哭"
+                    title="QQ · 笑哭"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_01.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="笑哭"
+                    title="B 站 · 笑哭"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/weibo/wb_06.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="笑cry"
+                    title="微博 · 笑cry"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">🥹</span
+                  ><span class="mapping-label">感动<code>touched</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_133.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="眼含热泪"
+                    title="抖音 · 眼含热泪"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_10.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="喜极而泣"
+                    title="B 站 · 喜极而泣"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😱</span
+                  ><span class="mapping-label">害怕<code>scared</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_122.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="惊恐"
+                    title="抖音 · 惊恐"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_042.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="惊恐"
+                    title="QQ · 惊恐"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/weibo/wb_26.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="惊恐"
+                    title="微博 · 惊恐"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">🤦</span
+                  ><span class="mapping-label">捂脸<code>facepalm</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/zhihu/zh_07.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="捂脸"
+                    title="知乎 · 捂脸"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_20.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="捂脸"
+                    title="小红书 · 捂脸"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_007.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="捂脸"
+                    title="抖音 · 捂脸"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_085.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="捂脸"
+                    title="QQ · 捂脸"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_26.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="捂脸"
+                    title="B 站 · 捂脸"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">🙄</span
+                  ><span class="mapping-label">白眼<code>eye-roll</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/zhihu/zh_27.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="白眼"
+                    title="知乎 · 白眼"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_098.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="白眼"
+                    title="抖音 · 白眼"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_022.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="白眼"
+                    title="QQ · 白眼"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/weibo/wb_19.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="白眼"
+                    title="微博 · 白眼"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😮‍💨</span
+                  ><span class="mapping-label">叹气<code>sigh</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_25.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="叹气"
+                    title="小红书 · 叹气"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_134.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="叹气"
+                    title="抖音 · 叹气"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😫</span
+                  ><span class="mapping-label"
+                    >抓狂<code>frustrated</code></span
+                  >
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_19.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="抓狂"
+                    title="小红书 · 抓狂"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_074.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="抓狂"
+                    title="抖音 · 抓狂"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_018.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="抓狂"
+                    title="QQ · 抓狂"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😜</span
+                  ><span class="mapping-label">调皮<code>playful</code></span>
+                </th>
+                <td>
+                  <img
+                    src="output/tieba/tb_03.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="吐舌"
+                    title="贴吧 · 吐舌"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/zhihu/zh_16.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="调皮"
+                    title="知乎 · 调皮"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_012.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="调皮"
+                    title="抖音 · 调皮"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_012.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="调皮"
+                    title="QQ · 调皮"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/bilibili/bl_13.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="调皮"
+                    title="B 站 · 调皮"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">🤭</span
+                  ><span class="mapping-label"
+                    >偷笑<code>snickering</code></span
+                  >
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/zhihu/zh_08.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="捂嘴"
+                    title="知乎 · 捂嘴"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_07.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="偷笑"
+                    title="小红书 · 偷笑"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_062.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="偷笑"
+                    title="抖音 · 偷笑"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_020.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="偷笑"
+                    title="QQ · 偷笑"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😏</span
+                  ><span class="mapping-label">阴阳<code>sarcastic</code></span>
+                </th>
+                <td>
+                  <img
+                    src="output/tieba/tb_14.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="阴险"
+                    title="贴吧 · 阴险"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_126.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="阴险"
+                    title="抖音 · 阴险"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_075.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="阴险"
+                    title="QQ · 阴险"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">😎</span
+                  ><span class="mapping-label">酷<code>cool</code></span>
+                </th>
+                <td>
+                  <img
+                    src="output/tieba/tb_05.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="酷"
+                    title="贴吧 · 酷"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/zhihu/zh_05.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="酷"
+                    title="知乎 · 酷"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/weibo/wb_18.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="酷"
+                    title="微博 · 酷"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">🎉</span
+                  ><span class="mapping-label">庆祝<code>celebrate</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/xiaohongshu/xhs_21.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="派对"
+                    title="小红书 · 派对"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/douyin/dy_095.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="庆祝"
+                    title="抖音 · 庆祝"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_032.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="庆祝"
+                    title="QQ · 庆祝"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">💪</span
+                  ><span class="mapping-label">加油<code>cheer</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_052.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="加油"
+                    title="抖音 · 加油"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_089.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="打call"
+                    title="QQ · 打call"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">🙏</span
+                  ><span class="mapping-label">谢谢<code>thanks</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_019.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="双手合十"
+                    title="抖音 · 双手合十"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_124.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="拜谢"
+                    title="QQ · 拜谢"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">🙇</span
+                  ><span class="mapping-label">抱歉<code>sorry</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_137.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="鞠躬"
+                    title="抖音 · 鞠躬"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">🤗</span
+                  ><span class="mapping-label">抱抱<code>hug</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_020.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="抱抱你"
+                    title="抖音 · 抱抱你"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_150.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="拥抱"
+                    title="QQ · 拥抱"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">🤲</span
+                  ><span class="mapping-label">拜托<code>please</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_132.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="求求了"
+                    title="抖音 · 求求了"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_138.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="拜托"
+                    title="QQ · 拜托"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <span class="mapping-emoji">👏</span
+                  ><span class="mapping-label">鼓掌<code>applause</code></span>
+                </th>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td>
+                  <img
+                    src="output/douyin/dy_018.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="鼓掌"
+                    title="抖音 · 鼓掌"
+                  />
+                </td>
+                <td>
+                  <img
+                    src="output/qq/qq_066.avif"
+                    width="32"
+                    height="32"
+                    loading="lazy"
+                    alt="鼓掌"
+                    title="QQ · 鼓掌"
+                  />
+                </td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+                <td><span class="unmapped" aria-label="暂未映射">—</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="mapping-note">
+          平台素材按含义对应，具体表达可能存在差异；空项暂未映射。包格式与接入约定见
+          <a href="protocol.html">协议文档</a>。
+        </p>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a class="wordmark" href="index.html"
+        >UniEmoji <small>Same meanings, any face.</small></a
+      >
+      <p>
+        第三方素材未获授权，不适用代码的 MIT 许可证。<a
+          href="THIRD_PARTY_NOTICES.md"
+          >素材权利说明 ↗</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
