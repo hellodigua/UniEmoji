@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>映射维护 · UniEmoji</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/site.css" />
+    <link rel="stylesheet" href="assets/mapping-editor.css" />
+  </head>
+  <body>
+    <header class="site-nav">
+      <a class="wordmark" href="index.html"
+        ><span class="brand-mark">u.</span> UniEmoji</a
+      >
+      <nav aria-label="主导航">
+        <a href="index.html" target="_blank">预览官网 ↗</a
+        ><a href="gallery.html" target="_blank">素材库 ↗</a>
+      </nav>
+    </header>
+    <main class="mapping-home editor-main">
+      <header class="editor-intro">
+        <p class="eyebrow">LOCAL WORKSPACE</p>
+        <h1>表情映射维护</h1>
+        <p>灰底格内可直接点选候选表情，也可点击当前表情查看全部素材。</p>
+      </header>
+      <div class="editor-toolbar">
+        <label
+          ><input type="checkbox" id="only-missing" /> 只看有空项的语义</label
+        >
+        <div class="save-controls">
+          <span id="save-status" role="status" aria-live="polite"
+            >正在连接本地服务…</span
+          ><button id="save" class="primary" disabled>保存到本地</button>
+        </div>
+      </div>
+      <p id="editor-error" role="alert" hidden></p>
+      <div
+        class="mapping-scroll"
+        tabindex="0"
+        role="region"
+        aria-label="可编辑的表情语义对照表"
+      >
+        <table id="mapping-table" class="mapping-table"></table>
+      </div>
+      <p class="mapping-note">
+        允许留空，也可在不同语义中复用同一张表情。粉色标记表示尚未保存的修改。
+      </p>
+    </main>
+    <dialog id="picker" aria-labelledby="picker-title">
+      <div class="picker-header">
+        <div>
+          <p id="picker-platform" class="eyebrow"></p>
+          <h2 id="picker-title"></h2>
+        </div>
+        <button id="close-picker" aria-label="关闭选图窗口">✕</button>
+      </div>
+      <input
+        id="picker-search"
+        type="search"
+        placeholder="搜索名称、关键词…"
+        aria-label="搜索该平台表情"
+      />
+      <div class="picker-content">
+        <div>
+          <p id="candidate-count"></p>
+          <div id="candidates" class="candidate-grid"></div>
+        </div>
+        <aside class="preview">
+          <div id="preview-image"></div>
+          <strong id="preview-name">选择一个表情</strong>
+          <p id="preview-path"></p>
+        </aside>
+      </div>
+      <div class="picker-footer">
+        <button id="clear-image">清空当前映射</button
+        ><span>仅修改当前语义与平台</span>
+      </div>
+    </dialog>
+    <script type="module" src="assets/mapping-editor.js"></script>
+  </body>
+</html>
