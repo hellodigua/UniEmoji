@@ -6,7 +6,7 @@ Same meanings, any face.
 
 一句话解释：UniEmoji 让 AI 用上丰富多样的表情包。通过统一 emoji 的语义，关联不同风格的表情图片，AI 回复中的 emoji 就能呈现为对应的表情包，让同一种表达拥有不同的面孔。
 
-[访问官网](https://hellodigua.github.io/UniEmoji/)
+[访问官网](https://hellodigua.github.io/UniEmoji/) · [协议文档](https://hellodigua.github.io/UniEmoji/protocol.html) · [素材库](https://hellodigua.github.io/UniEmoji/gallery.html)
 
 ## 同样是大哭，让AI使用同一种语义表达
 
