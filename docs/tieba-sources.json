@@ -1,0 +1,500 @@
+{
+  "platform": "tieba",
+  "sourcePage": "https://tieba.baidu.com/p/11059451551?fr=frs",
+  "capturedAt": "2026-09-29",
+  "panel": "所有表情",
+  "count": 97,
+  "notes": [
+    "按网页表情面板顺序记录，覆盖本次页面展示的全部 97 项。",
+    "tb_01 至 tb_25 保留原有文件和标注；来源地址记录本次面板中对应的表情，不表示旧文件由该地址下载。",
+    "tb_26 至 tb_97 从 sourceUrl 下载原图，以现有 compressor.py 的默认 60px、质量 50 转换为 AVIF。",
+    "页面没有提供表情文字名称；新增名称、标签和关键词由项目按图意标注，不代表平台官方命名。"
+  ],
+  "emojis": [
+    {
+      "id": "tb_01",
+      "sourceId": 1,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon@2x.png"
+    },
+    {
+      "id": "tb_02",
+      "sourceId": 2,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon2@2x.png"
+    },
+    {
+      "id": "tb_03",
+      "sourceId": 3,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon3@2x.png"
+    },
+    {
+      "id": "tb_18",
+      "sourceId": 24,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon24@2x.png"
+    },
+    {
+      "id": "tb_17",
+      "sourceId": 22,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon22@2x.png"
+    },
+    {
+      "id": "tb_26",
+      "sourceId": 20,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon20@2x.png"
+    },
+    {
+      "id": "tb_27",
+      "sourceId": 66,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon66@2x.png"
+    },
+    {
+      "id": "tb_20",
+      "sourceId": 28,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon28@2x.png"
+    },
+    {
+      "id": "tb_28",
+      "sourceId": 67,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon67@2x.png"
+    },
+    {
+      "id": "tb_19",
+      "sourceId": 25,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon25@2x.png"
+    },
+    {
+      "id": "tb_29",
+      "sourceId": 68,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon68@2x.png"
+    },
+    {
+      "id": "tb_11",
+      "sourceId": 12,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon12@2x.png"
+    },
+    {
+      "id": "tb_06",
+      "sourceId": 6,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon6@2x.png"
+    },
+    {
+      "id": "tb_08",
+      "sourceId": 8,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon8@2x.png"
+    },
+    {
+      "id": "tb_10",
+      "sourceId": 10,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon10@2x.png"
+    },
+    {
+      "id": "tb_09",
+      "sourceId": 9,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon9@2x.png"
+    },
+    {
+      "id": "tb_12",
+      "sourceId": 13,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon13@2x.png"
+    },
+    {
+      "id": "tb_23",
+      "sourceId": 33,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon33@2x.png"
+    },
+    {
+      "id": "tb_22",
+      "sourceId": 30,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon30@2x.png"
+    },
+    {
+      "id": "tb_14",
+      "sourceId": 16,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon16@2x.png"
+    },
+    {
+      "id": "tb_30",
+      "sourceId": 11,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon11@2x.png"
+    },
+    {
+      "id": "tb_05",
+      "sourceId": 5,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon5@2x.png"
+    },
+    {
+      "id": "tb_04",
+      "sourceId": 4,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon4@2x.png"
+    },
+    {
+      "id": "tb_21",
+      "sourceId": 27,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon27@2x.png"
+    },
+    {
+      "id": "tb_31",
+      "sourceId": 69,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon69@2x.png"
+    },
+    {
+      "id": "tb_13",
+      "sourceId": 15,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon15@2x.png"
+    },
+    {
+      "id": "tb_32",
+      "sourceId": 70,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon70@2x.png"
+    },
+    {
+      "id": "tb_33",
+      "sourceId": 71,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon71@2x.png"
+    },
+    {
+      "id": "tb_16",
+      "sourceId": 19,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon19@2x.png"
+    },
+    {
+      "id": "tb_25",
+      "sourceId": 32,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon32@2x.png"
+    },
+    {
+      "id": "tb_34",
+      "sourceId": 29,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon29@2x.png"
+    },
+    {
+      "id": "tb_35",
+      "sourceId": 72,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon72@2x.png"
+    },
+    {
+      "id": "tb_36",
+      "sourceId": 73,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon73@2x.png"
+    },
+    {
+      "id": "tb_37",
+      "sourceId": 17,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon17@2x.png"
+    },
+    {
+      "id": "tb_38",
+      "sourceId": 74,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon74@2x.png"
+    },
+    {
+      "id": "tb_39",
+      "sourceId": 75,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon75@2x.png"
+    },
+    {
+      "id": "tb_40",
+      "sourceId": 76,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon76@2x.png"
+    },
+    {
+      "id": "tb_41",
+      "sourceId": 26,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon26@2x.png"
+    },
+    {
+      "id": "tb_07",
+      "sourceId": 7,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon7@2x.png"
+    },
+    {
+      "id": "tb_42",
+      "sourceId": 14,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon14@2x.png"
+    },
+    {
+      "id": "tb_15",
+      "sourceId": 18,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon18@2x.png"
+    },
+    {
+      "id": "tb_43",
+      "sourceId": 21,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon21@2x.png"
+    },
+    {
+      "id": "tb_44",
+      "sourceId": 23,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon23@2x.png"
+    },
+    {
+      "id": "tb_24",
+      "sourceId": 61,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon61@2x.png"
+    },
+    {
+      "id": "tb_45",
+      "sourceId": 97,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon97@2x.png"
+    },
+    {
+      "id": "tb_46",
+      "sourceId": 100,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon100@2x.png"
+    },
+    {
+      "id": "tb_47",
+      "sourceId": 95,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon95@2x.png"
+    },
+    {
+      "id": "tb_48",
+      "sourceId": 88,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon88@2x.png"
+    },
+    {
+      "id": "tb_49",
+      "sourceId": 91,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon91@2x.png"
+    },
+    {
+      "id": "tb_50",
+      "sourceId": 86,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon86@2x.png"
+    },
+    {
+      "id": "tb_51",
+      "sourceId": 92,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon92@2x.png"
+    },
+    {
+      "id": "tb_52",
+      "sourceId": 93,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon93@2x.png"
+    },
+    {
+      "id": "tb_53",
+      "sourceId": 90,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon90@2x.png"
+    },
+    {
+      "id": "tb_54",
+      "sourceId": 85,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon85@2x.png"
+    },
+    {
+      "id": "tb_55",
+      "sourceId": 94,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon94@2x.png"
+    },
+    {
+      "id": "tb_56",
+      "sourceId": 87,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon87@2x.png"
+    },
+    {
+      "id": "tb_57",
+      "sourceId": 89,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon89@2x.png"
+    },
+    {
+      "id": "tb_58",
+      "sourceId": 98,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon98@2x.png"
+    },
+    {
+      "id": "tb_59",
+      "sourceId": 96,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon96@2x.png"
+    },
+    {
+      "id": "tb_60",
+      "sourceId": 133,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon133@2x.png"
+    },
+    {
+      "id": "tb_61",
+      "sourceId": 99,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon99@2x.png"
+    },
+    {
+      "id": "tb_62",
+      "sourceId": 128,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon128@2x.png"
+    },
+    {
+      "id": "tb_63",
+      "sourceId": 126,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon126@2x.png"
+    },
+    {
+      "id": "tb_64",
+      "sourceId": 127,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon127@2x.png"
+    },
+    {
+      "id": "tb_65",
+      "sourceId": 130,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon130@2x.png"
+    },
+    {
+      "id": "tb_66",
+      "sourceId": 131,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon131@2x.png"
+    },
+    {
+      "id": "tb_67",
+      "sourceId": 136,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon136@2x.png"
+    },
+    {
+      "id": "tb_68",
+      "sourceId": 137,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon137@2x.png"
+    },
+    {
+      "id": "tb_69",
+      "sourceId": 134,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon134@2x.png"
+    },
+    {
+      "id": "tb_70",
+      "sourceId": 135,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon135@2x.png"
+    },
+    {
+      "id": "tb_71",
+      "sourceId": 132,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon132@2x.png"
+    },
+    {
+      "id": "tb_72",
+      "sourceId": 129,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon129@2x.png"
+    },
+    {
+      "id": "tb_73",
+      "sourceId": 125,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon125@2x.png"
+    },
+    {
+      "id": "tb_74",
+      "sourceId": 34,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon34@2x.png"
+    },
+    {
+      "id": "tb_75",
+      "sourceId": 35,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon35@2x.png"
+    },
+    {
+      "id": "tb_76",
+      "sourceId": 36,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon36@2x.png"
+    },
+    {
+      "id": "tb_77",
+      "sourceId": 37,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon37@2x.png"
+    },
+    {
+      "id": "tb_78",
+      "sourceId": 38,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon38@2x.png"
+    },
+    {
+      "id": "tb_79",
+      "sourceId": 40,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon40@2x.png"
+    },
+    {
+      "id": "tb_80",
+      "sourceId": 39,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon39@2x.png"
+    },
+    {
+      "id": "tb_81",
+      "sourceId": 41,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon41@2x.png"
+    },
+    {
+      "id": "tb_82",
+      "sourceId": 43,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon43@2x.png"
+    },
+    {
+      "id": "tb_83",
+      "sourceId": 44,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon44@2x.png"
+    },
+    {
+      "id": "tb_84",
+      "sourceId": 48,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon48@2x.png"
+    },
+    {
+      "id": "tb_85",
+      "sourceId": 47,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon47@2x.png"
+    },
+    {
+      "id": "tb_86",
+      "sourceId": 46,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon46@2x.png"
+    },
+    {
+      "id": "tb_87",
+      "sourceId": 50,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon50@2x.png"
+    },
+    {
+      "id": "tb_88",
+      "sourceId": 77,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon77@2x.png"
+    },
+    {
+      "id": "tb_89",
+      "sourceId": 78,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon78@2x.png"
+    },
+    {
+      "id": "tb_90",
+      "sourceId": 79,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon79@2x.png"
+    },
+    {
+      "id": "tb_91",
+      "sourceId": 80,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon80@2x.png"
+    },
+    {
+      "id": "tb_92",
+      "sourceId": 81,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon81@2x.png"
+    },
+    {
+      "id": "tb_93",
+      "sourceId": 82,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon82@2x.png"
+    },
+    {
+      "id": "tb_94",
+      "sourceId": 83,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon83@2x.png"
+    },
+    {
+      "id": "tb_95",
+      "sourceId": 84,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon84@2x.png"
+    },
+    {
+      "id": "tb_96",
+      "sourceId": 45,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon45@2x.png"
+    },
+    {
+      "id": "tb_97",
+      "sourceId": 42,
+      "sourceUrl": "https://tb3.bdstatic.com/emoji/image_emoticon42@2x.png"
+    }
+  ]
+}

@@ -203,6 +203,438 @@
           "disbelief"
         ],
         "keywords": ["惊讶", "震惊", "惊了", "目瞪口呆", "卧槽"]
+      },
+      {
+        "url": "output/tieba/tb_26.avif",
+        "name": "花痴",
+        "tags": ["positive", "playful", "heart-eyes", "love", "admiration"],
+        "keywords": ["花痴", "喜欢", "心动", "好爱", "迷上了"]
+      },
+      {
+        "url": "output/tieba/tb_27.avif",
+        "name": "可怜",
+        "tags": ["negative", "plain", "pleading", "sad", "pitiful"],
+        "keywords": ["可怜", "求求了", "委屈巴巴", "拜托"]
+      },
+      {
+        "url": "output/tieba/tb_28.avif",
+        "name": "捂嘴笑",
+        "tags": ["positive", "playful", "giggling", "covering-mouth", "amused"],
+        "keywords": ["捂嘴笑", "偷笑", "嘻嘻", "忍不住笑"]
+      },
+      {
+        "url": "output/tieba/tb_29.avif",
+        "name": "坏笑",
+        "tags": ["neutral", "playful", "smirking", "mischievous", "teasing"],
+        "keywords": ["坏笑", "嘿嘿", "你懂的", "不怀好意"]
+      },
+      {
+        "url": "output/tieba/tb_30.avif",
+        "name": "生闷气",
+        "tags": ["negative", "plain", "pouting", "angry", "annoyed"],
+        "keywords": ["生闷气", "哼", "气鼓鼓", "不开心"]
+      },
+      {
+        "url": "output/tieba/tb_31.avif",
+        "name": "抓狂",
+        "tags": ["negative", "humorous", "angry", "screaming", "frustrated"],
+        "keywords": ["抓狂", "崩溃", "啊啊啊", "气炸了"]
+      },
+      {
+        "url": "output/tieba/tb_32.avif",
+        "name": "馋嘴",
+        "tags": ["positive", "playful", "drooling", "tongue-out", "hungry"],
+        "keywords": ["馋嘴", "馋了", "好想吃", "流口水"]
+      },
+      {
+        "url": "output/tieba/tb_33.avif",
+        "name": "哈欠",
+        "tags": ["neutral", "plain", "yawning", "sleepy", "tired"],
+        "keywords": ["哈欠", "困了", "无聊", "好累"]
+      },
+      {
+        "url": "output/tieba/tb_34.avif",
+        "name": "睡觉",
+        "tags": ["neutral", "plain", "sleeping", "tired", "resting"],
+        "keywords": ["睡觉", "晚安", "睡了", "休息"]
+      },
+      {
+        "url": "output/tieba/tb_35.avif",
+        "name": "笑哭",
+        "tags": ["positive", "humorous", "laughing", "tears", "amused"],
+        "keywords": ["笑哭", "笑出眼泪", "太好笑了", "笑死"]
+      },
+      {
+        "url": "output/tieba/tb_36.avif",
+        "name": "偷笑",
+        "tags": ["positive", "playful", "giggling", "amused", "mischievous"],
+        "keywords": ["偷笑", "窃喜", "嘿嘿", "暗自高兴"]
+      },
+      {
+        "url": "output/tieba/tb_37.avif",
+        "name": "吐",
+        "tags": ["negative", "plain", "vomiting", "disgusted", "sick"],
+        "keywords": ["吐", "恶心", "反胃", "受不了"]
+      },
+      {
+        "url": "output/tieba/tb_38.avif",
+        "name": "不屑",
+        "tags": ["negative", "sarcastic", "disdain", "unimpressed", "annoyed"],
+        "keywords": ["不屑", "切", "看不上", "鄙视"]
+      },
+      {
+        "url": "output/tieba/tb_39.avif",
+        "name": "脸红",
+        "tags": ["neutral", "playful", "blushing", "shy", "embarrassed"],
+        "keywords": ["脸红", "害羞", "不好意思", "羞涩"]
+      },
+      {
+        "url": "output/tieba/tb_40.avif",
+        "name": "撇嘴",
+        "tags": ["negative", "plain", "pouting", "displeased", "doubtful"],
+        "keywords": ["撇嘴", "不乐意", "嫌弃", "不认同"]
+      },
+      {
+        "url": "output/tieba/tb_41.avif",
+        "name": "滑稽笑",
+        "tags": ["positive", "humorous", "smirking", "amused", "mischievous"],
+        "keywords": ["滑稽", "斜眼笑", "搞笑", "你懂的"]
+      },
+      {
+        "url": "output/tieba/tb_42.avif",
+        "name": "财迷",
+        "tags": ["positive", "humorous", "money", "greedy", "excited"],
+        "keywords": ["财迷", "发财", "钱钱", "见钱眼开"]
+      },
+      {
+        "url": "output/tieba/tb_43.avif",
+        "name": "鄙视",
+        "tags": ["negative", "sarcastic", "disdain", "unimpressed", "judging"],
+        "keywords": ["鄙视", "看不起", "无语", "嫌弃"]
+      },
+      {
+        "url": "output/tieba/tb_44.avif",
+        "name": "冷笑",
+        "tags": ["negative", "sarcastic", "smirking", "disdain", "mocking"],
+        "keywords": ["冷笑", "呵呵", "嘲讽", "就这"]
+      },
+      {
+        "url": "output/tieba/tb_45.avif",
+        "name": "吐舌卖萌",
+        "tags": ["positive", "playful", "tongue-out", "cute", "silly"],
+        "keywords": ["吐舌卖萌", "略略略", "装傻", "可爱"]
+      },
+      {
+        "url": "output/tieba/tb_46.avif",
+        "name": "黑脸笑",
+        "tags": ["neutral", "surreal", "grinning", "awkward", "black-face"],
+        "keywords": ["黑脸笑", "尬笑", "诡异", "绷不住"]
+      },
+      {
+        "url": "output/tieba/tb_47.avif",
+        "name": "张嘴大笑",
+        "tags": ["positive", "humorous", "laughing", "excited", "open-mouth"],
+        "keywords": ["张嘴大笑", "哈哈哈", "乐了", "狂笑"]
+      },
+      {
+        "url": "output/tieba/tb_48.avif",
+        "name": "扯脸",
+        "tags": ["positive", "playful", "funny-face", "cheek-pulling", "teasing"],
+        "keywords": ["扯脸", "做鬼脸", "调皮", "逗你玩"]
+      },
+      {
+        "url": "output/tieba/tb_49.avif",
+        "name": "呆萌",
+        "tags": ["neutral", "playful", "wide-eyed", "cute", "blank-stare"],
+        "keywords": ["呆萌", "呆住", "懵了", "发呆"]
+      },
+      {
+        "url": "output/tieba/tb_50.avif",
+        "name": "送花",
+        "tags": ["positive", "supportive", "flowers", "affection", "appreciation"],
+        "keywords": ["送花", "鲜花送你", "谢谢", "喜欢你"]
+      },
+      {
+        "url": "output/tieba/tb_51.avif",
+        "name": "惊恐",
+        "tags": ["negative", "plain", "scared", "shocked", "wide-eyed"],
+        "keywords": ["惊恐", "吓到了", "害怕", "不敢相信"]
+      },
+      {
+        "url": "output/tieba/tb_52.avif",
+        "name": "托腮",
+        "tags": ["neutral", "playful", "chin-resting", "waiting", "cute"],
+        "keywords": ["托腮", "等你", "围观", "乖巧"]
+      },
+      {
+        "url": "output/tieba/tb_53.avif",
+        "name": "委屈哭",
+        "tags": ["negative", "plain", "crying", "sad", "pleading"],
+        "keywords": ["委屈哭", "呜呜", "好委屈", "求安慰"]
+      },
+      {
+        "url": "output/tieba/tb_54.avif",
+        "name": "躲墙角",
+        "tags": ["neutral", "playful", "hiding", "peeking", "shy"],
+        "keywords": ["躲墙角", "暗中观察", "偷偷看", "害羞"]
+      },
+      {
+        "url": "output/tieba/tb_55.avif",
+        "name": "猫猫探头",
+        "tags": ["neutral", "playful", "cat", "peeking", "curious"],
+        "keywords": ["猫猫探头", "猫猫", "暗中观察", "探头"]
+      },
+      {
+        "url": "output/tieba/tb_56.avif",
+        "name": "流泪",
+        "tags": ["negative", "plain", "crying", "sad", "heartbroken"],
+        "keywords": ["流泪", "泪流满面", "伤心", "哭了"]
+      },
+      {
+        "url": "output/tieba/tb_57.avif",
+        "name": "捂嘴惊讶",
+        "tags": ["neutral", "plain", "covering-mouth", "surprised", "wide-eyed"],
+        "keywords": ["捂嘴惊讶", "震惊", "天哪", "不敢说"]
+      },
+      {
+        "url": "output/tieba/tb_58.avif",
+        "name": "流汗",
+        "tags": ["negative", "plain", "sweating", "nervous", "awkward"],
+        "keywords": ["流汗", "尴尬", "紧张", "汗流浃背"]
+      },
+      {
+        "url": "output/tieba/tb_59.avif",
+        "name": "受伤",
+        "tags": ["negative", "plain", "injured", "hurt", "pain"],
+        "keywords": ["受伤", "流血", "疼", "挂彩了"]
+      },
+      {
+        "url": "output/tieba/tb_60.avif",
+        "name": "香槟",
+        "tags": ["positive", "plain", "champagne", "celebration", "cheers"],
+        "keywords": ["香槟", "开香槟", "庆祝", "干杯"]
+      },
+      {
+        "url": "output/tieba/tb_61.avif",
+        "name": "黑脸吐舌",
+        "tags": ["neutral", "surreal", "tongue-out", "black-face", "silly"],
+        "keywords": ["黑脸吐舌", "装傻", "略略略", "搞怪"]
+      },
+      {
+        "url": "output/tieba/tb_62.avif",
+        "name": "瞪眼吐舌",
+        "tags": ["neutral", "surreal", "wide-eyed", "tongue-out", "shocked"],
+        "keywords": ["瞪眼吐舌", "傻眼", "震惊", "离谱"]
+      },
+      {
+        "url": "output/tieba/tb_63.avif",
+        "name": "扶额",
+        "tags": ["negative", "humorous", "facepalm", "helpless", "speechless"],
+        "keywords": ["扶额", "头疼", "无奈", "没眼看"]
+      },
+      {
+        "url": "output/tieba/tb_64.avif",
+        "name": "老虎吃面",
+        "tags": ["positive", "playful", "tiger", "eating", "noodles"],
+        "keywords": ["老虎吃面", "吃面", "干饭", "饿了"]
+      },
+      {
+        "url": "output/tieba/tb_65.avif",
+        "name": "老虎微笑",
+        "tags": ["positive", "playful", "tiger", "smiling", "happy"],
+        "keywords": ["老虎微笑", "虎虎", "开心", "笑眯眯"]
+      },
+      {
+        "url": "output/tieba/tb_66.avif",
+        "name": "老虎大笑",
+        "tags": ["positive", "humorous", "tiger", "laughing", "excited"],
+        "keywords": ["老虎大笑", "哈哈哈", "笑死", "开心"]
+      },
+      {
+        "url": "output/tieba/tb_67.avif",
+        "name": "鼠鼠微笑",
+        "tags": ["positive", "playful", "mouse", "smiling", "cute"],
+        "keywords": ["鼠鼠微笑", "鼠鼠", "可爱", "开心"]
+      },
+      {
+        "url": "output/tieba/tb_68.avif",
+        "name": "鼠鼠比心",
+        "tags": ["positive", "playful", "mouse", "love", "heart"],
+        "keywords": ["鼠鼠比心", "比心", "爱你", "喜欢你"]
+      },
+      {
+        "url": "output/tieba/tb_69.avif",
+        "name": "啊",
+        "tags": ["neutral", "humorous", "surprised", "text", "exclamation"],
+        "keywords": ["啊", "啊这", "惊讶", "什么"]
+      },
+      {
+        "url": "output/tieba/tb_70.avif",
+        "name": "对",
+        "tags": ["positive", "supportive", "agreement", "text", "approval"],
+        "keywords": ["对", "对对对", "没错", "赞同"]
+      },
+      {
+        "url": "output/tieba/tb_71.avif",
+        "name": "烟花",
+        "tags": ["positive", "plain", "fireworks", "celebration", "festive"],
+        "keywords": ["烟花", "庆祝", "撒花", "过年"]
+      },
+      {
+        "url": "output/tieba/tb_72.avif",
+        "name": "绿马",
+        "tags": ["positive", "humorous", "green-horse", "health", "good-luck"],
+        "keywords": ["绿马", "绿码", "健康", "好运"]
+      },
+      {
+        "url": "output/tieba/tb_73.avif",
+        "name": "奥特曼",
+        "tags": ["positive", "playful", "hero", "ultraman", "salute"],
+        "keywords": ["奥特曼", "英雄", "正义", "相信光"]
+      },
+      {
+        "url": "output/tieba/tb_74.avif",
+        "name": "爱心",
+        "tags": ["positive", "plain", "heart", "love", "affection"],
+        "keywords": ["爱心", "爱你", "喜欢", "心动"]
+      },
+      {
+        "url": "output/tieba/tb_75.avif",
+        "name": "心碎",
+        "tags": ["negative", "plain", "broken-heart", "sad", "heartbroken"],
+        "keywords": ["心碎", "失恋", "扎心", "伤心"]
+      },
+      {
+        "url": "output/tieba/tb_76.avif",
+        "name": "玫瑰",
+        "tags": ["positive", "plain", "rose", "flowers", "love"],
+        "keywords": ["玫瑰", "鲜花", "送花", "浪漫"]
+      },
+      {
+        "url": "output/tieba/tb_77.avif",
+        "name": "礼物",
+        "tags": ["positive", "plain", "gift", "surprise", "celebration"],
+        "keywords": ["礼物", "送礼", "惊喜", "祝福"]
+      },
+      {
+        "url": "output/tieba/tb_78.avif",
+        "name": "彩虹",
+        "tags": ["positive", "plain", "rainbow", "hope", "colorful"],
+        "keywords": ["彩虹", "雨过天晴", "美好", "希望"]
+      },
+      {
+        "url": "output/tieba/tb_79.avif",
+        "name": "太阳",
+        "tags": ["positive", "plain", "sun", "sunny", "warm"],
+        "keywords": ["太阳", "晴天", "早安", "阳光"]
+      },
+      {
+        "url": "output/tieba/tb_80.avif",
+        "name": "月亮",
+        "tags": ["neutral", "plain", "moon", "night", "resting"],
+        "keywords": ["月亮", "晚安", "夜晚", "好梦"]
+      },
+      {
+        "url": "output/tieba/tb_81.avif",
+        "name": "金币",
+        "tags": ["positive", "plain", "money", "coin", "wealth"],
+        "keywords": ["金币", "钱", "发财", "财富"]
+      },
+      {
+        "url": "output/tieba/tb_82.avif",
+        "name": "咖啡",
+        "tags": ["neutral", "plain", "coffee", "drink", "break"],
+        "keywords": ["咖啡", "喝咖啡", "提神", "休息一下"]
+      },
+      {
+        "url": "output/tieba/tb_83.avif",
+        "name": "蛋糕",
+        "tags": ["positive", "plain", "cake", "birthday", "celebration"],
+        "keywords": ["蛋糕", "生日快乐", "庆生", "祝福"]
+      },
+      {
+        "url": "output/tieba/tb_84.avif",
+        "name": "大拇指",
+        "tags": ["positive", "supportive", "thumbs-up", "approval", "praise"],
+        "keywords": ["大拇指", "点赞", "赞", "厉害"]
+      },
+      {
+        "url": "output/tieba/tb_85.avif",
+        "name": "胜利",
+        "tags": ["positive", "playful", "victory", "peace", "celebration"],
+        "keywords": ["胜利", "耶", "比耶", "成功"]
+      },
+      {
+        "url": "output/tieba/tb_86.avif",
+        "name": "摇滚",
+        "tags": ["positive", "playful", "rock-on", "hand-gesture", "excited"],
+        "keywords": ["摇滚", "嗨起来", "手势", "燃起来"]
+      },
+      {
+        "url": "output/tieba/tb_87.avif",
+        "name": "OK",
+        "tags": ["positive", "plain", "okay", "agreement", "hand-gesture"],
+        "keywords": ["OK", "好的", "没问题", "收到"]
+      },
+      {
+        "url": "output/tieba/tb_88.avif",
+        "name": "沙发",
+        "tags": ["neutral", "humorous", "sofa", "first-comment", "watching"],
+        "keywords": ["沙发", "抢沙发", "坐等", "围观"]
+      },
+      {
+        "url": "output/tieba/tb_89.avif",
+        "name": "纸巾",
+        "tags": ["neutral", "supportive", "tissue", "comfort", "wiping"],
+        "keywords": ["纸巾", "递纸巾", "擦眼泪", "擦汗"]
+      },
+      {
+        "url": "output/tieba/tb_90.avif",
+        "name": "香蕉",
+        "tags": ["neutral", "plain", "banana", "fruit", "food"],
+        "keywords": ["香蕉", "水果", "吃香蕉", "食物"]
+      },
+      {
+        "url": "output/tieba/tb_91.avif",
+        "name": "便便",
+        "tags": ["negative", "humorous", "poop", "disgusted", "mocking"],
+        "keywords": ["便便", "大便", "拉了", "一坨"]
+      },
+      {
+        "url": "output/tieba/tb_92.avif",
+        "name": "药丸",
+        "tags": ["neutral", "humorous", "pill", "medicine", "treatment"],
+        "keywords": ["药丸", "吃药", "该吃药了", "药不能停"]
+      },
+      {
+        "url": "output/tieba/tb_93.avif",
+        "name": "红领巾",
+        "tags": ["positive", "plain", "red-scarf", "helpful", "pride"],
+        "keywords": ["红领巾", "做好事", "少先队员", "助人为乐"]
+      },
+      {
+        "url": "output/tieba/tb_94.avif",
+        "name": "蜡烛",
+        "tags": ["negative", "plain", "candle", "mourning", "remembrance"],
+        "keywords": ["蜡烛", "默哀", "悼念", "缅怀"]
+      },
+      {
+        "url": "output/tieba/tb_95.avif",
+        "name": "三道杠",
+        "tags": ["neutral", "humorous", "badge", "leader", "authority"],
+        "keywords": ["三道杠", "大队长", "队长", "领导"]
+      },
+      {
+        "url": "output/tieba/tb_96.avif",
+        "name": "音乐",
+        "tags": ["positive", "plain", "music", "singing", "melody"],
+        "keywords": ["音乐", "听歌", "唱歌", "音符"]
+      },
+      {
+        "url": "output/tieba/tb_97.avif",
+        "name": "灯泡",
+        "tags": ["positive", "plain", "idea", "light-bulb", "inspiration"],
+        "keywords": ["灯泡", "灵感", "有主意了", "想到办法"]
       }
     ]
   },
@@ -436,6 +868,192 @@
           "speechless"
         ],
         "keywords": ["白眼", "无语", "呵呵", "懒得理你", "水平太低"]
+      },
+      {
+        "url": "output/zhihu/zh_28.avif",
+        "name": "感谢",
+        "tags": ["positive", "supportive", "gratitude", "flowers", "appreciation"],
+        "keywords": ["感谢", "谢谢", "送花", "多谢"]
+      },
+      {
+        "url": "output/zhihu/zh_29.avif",
+        "name": "哇",
+        "tags": ["positive", "playful", "amazed", "excited", "admiration"],
+        "keywords": ["哇", "好厉害", "惊艳", "太棒了"]
+      },
+      {
+        "url": "output/zhihu/zh_30.avif",
+        "name": "打招呼",
+        "tags": ["positive", "plain", "waving", "greeting", "friendly"],
+        "keywords": ["打招呼", "你好", "嗨", "来了"]
+      },
+      {
+        "url": "output/zhihu/zh_31.avif",
+        "name": "握手",
+        "tags": ["positive", "plain", "handshake", "agreement", "cooperation"],
+        "keywords": ["握手", "合作愉快", "幸会", "达成共识"]
+      },
+      {
+        "url": "output/zhihu/zh_32.avif",
+        "name": "知乎益蜂",
+        "tags": ["positive", "supportive", "bee", "charity", "helpful"],
+        "keywords": ["知乎益蜂", "公益", "益蜂", "做好事"]
+      },
+      {
+        "url": "output/zhihu/zh_33.avif",
+        "name": "百分百赞",
+        "tags": ["positive", "supportive", "approval", "praise", "agreement"],
+        "keywords": ["百分百赞", "百分百赞同", "完全同意", "点赞"]
+      },
+      {
+        "url": "output/zhihu/zh_34.avif",
+        "name": "为爱发乎",
+        "tags": ["positive", "supportive", "love", "sharing", "care"],
+        "keywords": ["为爱发乎", "为爱发声", "分享爱", "传递温暖"]
+      },
+      {
+        "url": "output/zhihu/zh_35.avif",
+        "name": "脑爆",
+        "tags": ["neutral", "humorous", "mind-blown", "shocked", "overwhelmed"],
+        "keywords": ["脑爆", "脑洞大开", "震惊", "信息量太大"]
+      },
+      {
+        "url": "output/zhihu/zh_36.avif",
+        "name": "暗中学习",
+        "tags": ["neutral", "playful", "learning", "peeking", "curious"],
+        "keywords": ["暗中学习", "偷偷学习", "学到了", "围观学习"]
+      },
+      {
+        "url": "output/zhihu/zh_37.avif",
+        "name": "匿了",
+        "tags": ["neutral", "playful", "anonymous", "hiding", "leaving"],
+        "keywords": ["匿了", "匿名", "先溜了", "隐藏身份"]
+      },
+      {
+        "url": "output/zhihu/zh_38.avif",
+        "name": "谢邀",
+        "tags": ["positive", "plain", "thanks", "invitation", "responding"],
+        "keywords": ["谢邀", "谢谢邀请", "受邀回答", "不请自来"]
+      },
+      {
+        "url": "output/zhihu/zh_39.avif",
+        "name": "赞同",
+        "tags": ["positive", "supportive", "agreement", "approval", "thumbs-up"],
+        "keywords": ["赞同", "同意", "支持", "说得对"]
+      },
+      {
+        "url": "output/zhihu/zh_40.avif",
+        "name": "蹲",
+        "tags": ["neutral", "playful", "waiting", "watching", "curious"],
+        "keywords": ["蹲", "蹲一个", "坐等", "等后续"]
+      },
+      {
+        "url": "output/zhihu/zh_41.avif",
+        "name": "微笑",
+        "tags": ["positive", "plain", "smiling", "friendly", "calm"],
+        "keywords": ["微笑", "笑一笑", "友好", "你好"]
+      },
+      {
+        "url": "output/zhihu/zh_42.avif",
+        "name": "可怜",
+        "tags": ["negative", "plain", "pleading", "pitiful", "sad"],
+        "keywords": ["可怜", "求求了", "委屈巴巴", "求安慰"]
+      },
+      {
+        "url": "output/zhihu/zh_43.avif",
+        "name": "嘘",
+        "tags": ["neutral", "plain", "shushing", "quiet", "secret"],
+        "keywords": ["嘘", "小声点", "安静", "保密"]
+      },
+      {
+        "url": "output/zhihu/zh_44.avif",
+        "name": "小情绪",
+        "tags": ["negative", "playful", "pouting", "upset", "displeased"],
+        "keywords": ["小情绪", "不开心", "闹情绪", "委屈"]
+      },
+      {
+        "url": "output/zhihu/zh_45.avif",
+        "name": "语塞",
+        "tags": ["negative", "plain", "speechless", "awkward", "blank-stare"],
+        "keywords": ["语塞", "无语", "不知道说什么", "沉默"]
+      },
+      {
+        "url": "output/zhihu/zh_46.avif",
+        "name": "撇嘴",
+        "tags": ["negative", "sarcastic", "pouting", "disdain", "unimpressed"],
+        "keywords": ["撇嘴", "不屑", "嫌弃", "切"]
+      },
+      {
+        "url": "output/zhihu/zh_47.avif",
+        "name": "魔性笑",
+        "tags": ["positive", "humorous", "laughing", "amused", "mischievous"],
+        "keywords": ["魔性笑", "哈哈哈", "笑疯了", "憋不住笑"]
+      },
+      {
+        "url": "output/zhihu/zh_48.avif",
+        "name": "潜水",
+        "tags": ["neutral", "playful", "diving", "lurking", "watching"],
+        "keywords": ["潜水", "默默围观", "不说话", "冒个泡"]
+      },
+      {
+        "url": "output/zhihu/zh_49.avif",
+        "name": "口罩",
+        "tags": ["neutral", "plain", "mask", "health", "protection"],
+        "keywords": ["口罩", "戴口罩", "注意防护", "保重身体"]
+      },
+      {
+        "url": "output/zhihu/zh_50.avif",
+        "name": "红心",
+        "tags": ["positive", "plain", "heart", "love", "affection"],
+        "keywords": ["红心", "爱心", "爱你", "喜欢"]
+      },
+      {
+        "url": "output/zhihu/zh_51.avif",
+        "name": "柠檬",
+        "tags": ["negative", "humorous", "lemon", "envy", "jealous"],
+        "keywords": ["柠檬", "我酸了", "羡慕", "酸了"]
+      },
+      {
+        "url": "output/zhihu/zh_52.avif",
+        "name": "拜托",
+        "tags": ["positive", "supportive", "praying", "pleading", "thanks"],
+        "keywords": ["拜托", "求求了", "谢谢", "双手合十"]
+      },
+      {
+        "url": "output/zhihu/zh_53.avif",
+        "name": "赞",
+        "tags": ["positive", "supportive", "thumbs-up", "praise", "approval"],
+        "keywords": ["赞", "点赞", "厉害", "干得好"]
+      },
+      {
+        "url": "output/zhihu/zh_54.avif",
+        "name": "发火",
+        "tags": ["negative", "humorous", "angry", "furious", "frustrated"],
+        "keywords": ["发火", "生气", "怒了", "气炸了"]
+      },
+      {
+        "url": "output/zhihu/zh_55.avif",
+        "name": "不抬杠",
+        "tags": ["neutral", "plain", "peace", "discussion", "disagreement"],
+        "keywords": ["不抬杠", "理性讨论", "好好说话", "别杠"]
+      },
+      {
+        "url": "output/zhihu/zh_56.avif",
+        "name": "种草",
+        "tags": ["positive", "playful", "recommendation", "interest", "desire"],
+        "keywords": ["种草", "推荐", "心动了", "想要"]
+      },
+      {
+        "url": "output/zhihu/zh_57.avif",
+        "name": "抱抱",
+        "tags": ["positive", "supportive", "hug", "comfort", "affection"],
+        "keywords": ["抱抱", "安慰", "抱一个", "给你温暖"]
+      },
+      {
+        "url": "output/zhihu/zh_58.avif",
+        "name": "doge",
+        "tags": ["neutral", "humorous", "doge", "sarcasm", "joking"],
+        "keywords": ["doge", "狗头", "狗头保命", "开玩笑"]
       }
     ]
   },
@@ -691,6 +1309,72 @@
         "name": "扯脸",
         "tags": ["neutral", "surreal", "playful", "face-pull", "cute"],
         "keywords": ["扯脸", "rua", "好软", "可爱", "捏捏"]
+      },
+      {
+        "url": "output/xiaohongshu/xhs_31.avif",
+        "name": "自拍",
+        "tags": ["positive", "playful", "selfie", "posing", "cute"],
+        "keywords": ["自拍", "拍照", "臭美", "记录一下"]
+      },
+      {
+        "url": "output/xiaohongshu/xhs_32.avif",
+        "name": "蹲后续",
+        "tags": ["neutral", "playful", "waiting", "watching", "curious"],
+        "keywords": ["蹲后续", "蹲一个", "等更新", "坐等"]
+      },
+      {
+        "url": "output/xiaohongshu/xhs_33.avif",
+        "name": "买爆",
+        "tags": ["positive", "humorous", "shopping", "excited", "desire"],
+        "keywords": ["买爆", "买买买", "下单", "冲了"]
+      },
+      {
+        "url": "output/xiaohongshu/xhs_34.avif",
+        "name": "生气",
+        "tags": ["negative", "plain", "angry", "furious", "frustrated"],
+        "keywords": ["生气", "发火", "怒了", "气炸了"]
+      },
+      {
+        "url": "output/xiaohongshu/xhs_35.avif",
+        "name": "鄙视",
+        "tags": ["negative", "sarcastic", "disdain", "eye-rolling", "unimpressed"],
+        "keywords": ["鄙视", "白眼", "嫌弃", "看不上"]
+      },
+      {
+        "url": "output/xiaohongshu/xhs_36.avif",
+        "name": "皱眉",
+        "tags": ["negative", "plain", "frowning", "worried", "pleading"],
+        "keywords": ["皱眉", "发愁", "担心", "委屈"]
+      },
+      {
+        "url": "output/xiaohongshu/xhs_37.avif",
+        "name": "惊恐",
+        "tags": ["negative", "plain", "scared", "shocked", "screaming"],
+        "keywords": ["惊恐", "害怕", "吓到了", "救命"]
+      },
+      {
+        "url": "output/xiaohongshu/xhs_38.avif",
+        "name": "睡觉",
+        "tags": ["neutral", "plain", "sleeping", "tired", "resting"],
+        "keywords": ["睡觉", "晚安", "困了", "睡了"]
+      },
+      {
+        "url": "output/xiaohongshu/xhs_39.avif",
+        "name": "得意",
+        "tags": ["positive", "playful", "proud", "confident", "smug"],
+        "keywords": ["得意", "骄傲", "厉害吧", "自豪"]
+      },
+      {
+        "url": "output/xiaohongshu/xhs_40.avif",
+        "name": "黑薯问号",
+        "tags": ["neutral", "humorous", "confused", "questioning", "puzzled"],
+        "keywords": ["黑薯问号", "问号", "什么情况", "一脸懵"]
+      },
+      {
+        "url": "output/xiaohongshu/xhs_41.avif",
+        "name": "吐舌头",
+        "tags": ["positive", "playful", "tongue-out", "silly", "teasing"],
+        "keywords": ["吐舌头", "略略略", "调皮", "做鬼脸"]
       }
     ]
   },
@@ -3439,6 +4123,312 @@
         "name": "思考",
         "tags": ["neutral", "plain", "thinking", "analyzing", "curious"],
         "keywords": ["思考", "嗯", "让我想想", "原来如此", "细节"]
+      },
+      {
+        "url": "output/bilibili/bl_36.avif",
+        "name": "蹲蹲",
+        "tags": ["neutral", "playful", "waiting", "watching", "curious"],
+        "keywords": ["蹲蹲", "蹲一个", "等后续", "坐等"]
+      },
+      {
+        "url": "output/bilibili/bl_37.avif",
+        "name": "打call",
+        "tags": ["positive", "supportive", "cheering", "support", "excited"],
+        "keywords": ["打call", "应援", "支持", "加油"]
+      },
+      {
+        "url": "output/bilibili/bl_38.avif",
+        "name": "藏狐",
+        "tags": ["neutral", "humorous", "fox", "unimpressed", "deadpan"],
+        "keywords": ["藏狐", "面无表情", "冷漠", "淡定"]
+      },
+      {
+        "url": "output/bilibili/bl_39.avif",
+        "name": "嘟嘟",
+        "tags": ["neutral", "playful", "pouting", "kissing", "cute"],
+        "keywords": ["嘟嘟", "嘟嘴", "卖萌", "亲亲"]
+      },
+      {
+        "url": "output/bilibili/bl_40.avif",
+        "name": "疑惑",
+        "tags": ["neutral", "plain", "confused", "questioning", "puzzled"],
+        "keywords": ["疑惑", "怎么回事", "不理解", "问号"]
+      },
+      {
+        "url": "output/bilibili/bl_41.avif",
+        "name": "偷笑",
+        "tags": ["positive", "playful", "laughing", "mouth-covered", "scheming"],
+        "keywords": ["偷笑", "窃喜", "嘿嘿", "有点好笑", "你懂的"]
+      },
+      {
+        "url": "output/bilibili/bl_42.avif",
+        "name": "阴险",
+        "tags": ["negative", "sarcastic", "smirking", "evil-grin", "scheming", "playful"],
+        "keywords": ["阴险", "坏笑", "嘿嘿嘿", "计划通", "搞事情"]
+      },
+      {
+        "url": "output/bilibili/bl_43.avif",
+        "name": "呆",
+        "tags": ["neutral", "plain", "blank-stare", "stunned", "speechless"],
+        "keywords": ["呆", "发呆", "呆住", "愣住"]
+      },
+      {
+        "url": "output/bilibili/bl_44.avif",
+        "name": "鼓掌",
+        "tags": ["positive", "supportive", "clapping", "applause", "praise"],
+        "keywords": ["鼓掌", "掌声", "真棒", "精彩"]
+      },
+      {
+        "url": "output/bilibili/bl_45.avif",
+        "name": "尴尬",
+        "tags": ["negative", "plain", "sweating", "awkward", "speechless", "cringing"],
+        "keywords": ["尴尬", "汗", "不知道怎么回", "尬住", "脚趾抠地"]
+      },
+      {
+        "url": "output/bilibili/bl_46.avif",
+        "name": "灵魂出窍",
+        "tags": ["negative", "humorous", "soul", "exhausted", "overwhelmed"],
+        "keywords": ["灵魂出窍", "魂没了", "累瘫", "人傻了"]
+      },
+      {
+        "url": "output/bilibili/bl_47.avif",
+        "name": "冷",
+        "tags": ["negative", "plain", "cold", "freezing", "shivering"],
+        "keywords": ["冷", "好冷", "冻死了", "瑟瑟发抖"]
+      },
+      {
+        "url": "output/bilibili/bl_48.avif",
+        "name": "热",
+        "tags": ["negative", "plain", "hot", "sweating", "overheated"],
+        "keywords": ["热", "好热", "热死了", "快化了"]
+      },
+      {
+        "url": "output/bilibili/bl_49.avif",
+        "name": "生病",
+        "tags": ["negative", "plain", "sick", "fever", "unwell"],
+        "keywords": ["生病", "发烧", "不舒服", "难受"]
+      },
+      {
+        "url": "output/bilibili/bl_50.avif",
+        "name": "生气",
+        "tags": ["negative", "plain", "angry", "pouting", "frustrated"],
+        "keywords": ["生气", "怒", "气鼓鼓", "不爽", "我生气了"]
+      },
+      {
+        "url": "output/bilibili/bl_51.avif",
+        "name": "捂眼",
+        "tags": ["neutral", "playful", "covering-eyes", "embarrassed", "shy"],
+        "keywords": ["捂眼", "不敢看", "没眼看", "害羞"]
+      },
+      {
+        "url": "output/bilibili/bl_52.avif",
+        "name": "嘘声",
+        "tags": ["neutral", "plain", "shushing", "quiet", "secret"],
+        "keywords": ["嘘声", "嘘", "小声点", "保密"]
+      },
+      {
+        "url": "output/bilibili/bl_53.avif",
+        "name": "再见",
+        "tags": ["neutral", "plain", "waving", "goodbye"],
+        "keywords": ["再见", "拜拜", "溜了", "下次聊"]
+      },
+      {
+        "url": "output/bilibili/bl_54.avif",
+        "name": "翻白眼",
+        "tags": ["negative", "sarcastic", "eye-rolling", "disdain", "annoyed"],
+        "keywords": ["翻白眼", "白眼", "无语", "嫌弃"]
+      },
+      {
+        "url": "output/bilibili/bl_55.avif",
+        "name": "抓狂",
+        "tags": ["negative", "plain", "frustrated", "annoyed", "speechless", "exaggerated"],
+        "keywords": ["抓狂", "啊啊啊", "崩溃", "救命", "我真的会谢"]
+      },
+      {
+        "url": "output/bilibili/bl_56.avif",
+        "name": "哈欠",
+        "tags": ["neutral", "plain", "yawning", "sleepy", "tired"],
+        "keywords": ["哈欠", "困了", "无聊", "好累"]
+      },
+      {
+        "url": "output/bilibili/bl_57.avif",
+        "name": "奋斗",
+        "tags": ["positive", "supportive", "effort", "determined", "encouragement"],
+        "keywords": ["奋斗", "努力", "加油", "坚持"]
+      },
+      {
+        "url": "output/bilibili/bl_58.avif",
+        "name": "墨镜",
+        "tags": ["positive", "playful", "sunglasses", "cool", "confident"],
+        "keywords": ["墨镜", "酷", "帅", "大佬"]
+      },
+      {
+        "url": "output/bilibili/bl_59.avif",
+        "name": "难过",
+        "tags": ["negative", "plain", "sad", "upset", "disappointed"],
+        "keywords": ["难过", "伤心", "不开心", "失落"]
+      },
+      {
+        "url": "output/bilibili/bl_60.avif",
+        "name": "口罩",
+        "tags": ["neutral", "plain", "mask", "health", "protection"],
+        "keywords": ["口罩", "戴口罩", "注意防护", "保重身体"]
+      },
+      {
+        "url": "output/bilibili/bl_61.avif",
+        "name": "撇嘴",
+        "tags": ["negative", "plain", "pouting", "displeased", "doubtful"],
+        "keywords": ["撇嘴", "不乐意", "嫌弃", "不认同"]
+      },
+      {
+        "url": "output/bilibili/bl_62.avif",
+        "name": "黑猫",
+        "tags": ["positive", "playful", "black-cat", "cat", "cute"],
+        "keywords": ["黑猫", "猫猫", "喵", "可爱"]
+      },
+      {
+        "url": "output/bilibili/bl_63.avif",
+        "name": "三花猫",
+        "tags": ["positive", "playful", "calico-cat", "cat", "cute"],
+        "keywords": ["三花猫", "猫猫", "三花", "可爱"]
+      },
+      {
+        "url": "output/bilibili/bl_64.avif",
+        "name": "折耳猫",
+        "tags": ["positive", "playful", "folded-ear-cat", "cat", "cute"],
+        "keywords": ["折耳猫", "猫猫", "喵", "可爱"]
+      },
+      {
+        "url": "output/bilibili/bl_65.avif",
+        "name": "豹富",
+        "tags": ["positive", "humorous", "leopard", "money", "wealth"],
+        "keywords": ["豹富", "暴富", "发财", "财源滚滚"]
+      },
+      {
+        "url": "output/bilibili/bl_66.avif",
+        "name": "水稻",
+        "tags": ["neutral", "plain", "rice", "grain", "harvest"],
+        "keywords": ["水稻", "稻谷", "粮食", "丰收"]
+      },
+      {
+        "url": "output/bilibili/bl_67.avif",
+        "name": "奶茶干杯",
+        "tags": ["positive", "playful", "bubble-tea", "cheers", "celebration"],
+        "keywords": ["奶茶干杯", "奶茶", "干杯", "一起喝"]
+      },
+      {
+        "url": "output/bilibili/bl_68.avif",
+        "name": "汤圆",
+        "tags": ["positive", "plain", "tangyuan", "food", "reunion"],
+        "keywords": ["汤圆", "元宵", "团圆", "甜甜的"]
+      },
+      {
+        "url": "output/bilibili/bl_69.avif",
+        "name": "锦鲤",
+        "tags": ["positive", "plain", "koi", "good-luck", "blessing"],
+        "keywords": ["锦鲤", "好运", "转运", "心想事成"]
+      },
+      {
+        "url": "output/bilibili/bl_70.avif",
+        "name": "福到了",
+        "tags": ["positive", "supportive", "blessing", "good-luck", "new-year"],
+        "keywords": ["福到了", "福到", "好运", "新年快乐"]
+      },
+      {
+        "url": "output/bilibili/bl_71.avif",
+        "name": "鸡腿",
+        "tags": ["positive", "supportive", "chicken", "food", "reward"],
+        "keywords": ["鸡腿", "加鸡腿", "奖励", "好吃"]
+      },
+      {
+        "url": "output/bilibili/bl_72.avif",
+        "name": "雪花",
+        "tags": ["neutral", "plain", "snowflake", "winter", "cold"],
+        "keywords": ["雪花", "下雪", "冬天", "寒冷"]
+      },
+      {
+        "url": "output/bilibili/bl_73.avif",
+        "name": "干杯",
+        "tags": ["positive", "plain", "beer", "cheers", "celebration"],
+        "keywords": ["干杯", "啤酒", "喝一杯", "庆祝"]
+      },
+      {
+        "url": "output/bilibili/bl_74.avif",
+        "name": "黑洞",
+        "tags": ["neutral", "plain", "black-hole", "space", "universe"],
+        "keywords": ["黑洞", "宇宙", "太空", "吞噬"]
+      },
+      {
+        "url": "output/bilibili/bl_75.avif",
+        "name": "爱心",
+        "tags": ["positive", "plain", "heart", "love", "affection"],
+        "keywords": ["爱心", "爱你", "喜欢", "心动"]
+      },
+      {
+        "url": "output/bilibili/bl_76.avif",
+        "name": "胜利",
+        "tags": ["positive", "playful", "victory", "peace", "celebration"],
+        "keywords": ["胜利", "耶", "比耶", "成功"]
+      },
+      {
+        "url": "output/bilibili/bl_77.avif",
+        "name": "加油",
+        "tags": ["positive", "supportive", "flexing", "strong", "encouragement"],
+        "keywords": ["加油", "努力", "你可以的", "坚持"]
+      },
+      {
+        "url": "output/bilibili/bl_78.avif",
+        "name": "抱拳",
+        "tags": ["positive", "plain", "bowing-hands", "thanks", "respect"],
+        "keywords": ["抱拳", "佩服", "感谢", "承让"]
+      },
+      {
+        "url": "output/bilibili/bl_79.avif",
+        "name": "响指",
+        "tags": ["positive", "playful", "finger-snap", "idea", "confident"],
+        "keywords": ["响指", "打响指", "有了", "搞定"]
+      },
+      {
+        "url": "output/bilibili/bl_80.avif",
+        "name": "保佑",
+        "tags": ["positive", "supportive", "praying", "hope", "blessing"],
+        "keywords": ["保佑", "祈祷", "拜托", "心想事成"]
+      },
+      {
+        "url": "output/bilibili/bl_81.avif",
+        "name": "福",
+        "tags": ["positive", "supportive", "blessing", "good-luck", "new-year"],
+        "keywords": ["福", "福气", "好运", "新年快乐"]
+      },
+      {
+        "url": "output/bilibili/bl_82.avif",
+        "name": "支持",
+        "tags": ["positive", "supportive", "thumbs-up", "approval", "encouragement"],
+        "keywords": ["支持", "赞同", "点赞", "力挺"]
+      },
+      {
+        "url": "output/bilibili/bl_83.avif",
+        "name": "拥抱",
+        "tags": ["positive", "supportive", "hug", "comfort", "affection"],
+        "keywords": ["拥抱", "抱抱", "安慰", "温暖"]
+      },
+      {
+        "url": "output/bilibili/bl_84.avif",
+        "name": "跪了",
+        "tags": ["neutral", "humorous", "kneeling", "admiration", "surrender"],
+        "keywords": ["跪了", "给跪了", "服了", "佩服"]
+      },
+      {
+        "url": "output/bilibili/bl_85.avif",
+        "name": "怪我咯",
+        "tags": ["neutral", "humorous", "shrugging", "helpless", "innocent"],
+        "keywords": ["怪我咯", "怪我吗", "无奈", "摊手"]
+      },
+      {
+        "url": "output/bilibili/bl_86.avif",
+        "name": "老鼠",
+        "tags": ["positive", "playful", "mouse", "cute", "animal"],
+        "keywords": ["老鼠", "鼠鼠", "小老鼠", "可爱"]
       }
     ]
   },
@@ -3720,6 +4710,1068 @@
         "name": "皱眉",
         "tags": ["negative", "plain", "frowning", "doubting", "displeased"],
         "keywords": ["皱眉", "不悦", "感觉不对", "疑惑"]
+      },
+      {
+        "url": "output/weibo/wb_31.avif",
+        "name": "不愧是你",
+        "tags": ["positive", "humorous", "approval", "pointing", "admiration"],
+        "keywords": ["不愧是你", "厉害了", "果然是你", "服了"]
+      },
+      {
+        "url": "output/weibo/wb_32.avif",
+        "name": "流鼻血",
+        "tags": ["neutral", "humorous", "nosebleed", "excited", "attracted"],
+        "keywords": ["流鼻血", "太刺激了", "心动", "受不了"]
+      },
+      {
+        "url": "output/weibo/wb_33.avif",
+        "name": "期待",
+        "tags": ["positive", "playful", "anticipation", "hope", "excited"],
+        "keywords": ["期待", "好期待", "等不及了", "盼着"]
+      },
+      {
+        "url": "output/weibo/wb_34.avif",
+        "name": "无聊",
+        "tags": ["negative", "plain", "bored", "unimpressed", "idle"],
+        "keywords": ["无聊", "好无聊", "没意思", "发呆"]
+      },
+      {
+        "url": "output/weibo/wb_35.avif",
+        "name": "呵呵",
+        "tags": ["negative", "sarcastic", "smiling", "dismissive", "disdain"],
+        "keywords": ["呵呵", "冷笑", "无语", "看傻子", "不想理你"]
+      },
+      {
+        "url": "output/weibo/wb_36.avif",
+        "name": "拜托",
+        "tags": ["positive", "supportive", "praying", "pleading", "thanks"],
+        "keywords": ["拜托", "求求了", "谢谢", "双手合十"]
+      },
+      {
+        "url": "output/weibo/wb_37.avif",
+        "name": "卡皮巴拉",
+        "tags": ["neutral", "playful", "capybara", "calm", "relaxed"],
+        "keywords": ["卡皮巴拉", "水豚", "淡定", "松弛感"]
+      },
+      {
+        "url": "output/weibo/wb_38.avif",
+        "name": "手指比心",
+        "tags": ["positive", "playful", "finger-heart", "love", "affection"],
+        "keywords": ["手指比心", "比心", "爱你", "喜欢"]
+      },
+      {
+        "url": "output/weibo/wb_39.avif",
+        "name": "奶牛猫",
+        "tags": ["positive", "playful", "cat", "love", "cute"],
+        "keywords": ["奶牛猫", "猫猫", "可爱", "喵"]
+      },
+      {
+        "url": "output/weibo/wb_40.avif",
+        "name": "柯基",
+        "tags": ["positive", "playful", "corgi", "dog", "cute"],
+        "keywords": ["柯基", "狗狗", "可爱", "汪"]
+      },
+      {
+        "url": "output/weibo/wb_41.avif",
+        "name": "达咩",
+        "tags": ["negative", "playful", "rejection", "no", "refusal"],
+        "keywords": ["达咩", "不可以", "拒绝", "不要"]
+      },
+      {
+        "url": "output/weibo/wb_42.avif",
+        "name": "药",
+        "tags": ["neutral", "humorous", "pill", "medicine", "treatment"],
+        "keywords": ["药", "药丸", "吃药", "该吃药了", "药不能停"]
+      },
+      {
+        "url": "output/weibo/wb_43.avif",
+        "name": "祈祷",
+        "tags": ["positive", "supportive", "praying", "hope", "blessing"],
+        "keywords": ["祈祷", "保佑", "祈福", "双手合十"]
+      },
+      {
+        "url": "output/weibo/wb_44.avif",
+        "name": "加油",
+        "tags": ["positive", "supportive", "flexing", "strong", "encouragement"],
+        "keywords": ["加油", "努力", "你可以的", "坚持"]
+      },
+      {
+        "url": "output/weibo/wb_45.avif",
+        "name": "鸡腿",
+        "tags": ["positive", "supportive", "chicken", "food", "reward"],
+        "keywords": ["鸡腿", "加鸡腿", "奖励", "好吃"]
+      },
+      {
+        "url": "output/weibo/wb_46.avif",
+        "name": "便便",
+        "tags": ["negative", "humorous", "poop", "disgusted", "mocking"],
+        "keywords": ["便便", "大便", "拉了", "一坨"]
+      },
+      {
+        "url": "output/weibo/wb_47.avif",
+        "name": "锦鲤附体",
+        "tags": ["positive", "playful", "koi", "good-luck", "wish"],
+        "keywords": ["锦鲤附体", "好运", "心想事成", "保佑"]
+      },
+      {
+        "url": "output/weibo/wb_48.avif",
+        "name": "爱慕",
+        "tags": ["positive", "plain", "heart-eyes", "love", "admiration"],
+        "keywords": ["爱慕", "喜欢", "心动", "好爱"]
+      },
+      {
+        "url": "output/weibo/wb_49.avif",
+        "name": "么么哒",
+        "tags": ["positive", "playful", "kissing", "love", "affection"],
+        "keywords": ["么么哒", "亲亲", "飞吻", "爱你"]
+      },
+      {
+        "url": "output/weibo/wb_50.avif",
+        "name": "蛋糕",
+        "tags": ["positive", "plain", "cake", "birthday", "celebration"],
+        "keywords": ["蛋糕", "生日快乐", "庆生", "祝福"]
+      },
+      {
+        "url": "output/weibo/wb_51.avif",
+        "name": "快乐打卡",
+        "tags": ["positive", "plain", "travel", "check-in", "happy"],
+        "keywords": ["快乐打卡", "打卡", "旅行", "到此一游"]
+      },
+      {
+        "url": "output/weibo/wb_52.avif",
+        "name": "假期开启",
+        "tags": ["positive", "plain", "holiday", "calendar", "relaxed"],
+        "keywords": ["假期开启", "放假", "休假", "假期快乐"]
+      },
+      {
+        "url": "output/weibo/wb_53.avif",
+        "name": "团圆时刻",
+        "tags": ["positive", "plain", "reunion", "mid-autumn", "affection"],
+        "keywords": ["团圆时刻", "团圆", "中秋快乐", "相聚"]
+      },
+      {
+        "url": "output/weibo/wb_54.avif",
+        "name": "好事甜圆",
+        "tags": ["positive", "plain", "mooncake", "mid-autumn", "blessing"],
+        "keywords": ["好事甜圆", "月饼", "中秋", "团团圆圆"]
+      },
+      {
+        "url": "output/weibo/wb_55.avif",
+        "name": "园丁",
+        "tags": ["positive", "supportive", "gardening", "flowers", "care"],
+        "keywords": ["园丁", "种花", "照料", "培育"]
+      },
+      {
+        "url": "output/weibo/wb_56.avif",
+        "name": "写作业",
+        "tags": ["neutral", "plain", "homework", "studying", "focused"],
+        "keywords": ["写作业", "学习", "做题", "赶作业"]
+      },
+      {
+        "url": "output/weibo/wb_57.avif",
+        "name": "毕业快乐",
+        "tags": ["positive", "supportive", "graduation", "celebration", "blessing"],
+        "keywords": ["毕业快乐", "毕业", "祝福", "前程似锦"]
+      },
+      {
+        "url": "output/weibo/wb_58.avif",
+        "name": "有票了",
+        "tags": ["positive", "plain", "ticket", "excited", "celebration"],
+        "keywords": ["有票了", "抢到票了", "演唱会", "开心"]
+      },
+      {
+        "url": "output/weibo/wb_59.avif",
+        "name": "开摆",
+        "tags": ["neutral", "humorous", "resting", "relaxed", "giving-up"],
+        "keywords": ["开摆", "摆烂", "躺平", "不干了"]
+      },
+      {
+        "url": "output/weibo/wb_60.avif",
+        "name": "淡淡的",
+        "tags": ["neutral", "plain", "calm", "indifferent", "relaxed"],
+        "keywords": ["淡淡的", "淡定", "无所谓", "平常心"]
+      },
+      {
+        "url": "output/weibo/wb_61.avif",
+        "name": "鼓掌",
+        "tags": ["positive", "supportive", "clapping", "applause", "praise"],
+        "keywords": ["鼓掌", "掌声", "真棒", "精彩"]
+      },
+      {
+        "url": "output/weibo/wb_62.avif",
+        "name": "挤眼",
+        "tags": ["positive", "playful", "winking", "teasing", "joking"],
+        "keywords": ["挤眼", "眨眼", "你懂的", "开玩笑"]
+      },
+      {
+        "url": "output/weibo/wb_63.avif",
+        "name": "黑线",
+        "tags": ["negative", "plain", "annoyed", "face-lines", "speechless"],
+        "keywords": ["黑线", "无语", "满头黑线", "服了"]
+      },
+      {
+        "url": "output/weibo/wb_64.avif",
+        "name": "汗",
+        "tags": ["neutral", "plain", "sweating", "speechless", "awkward"],
+        "keywords": ["汗", "流汗", "尴尬", "无语", "瀑布汗"]
+      },
+      {
+        "url": "output/weibo/wb_65.avif",
+        "name": "挖鼻",
+        "tags": ["neutral", "playful", "nose-picking", "bored", "indifferent"],
+        "keywords": ["挖鼻", "抠鼻", "无聊", "随便吧", "嗯嗯"]
+      },
+      {
+        "url": "output/weibo/wb_66.avif",
+        "name": "哼",
+        "tags": ["negative", "playful", "pouting", "angry", "displeased"],
+        "keywords": ["哼", "不高兴", "生闷气", "不理你"]
+      },
+      {
+        "url": "output/weibo/wb_67.avif",
+        "name": "怒",
+        "tags": ["negative", "plain", "angry", "frustrated", "arguing"],
+        "keywords": ["怒", "生气", "愤怒", "怒火中烧", "气死了"]
+      },
+      {
+        "url": "output/weibo/wb_68.avif",
+        "name": "委屈",
+        "tags": ["negative", "plain", "pouting", "sad-eyes", "seeking-comfort", "playing-victim"],
+        "keywords": ["委屈", "宝宝委屈", "难过", "想哭", "嘤嘤嘤"]
+      },
+      {
+        "url": "output/weibo/wb_69.avif",
+        "name": "害羞",
+        "tags": ["positive", "playful", "blushing", "modest"],
+        "keywords": ["害羞", "不好意思", "脸红", "嘿嘿", "过奖了"]
+      },
+      {
+        "url": "output/weibo/wb_70.avif",
+        "name": "污",
+        "tags": ["neutral", "humorous", "covering-eyes", "embarrassed", "innuendo"],
+        "keywords": ["污", "污污污", "没眼看", "羞羞"]
+      },
+      {
+        "url": "output/weibo/wb_71.avif",
+        "name": "亲亲",
+        "tags": ["positive", "playful", "kissing", "love", "affection"],
+        "keywords": ["亲亲", "么么哒", "亲一个", "爱你"]
+      },
+      {
+        "url": "output/weibo/wb_72.avif",
+        "name": "抱一抱",
+        "tags": ["positive", "supportive", "hug", "comfort", "affection"],
+        "keywords": ["抱一抱", "抱抱", "安慰", "不难过"]
+      },
+      {
+        "url": "output/weibo/wb_73.avif",
+        "name": "色",
+        "tags": ["positive", "playful", "heart-eyes", "attracted", "love"],
+        "keywords": ["色", "好色", "花痴", "心动"]
+      },
+      {
+        "url": "output/weibo/wb_74.avif",
+        "name": "舔屏",
+        "tags": ["positive", "humorous", "tongue-out", "attracted", "admiration"],
+        "keywords": ["舔屏", "好看", "馋了", "流口水"]
+      },
+      {
+        "url": "output/weibo/wb_75.avif",
+        "name": "坏笑",
+        "tags": ["neutral", "playful", "smirking", "mischievous", "teasing"],
+        "keywords": ["坏笑", "嘿嘿", "你懂的", "不怀好意"]
+      },
+      {
+        "url": "output/weibo/wb_76.avif",
+        "name": "阴险",
+        "tags": ["negative", "sarcastic", "smirking", "evil-grin", "scheming", "playful"],
+        "keywords": ["阴险", "坏笑", "嘿嘿嘿", "计划通", "搞事情"]
+      },
+      {
+        "url": "output/weibo/wb_77.avif",
+        "name": "偷笑",
+        "tags": ["positive", "playful", "laughing", "mouth-covered", "scheming"],
+        "keywords": ["偷笑", "窃喜", "嘿嘿", "有点好笑", "你懂的"]
+      },
+      {
+        "url": "output/weibo/wb_78.avif",
+        "name": "666",
+        "tags": ["positive", "humorous", "praise", "approval", "impressed"],
+        "keywords": ["666", "厉害", "牛", "秀啊"]
+      },
+      {
+        "url": "output/weibo/wb_79.avif",
+        "name": "并不简单",
+        "tags": ["neutral", "humorous", "suspicious", "observing", "clever"],
+        "keywords": ["并不简单", "有点东西", "不简单", "看穿了"]
+      },
+      {
+        "url": "output/weibo/wb_80.avif",
+        "name": "思考",
+        "tags": ["neutral", "plain", "thinking", "skeptical", "doubting", "contemplating"],
+        "keywords": ["思考", "让我想想", "嗯", "hmm", "沉思", "此问题存疑"]
+      },
+      {
+        "url": "output/weibo/wb_81.avif",
+        "name": "疑问",
+        "tags": ["neutral", "plain", "questioning", "confused", "doubting", "skeptical"],
+        "keywords": ["疑问", "问号", "什么", "不懂", "黑人问号"]
+      },
+      {
+        "url": "output/weibo/wb_82.avif",
+        "name": "费解",
+        "tags": ["negative", "plain", "confused", "questioning", "puzzled"],
+        "keywords": ["费解", "看不懂", "不理解", "疑惑"]
+      },
+      {
+        "url": "output/weibo/wb_83.avif",
+        "name": "晕",
+        "tags": ["negative", "plain", "dizzy", "confused", "overwhelmed"],
+        "keywords": ["晕", "头晕", "晕了", "转圈圈"]
+      },
+      {
+        "url": "output/weibo/wb_84.avif",
+        "name": "衰",
+        "tags": ["negative", "plain", "dizzy", "unwell", "unlucky"],
+        "keywords": ["衰", "倒霉", "不顺", "运气不好", "我太难了"]
+      },
+      {
+        "url": "output/weibo/wb_85.avif",
+        "name": "骷髅",
+        "tags": ["negative", "humorous", "skull", "death", "exhausted"],
+        "keywords": ["骷髅", "死了", "累死了", "吓死"]
+      },
+      {
+        "url": "output/weibo/wb_86.avif",
+        "name": "嘘",
+        "tags": ["neutral", "plain", "shushing", "quiet", "secret"],
+        "keywords": ["嘘", "小声点", "安静", "保密"]
+      },
+      {
+        "url": "output/weibo/wb_87.avif",
+        "name": "闭嘴",
+        "tags": ["neutral", "plain", "silent", "quiet", "sealed-mouth"],
+        "keywords": ["闭嘴", "不说话", "封口", "保密"]
+      },
+      {
+        "url": "output/weibo/wb_88.avif",
+        "name": "傻眼",
+        "tags": ["negative", "plain", "stunned", "speechless", "shocked"],
+        "keywords": ["傻眼", "愣住", "懵了", "无语"]
+      },
+      {
+        "url": "output/weibo/wb_89.avif",
+        "name": "感冒",
+        "tags": ["negative", "plain", "mask", "sick", "cold"],
+        "keywords": ["感冒", "戴口罩", "不舒服", "注意防护"]
+      },
+      {
+        "url": "output/weibo/wb_90.avif",
+        "name": "吃惊",
+        "tags": ["neutral", "plain", "surprised", "shocked", "wide-eyed"],
+        "keywords": ["吃惊", "惊讶", "震惊", "天哪"]
+      },
+      {
+        "url": "output/weibo/wb_91.avif",
+        "name": "生病",
+        "tags": ["negative", "plain", "sick", "fever", "unwell"],
+        "keywords": ["生病", "发烧", "不舒服", "难受"]
+      },
+      {
+        "url": "output/weibo/wb_92.avif",
+        "name": "吐",
+        "tags": ["negative", "plain", "vomiting", "disgusted", "sick"],
+        "keywords": ["吐", "恶心", "反胃", "受不了"]
+      },
+      {
+        "url": "output/weibo/wb_93.avif",
+        "name": "拜拜",
+        "tags": ["neutral", "plain", "waving", "goodbye", "farewell"],
+        "keywords": ["拜拜", "再见", "告辞", "走了"]
+      },
+      {
+        "url": "output/weibo/wb_94.avif",
+        "name": "鄙视",
+        "tags": ["negative", "sarcastic", "disdain", "unimpressed", "judging"],
+        "keywords": ["鄙视", "看不起", "无语", "嫌弃"]
+      },
+      {
+        "url": "output/weibo/wb_95.avif",
+        "name": "左哼哼",
+        "tags": ["negative", "playful", "pouting", "angry", "turning-left"],
+        "keywords": ["左哼哼", "哼", "生气", "不理你"]
+      },
+      {
+        "url": "output/weibo/wb_96.avif",
+        "name": "右哼哼",
+        "tags": ["negative", "playful", "pouting", "angry", "turning-right"],
+        "keywords": ["右哼哼", "哼", "生气", "不理你"]
+      },
+      {
+        "url": "output/weibo/wb_97.avif",
+        "name": "抓狂",
+        "tags": ["negative", "plain", "frustrated", "annoyed", "speechless", "exaggerated"],
+        "keywords": ["抓狂", "啊啊啊", "崩溃", "救命", "我真的会谢"]
+      },
+      {
+        "url": "output/weibo/wb_98.avif",
+        "name": "怒骂",
+        "tags": ["negative", "plain", "angry", "swearing", "arguing"],
+        "keywords": ["怒骂", "骂人", "气死了", "愤怒"]
+      },
+      {
+        "url": "output/weibo/wb_99.avif",
+        "name": "打脸",
+        "tags": ["negative", "humorous", "slap", "embarrassed", "contradicted"],
+        "keywords": ["打脸", "啪啪打脸", "翻车", "尴尬"]
+      },
+      {
+        "url": "output/weibo/wb_100.avif",
+        "name": "努力",
+        "tags": ["positive", "supportive", "effort", "determined", "encouragement"],
+        "keywords": ["努力", "加油", "奋斗", "坚持"]
+      },
+      {
+        "url": "output/weibo/wb_101.avif",
+        "name": "顶",
+        "tags": ["negative", "humorous", "hammer", "hit", "pain"],
+        "keywords": ["顶", "敲打", "砸头", "顶一下"]
+      },
+      {
+        "url": "output/weibo/wb_102.avif",
+        "name": "钱",
+        "tags": ["positive", "humorous", "money", "wealth", "greedy"],
+        "keywords": ["钱", "发财", "钱钱", "见钱眼开"]
+      },
+      {
+        "url": "output/weibo/wb_103.avif",
+        "name": "哈欠",
+        "tags": ["neutral", "plain", "yawning", "sleepy", "tired"],
+        "keywords": ["哈欠", "困了", "无聊", "好累"]
+      },
+      {
+        "url": "output/weibo/wb_104.avif",
+        "name": "困",
+        "tags": ["neutral", "plain", "sleepy", "tired", "exhausted"],
+        "keywords": ["困", "困了", "想睡觉", "没精神"]
+      },
+      {
+        "url": "output/weibo/wb_105.avif",
+        "name": "求饶",
+        "tags": ["negative", "playful", "pleading", "apology", "afraid"],
+        "keywords": ["求饶", "饶了我", "放过我", "认输了"]
+      },
+      {
+        "url": "output/weibo/wb_106.avif",
+        "name": "睡",
+        "tags": ["neutral", "plain", "sleeping", "resting", "tired"],
+        "keywords": ["睡", "睡觉", "晚安", "休息"]
+      },
+      {
+        "url": "output/weibo/wb_107.avif",
+        "name": "awsl",
+        "tags": ["positive", "humorous", "overwhelmed", "adorable", "excited"],
+        "keywords": ["awsl", "啊我死了", "可爱死了", "受不了"]
+      },
+      {
+        "url": "output/weibo/wb_108.avif",
+        "name": "打call",
+        "tags": ["positive", "supportive", "cheering", "support", "excited"],
+        "keywords": ["打call", "应援", "支持", "加油"]
+      },
+      {
+        "url": "output/weibo/wb_109.avif",
+        "name": "彩虹屁",
+        "tags": ["positive", "humorous", "praise", "flattery", "admiration"],
+        "keywords": ["彩虹屁", "夸夸", "吹爆", "太棒了"]
+      },
+      {
+        "url": "output/weibo/wb_110.avif",
+        "name": "送花花",
+        "tags": ["positive", "supportive", "flowers", "gratitude", "affection"],
+        "keywords": ["送花花", "送花", "谢谢", "喜欢你"]
+      },
+      {
+        "url": "output/weibo/wb_111.avif",
+        "name": "上课了",
+        "tags": ["neutral", "plain", "studying", "reading", "class"],
+        "keywords": ["上课了", "上课", "学习", "认真听讲"]
+      },
+      {
+        "url": "output/weibo/wb_112.avif",
+        "name": "比耶",
+        "tags": ["positive", "playful", "victory", "peace", "celebration"],
+        "keywords": ["比耶", "耶", "开心", "胜利"]
+      },
+      {
+        "url": "output/weibo/wb_113.avif",
+        "name": "打工人",
+        "tags": ["neutral", "humorous", "work", "employee", "greeting"],
+        "keywords": ["打工人", "上班", "打工", "早安打工人"]
+      },
+      {
+        "url": "output/weibo/wb_114.avif",
+        "name": "干饭人",
+        "tags": ["positive", "humorous", "eating", "hungry", "food"],
+        "keywords": ["干饭人", "干饭", "吃饭", "饿了"]
+      },
+      {
+        "url": "output/weibo/wb_115.avif",
+        "name": "钢镚儿",
+        "tags": ["positive", "humorous", "coin", "money", "wealth"],
+        "keywords": ["钢镚儿", "硬币", "钱", "攒钱"]
+      },
+      {
+        "url": "output/weibo/wb_116.avif",
+        "name": "老师夸夸",
+        "tags": ["positive", "supportive", "praise", "approval", "encouragement"],
+        "keywords": ["老师夸夸", "夸夸", "表扬", "真棒"]
+      },
+      {
+        "url": "output/weibo/wb_117.avif",
+        "name": "看书",
+        "tags": ["neutral", "plain", "reading", "learning", "studying"],
+        "keywords": ["看书", "读书", "学习", "阅读"]
+      },
+      {
+        "url": "output/weibo/wb_118.avif",
+        "name": "融化",
+        "tags": ["neutral", "humorous", "melting", "hot", "overwhelmed"],
+        "keywords": ["融化", "热化了", "化了", "招架不住"]
+      },
+      {
+        "url": "output/weibo/wb_119.avif",
+        "name": "狗粮",
+        "tags": ["neutral", "humorous", "pet-food", "romance", "envy"],
+        "keywords": ["狗粮", "吃狗粮", "秀恩爱", "单身狗"]
+      },
+      {
+        "url": "output/weibo/wb_120.avif",
+        "name": "相爱",
+        "tags": ["positive", "plain", "love", "heart", "couple"],
+        "keywords": ["相爱", "爱情", "两情相悦", "爱你"]
+      },
+      {
+        "url": "output/weibo/wb_121.avif",
+        "name": "你好老师",
+        "tags": ["positive", "plain", "greeting", "teacher", "flowers"],
+        "keywords": ["你好老师", "老师好", "教师节快乐", "送花"]
+      },
+      {
+        "url": "output/weibo/wb_122.avif",
+        "name": "老师爱你",
+        "tags": ["positive", "supportive", "love", "teacher", "heart"],
+        "keywords": ["老师爱你", "爱你", "比心", "鼓励"]
+      },
+      {
+        "url": "output/weibo/wb_123.avif",
+        "name": "揣手",
+        "tags": ["neutral", "playful", "hands-tucked", "waiting", "obedient"],
+        "keywords": ["揣手", "乖巧", "等着", "坐等"]
+      },
+      {
+        "url": "output/weibo/wb_124.avif",
+        "name": "举手",
+        "tags": ["neutral", "plain", "raising-hand", "volunteering", "responding"],
+        "keywords": ["举手", "我来", "提问", "报名"]
+      },
+      {
+        "url": "output/weibo/wb_125.avif",
+        "name": "抱抱",
+        "tags": ["positive", "supportive", "hug", "comfort", "affection"],
+        "keywords": ["抱抱", "安慰", "抱一个", "给你温暖"]
+      },
+      {
+        "url": "output/weibo/wb_126.avif",
+        "name": "摊手",
+        "tags": ["neutral", "humorous", "shrugging", "helpless", "uncertain"],
+        "keywords": ["摊手", "没办法", "无奈", "不知道"]
+      },
+      {
+        "url": "output/weibo/wb_127.avif",
+        "name": "跪了",
+        "tags": ["neutral", "humorous", "kneeling", "admiration", "surrender"],
+        "keywords": ["跪了", "给跪了", "服了", "佩服"]
+      },
+      {
+        "url": "output/weibo/wb_128.avif",
+        "name": "老师好",
+        "tags": ["positive", "plain", "bowing", "teacher", "greeting"],
+        "keywords": ["老师好", "老师辛苦了", "鞠躬", "敬礼"]
+      },
+      {
+        "url": "output/weibo/wb_129.avif",
+        "name": "收到",
+        "tags": ["positive", "plain", "salute", "acknowledgment", "agreement"],
+        "keywords": ["收到", "明白", "遵命", "知道了"]
+      },
+      {
+        "url": "output/weibo/wb_130.avif",
+        "name": "上岸",
+        "tags": ["positive", "supportive", "success", "achievement", "celebration"],
+        "keywords": ["上岸", "成功了", "考上了", "顺利通过"]
+      },
+      {
+        "url": "output/weibo/wb_131.avif",
+        "name": "你好",
+        "tags": ["positive", "plain", "waving", "greeting", "friendly"],
+        "keywords": ["你好", "嗨", "打招呼", "哈喽"]
+      },
+      {
+        "url": "output/weibo/wb_132.avif",
+        "name": "我来了",
+        "tags": ["positive", "playful", "arriving", "greeting", "excited"],
+        "keywords": ["我来了", "来了", "报到", "登场"]
+      },
+      {
+        "url": "output/weibo/wb_133.avif",
+        "name": "我走了",
+        "tags": ["neutral", "playful", "leaving", "goodbye", "farewell"],
+        "keywords": ["我走了", "先走了", "告辞", "拜拜"]
+      },
+      {
+        "url": "output/weibo/wb_134.avif",
+        "name": "许愿星",
+        "tags": ["positive", "plain", "star", "wish", "hope"],
+        "keywords": ["许愿星", "许愿", "心想事成", "希望"]
+      },
+      {
+        "url": "output/weibo/wb_135.avif",
+        "name": "奶瓶",
+        "tags": ["neutral", "playful", "baby-bottle", "milk", "feeding"],
+        "keywords": ["奶瓶", "喝奶", "宝宝", "喂奶"]
+      },
+      {
+        "url": "output/weibo/wb_136.avif",
+        "name": "单身狗",
+        "tags": ["negative", "humorous", "single", "lonely", "dog"],
+        "keywords": ["单身狗", "单身", "没人爱", "孤独"]
+      },
+      {
+        "url": "output/weibo/wb_137.avif",
+        "name": "酸",
+        "tags": ["negative", "humorous", "lemon", "envy", "jealous"],
+        "keywords": ["酸", "我酸了", "羡慕", "柠檬"]
+      },
+      {
+        "url": "output/weibo/wb_138.avif",
+        "name": "二哈",
+        "tags": ["neutral", "humorous", "husky", "dog", "silly"],
+        "keywords": ["二哈", "哈士奇", "傻狗", "搞怪"]
+      },
+      {
+        "url": "output/weibo/wb_139.avif",
+        "name": "喵喵",
+        "tags": ["positive", "playful", "cat", "cute", "animal"],
+        "keywords": ["喵喵", "猫猫", "小猫", "卖萌"]
+      },
+      {
+        "url": "output/weibo/wb_140.avif",
+        "name": "doge",
+        "tags": ["neutral", "humorous", "sarcastic", "smirking", "joking", "hinting"],
+        "keywords": ["doge", "滑稽", "你懂的", "手动狗头", "有点好笑"]
+      },
+      {
+        "url": "output/weibo/wb_141.avif",
+        "name": "雪糕",
+        "tags": ["positive", "plain", "ice-cream", "food", "cool"],
+        "keywords": ["雪糕", "冰淇淋", "解暑", "凉快"]
+      },
+      {
+        "url": "output/weibo/wb_142.avif",
+        "name": "咖啡",
+        "tags": ["neutral", "plain", "coffee", "drink", "break"],
+        "keywords": ["咖啡", "喝咖啡", "提神", "休息一下"]
+      },
+      {
+        "url": "output/weibo/wb_143.avif",
+        "name": "给你小心心",
+        "tags": ["positive", "supportive", "heart", "love", "affection"],
+        "keywords": ["给你小心心", "小心心", "爱你", "比心"]
+      },
+      {
+        "url": "output/weibo/wb_144.avif",
+        "name": "雪花",
+        "tags": ["neutral", "plain", "snowflake", "winter", "cold"],
+        "keywords": ["雪花", "下雪", "冬天", "寒冷"]
+      },
+      {
+        "url": "output/weibo/wb_145.avif",
+        "name": "微风",
+        "tags": ["neutral", "plain", "breeze", "leaves", "nature"],
+        "keywords": ["微风", "清风", "风吹", "清爽"]
+      },
+      {
+        "url": "output/weibo/wb_146.avif",
+        "name": "中国赞",
+        "tags": ["positive", "supportive", "approval", "praise", "china"],
+        "keywords": ["中国赞", "赞", "中国加油", "点赞"]
+      },
+      {
+        "url": "output/weibo/wb_147.avif",
+        "name": "鲜花",
+        "tags": ["positive", "plain", "rose", "flowers", "affection"],
+        "keywords": ["鲜花", "玫瑰", "送花", "喜欢"]
+      },
+      {
+        "url": "output/weibo/wb_148.avif",
+        "name": "点亮平安灯",
+        "tags": ["positive", "supportive", "lantern", "peace", "blessing"],
+        "keywords": ["点亮平安灯", "平安", "祈福", "祝福"]
+      },
+      {
+        "url": "output/weibo/wb_149.avif",
+        "name": "绿丝带",
+        "tags": ["positive", "supportive", "ribbon", "charity", "care"],
+        "keywords": ["绿丝带", "公益", "关爱", "支持"]
+      },
+      {
+        "url": "output/weibo/wb_150.avif",
+        "name": "蜡烛",
+        "tags": ["negative", "plain", "candle", "mourning", "remembrance"],
+        "keywords": ["蜡烛", "默哀", "悼念", "缅怀"]
+      },
+      {
+        "url": "output/weibo/wb_151.avif",
+        "name": "白蜡烛",
+        "tags": ["negative", "plain", "candle", "mourning", "remembrance"],
+        "keywords": ["白蜡烛", "默哀", "悼念", "缅怀"]
+      },
+      {
+        "url": "output/weibo/wb_152.avif",
+        "name": "心",
+        "tags": ["positive", "plain", "heart", "love", "affection"],
+        "keywords": ["心", "爱心", "红心", "喜欢"]
+      },
+      {
+        "url": "output/weibo/wb_153.avif",
+        "name": "伤心",
+        "tags": ["negative", "plain", "broken-heart", "heartbroken", "sad"],
+        "keywords": ["伤心", "心碎", "失恋", "难过"]
+      },
+      {
+        "url": "output/weibo/wb_154.avif",
+        "name": "握手",
+        "tags": ["positive", "plain", "handshake", "agreement", "cooperation"],
+        "keywords": ["握手", "合作愉快", "幸会", "达成共识"]
+      },
+      {
+        "url": "output/weibo/wb_155.avif",
+        "name": "赞",
+        "tags": ["positive", "supportive", "thumbs-up", "agreeing", "approving"],
+        "keywords": ["赞", "点赞", "喜欢", "支持", "棒", "YYDS", "姐妹说的对"]
+      },
+      {
+        "url": "output/weibo/wb_156.avif",
+        "name": "good",
+        "tags": ["positive", "supportive", "thumbs-up", "praise", "approval"],
+        "keywords": ["good", "很好", "赞", "厉害"]
+      },
+      {
+        "url": "output/weibo/wb_157.avif",
+        "name": "弱",
+        "tags": ["negative", "plain", "thumbs-down", "disapproval", "weak"],
+        "keywords": ["弱", "太弱了", "不行", "差劲"]
+      },
+      {
+        "url": "output/weibo/wb_158.avif",
+        "name": "NO",
+        "tags": ["negative", "plain", "no", "rejection", "hand-gesture"],
+        "keywords": ["NO", "不行", "不可以", "拒绝"]
+      },
+      {
+        "url": "output/weibo/wb_159.avif",
+        "name": "haha",
+        "tags": ["positive", "playful", "rock-on", "hand-gesture", "excited"],
+        "keywords": ["haha", "摇滚", "嗨起来", "手势"]
+      },
+      {
+        "url": "output/weibo/wb_160.avif",
+        "name": "作揖",
+        "tags": ["positive", "plain", "bowing-hands", "thanks", "greeting"],
+        "keywords": ["作揖", "感谢", "拜托", "有礼了"]
+      },
+      {
+        "url": "output/weibo/wb_161.avif",
+        "name": "来",
+        "tags": ["neutral", "playful", "beckoning", "hand-gesture", "invitation"],
+        "keywords": ["来", "过来", "来呀", "勾手"]
+      },
+      {
+        "url": "output/weibo/wb_162.avif",
+        "name": "ok",
+        "tags": ["positive", "plain", "okay", "approval", "agreement"],
+        "keywords": ["ok", "好的", "没问题", "收到"]
+      },
+      {
+        "url": "output/weibo/wb_163.avif",
+        "name": "拳头",
+        "tags": ["neutral", "plain", "fist", "power", "determination"],
+        "keywords": ["拳头", "握拳", "力量", "加油"]
+      },
+      {
+        "url": "output/weibo/wb_164.avif",
+        "name": "耶",
+        "tags": ["positive", "playful", "victory", "peace", "hand-gesture"],
+        "keywords": ["耶", "比耶", "胜利", "成功"]
+      },
+      {
+        "url": "output/weibo/wb_165.avif",
+        "name": "熊猫",
+        "tags": ["positive", "playful", "panda", "animal", "cute"],
+        "keywords": ["熊猫", "国宝", "可爱", "萌"]
+      },
+      {
+        "url": "output/weibo/wb_166.avif",
+        "name": "兔子",
+        "tags": ["positive", "playful", "rabbit", "animal", "cute"],
+        "keywords": ["兔子", "小兔", "可爱", "萌"]
+      },
+      {
+        "url": "output/weibo/wb_167.avif",
+        "name": "猪头",
+        "tags": ["neutral", "humorous", "pig", "animal", "silly"],
+        "keywords": ["猪头", "猪", "笨蛋", "可爱"]
+      },
+      {
+        "url": "output/weibo/wb_168.avif",
+        "name": "草泥马",
+        "tags": ["neutral", "humorous", "alpaca", "animal", "swearing"],
+        "keywords": ["草泥马", "羊驼", "神兽", "吐槽"]
+      },
+      {
+        "url": "output/weibo/wb_169.avif",
+        "name": "太阳",
+        "tags": ["positive", "plain", "sun", "sunny", "warm"],
+        "keywords": ["太阳", "晴天", "早安", "阳光"]
+      },
+      {
+        "url": "output/weibo/wb_170.avif",
+        "name": "月亮",
+        "tags": ["neutral", "plain", "moon", "night", "resting"],
+        "keywords": ["月亮", "晚安", "夜晚", "好梦"]
+      },
+      {
+        "url": "output/weibo/wb_171.avif",
+        "name": "浮云",
+        "tags": ["neutral", "plain", "cloud", "sky", "indifference"],
+        "keywords": ["浮云", "云朵", "都是浮云", "看淡"]
+      },
+      {
+        "url": "output/weibo/wb_172.avif",
+        "name": "下雨",
+        "tags": ["negative", "plain", "rain", "weather", "gloomy"],
+        "keywords": ["下雨", "雨天", "阴雨", "淋雨"]
+      },
+      {
+        "url": "output/weibo/wb_173.avif",
+        "name": "沙尘暴",
+        "tags": ["negative", "plain", "dust-storm", "weather", "hazy"],
+        "keywords": ["沙尘暴", "风沙", "扬沙", "雾蒙蒙"]
+      },
+      {
+        "url": "output/weibo/wb_174.avif",
+        "name": "围观",
+        "tags": ["neutral", "playful", "watching", "crowd", "curious"],
+        "keywords": ["围观", "看热闹", "围观群众", "吃瓜"]
+      },
+      {
+        "url": "output/weibo/wb_175.avif",
+        "name": "飞机",
+        "tags": ["neutral", "plain", "airplane", "travel", "flight"],
+        "keywords": ["飞机", "飞行", "出发", "旅行"]
+      },
+      {
+        "url": "output/weibo/wb_176.avif",
+        "name": "话筒",
+        "tags": ["neutral", "plain", "microphone", "singing", "speaking"],
+        "keywords": ["话筒", "麦克风", "唱歌", "发言"]
+      },
+      {
+        "url": "output/weibo/wb_177.avif",
+        "name": "照相机",
+        "tags": ["neutral", "plain", "camera", "photo", "photography"],
+        "keywords": ["照相机", "相机", "拍照", "摄影"]
+      },
+      {
+        "url": "output/weibo/wb_178.avif",
+        "name": "音乐",
+        "tags": ["positive", "plain", "music", "singing", "melody"],
+        "keywords": ["音乐", "听歌", "唱歌", "音符"]
+      },
+      {
+        "url": "output/weibo/wb_179.avif",
+        "name": "喜",
+        "tags": ["positive", "plain", "wedding", "celebration", "joy"],
+        "keywords": ["喜", "喜事", "结婚", "恭喜"]
+      },
+      {
+        "url": "output/weibo/wb_180.avif",
+        "name": "给力",
+        "tags": ["positive", "supportive", "praise", "approval", "encouragement"],
+        "keywords": ["给力", "厉害", "真棒", "支持"]
+      },
+      {
+        "url": "output/weibo/wb_181.avif",
+        "name": "威武",
+        "tags": ["positive", "supportive", "mighty", "admiration", "praise"],
+        "keywords": ["威武", "厉害", "霸气", "V5"]
+      },
+      {
+        "url": "output/weibo/wb_182.avif",
+        "name": "可乐",
+        "tags": ["positive", "plain", "cola", "drink", "refreshing"],
+        "keywords": ["可乐", "喝可乐", "快乐水", "饮料"]
+      },
+      {
+        "url": "output/weibo/wb_183.avif",
+        "name": "干杯",
+        "tags": ["positive", "plain", "beer", "cheers", "celebration"],
+        "keywords": ["干杯", "啤酒", "喝一杯", "庆祝"]
+      },
+      {
+        "url": "output/weibo/wb_184.avif",
+        "name": "礼物",
+        "tags": ["positive", "plain", "gift", "surprise", "celebration"],
+        "keywords": ["礼物", "送礼", "惊喜", "祝福"]
+      },
+      {
+        "url": "output/weibo/wb_185.avif",
+        "name": "钟",
+        "tags": ["neutral", "plain", "clock", "time", "reminder"],
+        "keywords": ["钟", "时间", "几点了", "闹钟"]
+      },
+      {
+        "url": "output/weibo/wb_186.avif",
+        "name": "肥皂",
+        "tags": ["neutral", "humorous", "soap", "bathing", "cleaning"],
+        "keywords": ["肥皂", "洗澡", "香皂", "清洁"]
+      },
+      {
+        "url": "output/weibo/wb_187.avif",
+        "name": "神马",
+        "tags": ["neutral", "humorous", "text", "questioning", "puzzled"],
+        "keywords": ["神马", "什么", "啥", "疑问"]
+      },
+      {
+        "url": "output/weibo/wb_188.avif",
+        "name": "马到成功",
+        "tags": ["positive", "supportive", "horse", "success", "blessing"],
+        "keywords": ["马到成功", "成功", "顺利", "好运"]
+      },
+      {
+        "url": "output/weibo/wb_189.avif",
+        "name": "炸鸡啤酒",
+        "tags": ["positive", "plain", "fried-chicken", "beer", "food"],
+        "keywords": ["炸鸡啤酒", "炸鸡", "啤酒", "夜宵"]
+      },
+      {
+        "url": "output/weibo/wb_190.avif",
+        "name": "吃狗粮",
+        "tags": ["neutral", "humorous", "pet-food", "romance", "envy"],
+        "keywords": ["吃狗粮", "狗粮", "秀恩爱", "被虐了"]
+      },
+      {
+        "url": "output/weibo/wb_191.avif",
+        "name": "看跌",
+        "tags": ["negative", "plain", "downward", "falling", "trend"],
+        "keywords": ["看跌", "下跌", "下降", "跌了"]
+      },
+      {
+        "url": "output/weibo/wb_192.avif",
+        "name": "看涨",
+        "tags": ["positive", "plain", "upward", "rising", "trend"],
+        "keywords": ["看涨", "上涨", "上升", "涨了"]
+      },
+      {
+        "url": "output/weibo/wb_193.avif",
+        "name": "锦鲤",
+        "tags": ["positive", "plain", "koi", "good-luck", "blessing"],
+        "keywords": ["锦鲤", "好运", "转运", "心想事成"]
+      },
+      {
+        "url": "output/weibo/wb_194.avif",
+        "name": "炸鸡腿",
+        "tags": ["positive", "plain", "fried-chicken", "food", "hungry"],
+        "keywords": ["炸鸡腿", "炸鸡", "鸡腿", "好吃"]
+      },
+      {
+        "url": "output/weibo/wb_195.avif",
+        "name": "纸飞机",
+        "tags": ["neutral", "playful", "paper-airplane", "flight", "message"],
+        "keywords": ["纸飞机", "飞吧", "传递", "放飞"]
+      },
+      {
+        "url": "output/weibo/wb_196.avif",
+        "name": "棒棒糖",
+        "tags": ["positive", "playful", "lollipop", "candy", "sweet"],
+        "keywords": ["棒棒糖", "糖果", "甜甜的", "奖励"]
+      },
+      {
+        "url": "output/weibo/wb_197.avif",
+        "name": "求脱单",
+        "tags": ["neutral", "humorous", "single", "romance", "hope"],
+        "keywords": ["求脱单", "想谈恋爱", "脱单", "找对象"]
+      },
+      {
+        "url": "output/weibo/wb_198.avif",
+        "name": "撒狗粮",
+        "tags": ["positive", "humorous", "romance", "affection", "showing-love"],
+        "keywords": ["撒狗粮", "秀恩爱", "爱情", "甜蜜"]
+      },
+      {
+        "url": "output/weibo/wb_199.avif",
+        "name": "欢度国庆",
+        "tags": ["positive", "plain", "national-day", "celebration", "holiday"],
+        "keywords": ["欢度国庆", "国庆快乐", "国庆节", "假期"]
+      },
+      {
+        "url": "output/weibo/wb_200.avif",
+        "name": "姜饼人",
+        "tags": ["positive", "playful", "gingerbread", "cookie", "christmas"],
+        "keywords": ["姜饼人", "姜饼", "圣诞", "饼干"]
+      },
+      {
+        "url": "output/weibo/wb_201.avif",
+        "name": "平安果",
+        "tags": ["positive", "supportive", "apple", "peace", "christmas"],
+        "keywords": ["平安果", "苹果", "平安夜", "平平安安"]
+      },
+      {
+        "url": "output/weibo/wb_202.avif",
+        "name": "圣诞帽",
+        "tags": ["positive", "plain", "santa-hat", "christmas", "festive"],
+        "keywords": ["圣诞帽", "圣诞", "圣诞快乐", "节日"]
+      },
+      {
+        "url": "output/weibo/wb_203.avif",
+        "name": "圣诞袜",
+        "tags": ["positive", "plain", "stocking", "christmas", "gift"],
+        "keywords": ["圣诞袜", "圣诞", "礼物", "圣诞快乐"]
+      },
+      {
+        "url": "output/weibo/wb_204.avif",
+        "name": "空星",
+        "tags": ["neutral", "plain", "empty-star", "rating", "star"],
+        "keywords": ["空星", "未评分", "星星", "零星"]
+      },
+      {
+        "url": "output/weibo/wb_205.avif",
+        "name": "半星",
+        "tags": ["neutral", "plain", "half-star", "rating", "star"],
+        "keywords": ["半星", "评分", "半颗星", "星星"]
+      },
+      {
+        "url": "output/weibo/wb_206.avif",
+        "name": "星星",
+        "tags": ["positive", "plain", "star", "rating", "shining"],
+        "keywords": ["星星", "满星", "评分", "闪亮"]
+      },
+      {
+        "url": "output/weibo/wb_207.avif",
+        "name": "红灯笼",
+        "tags": ["positive", "plain", "lantern", "festive", "new-year"],
+        "keywords": ["红灯笼", "灯笼", "过年", "喜庆"]
       }
     ]
   }

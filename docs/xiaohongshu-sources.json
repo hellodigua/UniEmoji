@@ -1,0 +1,386 @@
+{
+  "platform": "xiaohongshu",
+  "sourcePage": "https://www.xiaohongshu.com/explore/6ab8a162000000001403ba95",
+  "capturedAt": "2026-09-29",
+  "panel": "评论输入框 → 小红薯表情",
+  "count": 41,
+  "notes": [
+    "仅记录“小红薯表情”分组的 41 项，不包含“Emoji 表情”分组。",
+    "sourceName 为面板图片 alt 中的名称；项目名称去除方括号及 R/H 标记，标签与关键词由项目补充。",
+    "sourceSize 为浏览器加载的原图自然尺寸；新增 11 项另经下载文件验证，均为 200×200。",
+    "xhs_01 至 xhs_30 保留原有素材与标注；来源地址表示当前面板对应项，不表示旧文件由该地址下载。",
+    "仅下载 xhs_31 至 xhs_41 的原图，保留 PNG/WebP 原始格式；蹲后续为静态 WebP，其余新增项为 PNG。",
+    "新增图片以 compressor.py 默认最长边 60px、质量 50 生成透明 AVIF。来源页面记录不包含访问令牌。"
+  ],
+  "emojis": [
+    {
+      "id": "xhs_01",
+      "sourceName": "[微笑R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/9366d16631e3e208689cbc95eefb7cfb0901001e.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_02",
+      "sourceName": "[害羞R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/219fe9d7e40b14dd7a6712203143bb1f9972bc5c.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_03",
+      "sourceName": "[失望R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/b862c8f94da375f55805a97c152efeeb5099c149.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_04",
+      "sourceName": "[汗颜R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/87e23e577662f3268362518f7f4e90e30b4ea284.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_05",
+      "sourceName": "[哇R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/e0771182c12362d41f70356f714d84dccc4d07bc.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_06",
+      "sourceName": "[喝奶茶R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/364ad5d3e0d5c3b1aa101c9243f488be97d9e8d7.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_31",
+      "sourceName": "[自拍R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/d4fe00be555964ddf8301e256cd906b9032679a5.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_07",
+      "sourceName": "[偷笑R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/d1a34cf8aeac526d36890d3e8f727192a6808ecf.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_08",
+      "sourceName": "[飞吻R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/81cedd016ad9d8bef38b2cd0c1e725454df53598.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_09",
+      "sourceName": "[石化R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/a61db6b1917b6c5c1e8f30bbeea9118a7bdbbe74.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_10",
+      "sourceName": "[笑哭R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/ca75b2fc85b0a3e171fe5df1cbf90efdcd3ba571.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_11",
+      "sourceName": "[赞R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/1b81c5ec3f7006f6b8baf7c006773f5f9d1ab6d7.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_32",
+      "sourceName": "[蹲后续H]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/a633dcf8d48c500ae11532d0583c529b89286c66.webp",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_12",
+      "sourceName": "[暗中观察R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/0a9cd643452c7b717b9735a23c550295baa69f02.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_33",
+      "sourceName": "[买爆R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/c402c10ac31e2e024393cfa7ca61d014579d9191.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_13",
+      "sourceName": "[大笑R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/aed28089f6578522cd490f636955efe6dd27da38.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_14",
+      "sourceName": "[色色R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/913a9e2c42916a338b9fa20cf780ae435f51acac.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_34",
+      "sourceName": "[生气R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/91515ae9718d8cce4f8de909683011b538d35327.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_15",
+      "sourceName": "[哭惹R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/14b005f7afd5f7c88620478b610bf1de90c4ceab.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_16",
+      "sourceName": "[萌萌哒R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/c255f0ae809f8045561a80737b6aec25139f7607.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_17",
+      "sourceName": "[斜眼R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/6062be312a922da7998f99fb773e06cea0a640df.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_18",
+      "sourceName": "[可怜R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/36338a7a39e27341b34e845e28561378e9ad1ede.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_35",
+      "sourceName": "[鄙视R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/0dbbe487e5157d9fb720df7e59fe45a7927af647.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_36",
+      "sourceName": "[皱眉R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/fd82d69014a4a50397e20fc6b23ae8dba1c74998.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_19",
+      "sourceName": "[抓狂R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/13619bff18deffe1d2dcc4be0a6ba7ee0394926b.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_20",
+      "sourceName": "[捂脸R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/83278234fdeb5c36682334f6eb756d243ee62201.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_21",
+      "sourceName": "[派对R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/7a6287c7f65fabdc15fa8f06b2696cccc21e86f2.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_22",
+      "sourceName": "[吧唧R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/238271771c806047fc928b6ba49a6d8e7a741e5e.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_37",
+      "sourceName": "[惊恐R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/114d21cd3f1b4a1591cc997ddd5976bb0cec8f4c.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_23",
+      "sourceName": "[抠鼻R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/5fd4922d00a004260912247dad6ca7149d8a1f75.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_24",
+      "sourceName": "[再见R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/c34602650951342f09ca6e00d6f4c4ac57208a07.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_25",
+      "sourceName": "[叹气R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/5ce63c6024defb2f6334aa153fd0fd238a683779.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_38",
+      "sourceName": "[睡觉R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/d98472a962e744dd238f2b4f5dba2665dcb8360b.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_39",
+      "sourceName": "[得意R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/b02bf85f97acbd6be1749148e163b36920655f92.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_26",
+      "sourceName": "[吃瓜R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/a38d15b09910f65756d521f1f46031c44694214a.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_27",
+      "sourceName": "[扶墙R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/6eb56b590b5c70e4559cf5bd93056a6e74ffc474.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_40",
+      "sourceName": "[黑薯问号R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/e4835a534cddad71286ad4e8f0514fded208360d.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_28",
+      "sourceName": "[黄金薯R]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/08b0e51ac813a53bebeb0b9391df5094d4777951.png",
+      "sourceSize": [
+        300,
+        300
+      ]
+    },
+    {
+      "id": "xhs_41",
+      "sourceName": "[吐舌头H]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/e4533cbaa5829c6ffd92992414290987e39ba6be.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_30",
+      "sourceName": "[扯脸H]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/d968308cfaf571fbc75cbcd7ec0cefe9150a390a.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "xhs_29",
+      "sourceName": "[doge]",
+      "sourceUrl": "https://picasso-static.xiaohongshu.com/fe-platform/b7c0498189d449e8f22946be494d6bad48eda5ab.png",
+      "sourceSize": [
+        200,
+        200
+      ]
+    }
+  ]
+}
