@@ -18,9 +18,10 @@ Same meanings, any face.
 
 本项目定义 emoji 与表情图片之间的语义约定，具体的接入和展示由各个实现完成。
 
-| 实现                                                 | 适配项目         |
-| ---------------------------------------------------- | ---------------- |
-| [dsh-emoji](https://github.com/hellodigua/dsh-emoji) | deepseek-harness |
+| 实现 | 适配项目 | 备注 |
+| --- | --- | --- |
+| [uniemoji-browser-extension](https://github.com/hellodigua/uniemoji-browser-extension) | 浏览器扩展 | 已适配 DeepSeek、Gemini |
+| [dsh-emoji](https://github.com/hellodigua/dsh-emoji) | deepseek-harness | — |
 
 欢迎为更多应用开发基于 UniEmoji 的实现。
 
