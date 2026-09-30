@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_023",
+  "source_path": "origins/byr_em/byr_em_023.gif",
+  "source_sha256": "86605f88d86ebca1581770100bf765e39e355235db74a2f18b03434ee714e41e",
+  "master": "enhanced/byr_em/byr_em_023.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: 露齿发愣; neutral, playful, wide-eyes, awkward. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_023.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留黄色圆脸、睁大双眼和略僵硬的发愣表情；重绘增加了可见牙齿，但情绪方向未明显改变，160 px清楚。",
+  "reviewed_sha256": "5b92ef1d3d72858b313f75994a992b803b20fd989c1c27e34353c2a802ceae3d"
+}

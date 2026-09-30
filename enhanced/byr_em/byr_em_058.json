@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_058",
+  "source_path": "origins/byr_em/byr_em_058.gif",
+  "source_sha256": "4b14335d8d872cf2b1483ca5b225b06410674227214d61180d55d2c51e2208c6",
+  "master": "enhanced/byr_em/byr_em_058.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one glowing yellow lightbulb; only the icon, no surrounding glow haze. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_058.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "点亮灯泡的主体、黄色玻璃、灯丝、灰色螺口及周围光芒均与原图一致；160px下轮廓清楚，透明边缘无明显白边或截断。",
+  "reviewed_sha256": "a0d83dd36d3faad7a6668643f55e76d0428ddfd8cfc22dee1f1240061da2c32a"
+}

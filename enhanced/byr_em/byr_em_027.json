@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_027",
+  "source_path": "origins/byr_em/byr_em_027.gif",
+  "source_sha256": "639bff991619d9e83430149f13a99472fd07cac4068894819a8ff91155b64b81",
+  "master": "enhanced/byr_em/byr_em_027.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a clean high-resolution 2D emoji with smooth antialiased outlines and simple gentle shading. Subject: one silver round compact disc (CD), viewed slightly at an angle, with exactly one purple musical eighth-note overlapping it. This is a MUSIC CD icon. Do not draw a bicycle or wheels. Preserve reference object count, arrangement, basic silhouette and palette. Tiny jagged pixels are resolution damage, not the style. Render continuous smooth curves, no pixel blocks or bitmap texture. Do not invent extra objects, limbs, text, faces or decoration. Transparent background and clean edges without outer glow, haze or shadow. Whole icon fits with a small margin. One icon only. Asset byr_em_027, corrective fidelity revision.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "重绘后主体已正确恢复为一张银色光盘叠加紫色单音符；光盘、音符数量及相对位置与原图一致，160 px轮廓清楚。旧版错误自行车已移除。",
+  "reviewed_sha256": "0842749e729cf9380e9bced4bfb3cbd179f7990c318f3f8442262505d91f1cf5"
+}

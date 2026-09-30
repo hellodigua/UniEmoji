@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_028",
+  "source_path": "origins/byr_em/byr_em_028.gif",
+  "source_sha256": "8896d044588cbe41c5ee9dd63204204613365bf090113d7b9dbe9be5a982de77",
+  "master": "enhanced/byr_em/byr_em_028.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one triangular pizza slice. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_028.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留单片三角披萨、右侧饼边和红色配料，朝向与食物类型一致；配料细节轻微重绘不改变原意，160 px清楚。",
+  "reviewed_sha256": "87dfa1f0071379b95cc10c8319f38f430eb31de08aa20a7ec7c09e3ebe04df63"
+}

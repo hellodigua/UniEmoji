@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_031",
+  "source_path": "origins/byr_em/byr_em_031.gif",
+  "source_sha256": "cd75eadbd5b1b1efbd343a373d80026321275716a068af4f93a4bf10eca87122",
+  "master": "enhanced/byr_em/byr_em_031.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one passenger airplane in side view. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_031.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留单架客机、机翼与尾翼，160 px清楚；原图略朝左下，重绘朝右上，方向与视角有变化，但飞机主体及飞行原意仍明确。",
+  "reviewed_sha256": "c16371d79860f7fc5f1a0c1acb46e25bf856ddc2c67a153179f1a5010406c990"
+}

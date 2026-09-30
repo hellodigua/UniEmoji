@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_052",
+  "source_path": "origins/byr_em/byr_em_052.gif",
+  "source_sha256": "edc66a9eb42fe6e87be6f5069182d2133c9c7e980e0d43d7edf562472c84cf23",
+  "master": "enhanced/byr_em/byr_em_052.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one full-body tiny girl with brown hair wearing blue clothes; keep simple cartoon human proportions. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_052.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留一名正面站立女孩、棕色短发、蓝色上衣与短裙、双臂展开和露出的双腿；面部与鞋子细节平滑补全，人体数量、衣着与站姿一致，160 px清楚。",
+  "reviewed_sha256": "ebb918354c3a11460f001c9b451ae4fbd1404f66909f1940aa368812ce386ee9"
+}

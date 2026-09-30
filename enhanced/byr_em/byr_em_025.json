@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_025",
+  "source_path": "origins/byr_em/byr_em_025.gif",
+  "source_sha256": "891bd3656cd126a3fea5ac687111484e581ca1d8ec64df0486c0b76185ba79a6",
+  "master": "enhanced/byr_em/byr_em_025.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny snail emoticon as CLEAN HIGH-RESOLUTION VECTOR-LIKE 2D ICON ART. The reference is 19px and pixelated because it is low resolution: DO NOT reproduce pixel blocks, jagged staircase edges, mosaic texture or bitmap grid. Reconstruct every contour with smooth continuous antialiased curves and crisp small details. Subject to preserve: one side-view snail facing right, a rounded brown spiral shell on its back, teal-gray long low body and two tiny raised feelers. Keep its compact horizontal composition, original colors, simple friendly style, and relative shape. Truly transparent background, no scene, no shadow beneath it, no text, no other objects. The entire snail fits on the canvas with a little margin. This is a clarity restoration, not pixel art.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留棕色螺旋壳、绿色软体、朝右方向和触角，仍明确是原图蜗牛。160 px曲线和螺旋清楚，柔边亮晕轻微；新增微小眼嘴位于头部，没有改变主体或增加突出情绪，可接受。",
+  "reviewed_sha256": "084896afc163fc821948d7b687b8281021603573cb4e0ac597785ad573d438c2"
+}

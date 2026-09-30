@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_022",
+  "source_path": "origins/byr_em/byr_em_022.gif",
+  "source_sha256": "f1ebbfe09e4450b7c7a57df6fc6c840e0515fc8bc592bc5019a312247b7449f0",
+  "master": "enhanced/byr_em/byr_em_022.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: 吐舌头; positive, playful, tongue-out, teasing. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_022.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留黄色圆脸、侧伸的红色舌头和调皮笑意；主体、动作及情绪一致，160 px清楚。",
+  "reviewed_sha256": "b43ce900d2e1d94e35c0b3e08b49d5947924234ff2633b8b0a4aa11e0f61982a"
+}

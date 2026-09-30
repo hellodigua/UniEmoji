@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_060",
+  "source_path": "origins/byr_em/byr_em_060.gif",
+  "source_sha256": "ae73d37192dedd4d543a4d8c41e34a68badb0500e65e02c86a2e7136f5571af1",
+  "master": "enhanced/byr_em/byr_em_060.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: two rounded human contact silhouettes, blue and green. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_060.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留左后绿色、右前蓝色的双人头像组合，人物数量、配色与前后关系一致；透明背景下没有多余对象或缺失边缘，160px轮廓清楚。",
+  "reviewed_sha256": "179b4791731e4d03a9ab2e90c2d61b3e03c3e88ab8acda26f93a502d8beb9cee"
+}

@@ -1,0 +1,13 @@
+{
+  "source_id": "byr_em_011",
+  "source_path": "origins/byr_em/byr_em_011.gif",
+  "source_sha256": "7849a339998521a83d876dab3180cfee59711e96dfe1481b5531227653189b3f",
+  "master": "enhanced/byr_em/byr_em_011.png",
+  "tool": "image_gen",
+  "prompt": "请忠实修复这张早期论坛小表情的清晰度，保留原图造型、构图、颜色、物件数量与位置。第一张是原图编辑目标；第二张是同一原图的最近邻像素放大，仅帮助你辨认细节，不是另一种设计。具体图意：露齿/呲牙脸：保持原图眉毛与眼神的角度和轻微表情，嘴呈露齿方形。不要把眉毛夸张成凶狠下压的粗黑V字，不要重设计情绪。 请恢复为平滑清楚的二维线条，去掉像素方块，不要保留放大马赛克。保持简单的渐变和轮廓，不做3D。真正透明背景，主体完整不裁切，单个表情，不添加文字或水印。Use case: precise-object-edit. Asset: byr_em_011.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "previous_attempt": "Previous candidate rejected for changing the source expression; see review history.",
+  "review_note": "重做版保留原图斜眉、正视双眼和方形露齿嘴；牙齿与眉形关系已贴近原图，未沿用上一版夸张凶狠的连排咬牙造型。160 px轮廓平滑清楚。",
+  "reviewed_sha256": "d83108624f056db8039b2eeed44d929d18119e7d16f503f2fcf679a1797a82d0"
+}

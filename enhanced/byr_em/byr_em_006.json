@@ -1,0 +1,13 @@
+{
+  "source_id": "byr_em_006",
+  "source_path": "origins/byr_em/byr_em_006.gif",
+  "source_sha256": "962785ccf510d4f3770b0a232001663ddc1ab0ee3635d50763eb89d937e4ebbb",
+  "master": "enhanced/byr_em/byr_em_006.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Reconstruct this tiny 19px angel smiley as a clean high-resolution 2D emoji with smooth vector-like contours, not pixel art. A yellow round smiling face, eyes looking upward, happy small open mouth, and a COMPLETE orange-gold oval angel halo above the head. The halo is essential. Preserve the reference's friendly innocent meaning, colors, gaze and composition. Low-resolution square pixels in the reference are damage: replace them with continuous antialiased curves and subtle simple gradients. No mosaic or staircase edges. No 3D, no outer glow, no shadow, no added wings, no extra objects, no text. Genuine transparent background, crisp cutout boundary, complete icon with a little margin.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "previous_attempt": "原图头顶有明显天使光环；增强图漏掉光环，成为普通微笑脸。",
+  "review_note": "平滑新版保留黄色笑脸并补回清晰的完整天使光环；圆脸、友好情绪和头顶光环与原图一致，160 px清楚。",
+  "reviewed_sha256": "c7a6126416220fd84bb99d4c205c2c1d4c2f2c80d78710ef097dcc307fa3fb50"
+}

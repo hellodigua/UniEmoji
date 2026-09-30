@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_057",
+  "source_path": "origins/byr_em/byr_em_057.gif",
+  "source_sha256": "93c6fdf9c2b2b0ce8dc0c092664a52ee48548c991cfbfe6119e6583c3a017786",
+  "master": "enhanced/byr_em/byr_em_057.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one pair of red kissing lips. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_057.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保持单个红色嘴唇与中间浅色开口的亲吻含义，唇形和轮廓完整；光泽风格变化不影响原意，160px透明边缘干净。",
+  "reviewed_sha256": "48d16677a28c43b9d0bf5fa95c0fa2110fe95b7bd2f293a82de5a0ed66821099"
+}

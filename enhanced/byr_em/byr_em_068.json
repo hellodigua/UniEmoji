@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_068",
+  "source_path": "origins/byr_em/byr_em_068.gif",
+  "source_sha256": "286982bbc5fd8a4a909c931701485e0716ec804e1b8ed5f41ef879d959444cfa",
+  "master": "enhanced/byr_em/byr_em_068.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one yellow thumbs-up hand; preserve upward pointing thumb. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_068.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留向上拇指、四根收拢手指及右侧手腕的动作，点赞含义明确；160px下手指关系清楚、轮廓完整，没有额外手部或边缘杂物。",
+  "reviewed_sha256": "7869c7a4eae903e87b82a9e68a03ad58fb66450044114c452971dc02eb8a59df"
+}

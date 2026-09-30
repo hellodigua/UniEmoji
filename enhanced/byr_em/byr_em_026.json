@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_026",
+  "source_path": "origins/byr_em/byr_em_026.gif",
+  "source_sha256": "bef74da3f5c2763e475a0b270214ef60045caedb81a63b6cab2b58bf7838b67f",
+  "master": "enhanced/byr_em/byr_em_026.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one white round plate with cutlery beside it. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_026.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留左侧白色餐盘、右侧叉与刀，主体数目和左右位置一致；餐具造型略有变化，160 px清楚。",
+  "reviewed_sha256": "6a3b7c83fd41a130ee5d4aa9f4f01ada2a4add3b575b3321e8401fb83e3d9caf"
+}

@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_041",
+  "source_path": "origins/byr_em/byr_em_041.gif",
+  "source_sha256": "933b6908f335714e553c49172e838574ce5f9f805d44cc9761ae628422d66b9a",
+  "master": "enhanced/byr_em/byr_em_041.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one glass beer mug with white foam and golden beer. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_041.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留单只透明啤酒杯、右侧杯把、金黄色酒液和顶部白色泡沫；泡沫变得更蓬松、杯身略修长，但物体数量、方向及饮品类型一致，160 px清楚。",
+  "reviewed_sha256": "6e11f14405f2121cac6642ff464d2cb69c03e7b3796af951e5c2c05bf094ff5f"
+}

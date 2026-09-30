@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_032",
+  "source_path": "origins/byr_em/byr_em_032.gif",
+  "source_sha256": "4994b94e392ecdc57963830a396ed282786165729bf5b3236c82000020748f3e",
+  "master": "enhanced/byr_em/byr_em_032.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one tilted black umbrella. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_032.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留黑色撑开的雨伞、斜向伞杆和弯钩柄；柄颜色略由棕色改为深灰，不改变物体原意，160 px伞面曲线清楚。",
+  "reviewed_sha256": "2fe825261e38f571d3e11b7f3a955d600c6c248b0126843ada7a96107ad803b6"
+}

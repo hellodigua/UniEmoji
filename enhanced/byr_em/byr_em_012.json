@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_012",
+  "source_path": "origins/byr_em/byr_em_012.gif",
+  "source_sha256": "6deb3979f4539e16058913c7d2ade5d48e0919c990d1a0c089624fea2fcf192a",
+  "master": "enhanced/byr_em/byr_em_012.png",
+  "tool": "image_gen",
+  "prompt": "Use case: precise-object-edit. Edit target: the attached original small GIF, byr_em_012. Create a faithful high-resolution restoration of this exact single icon on a genuinely transparent background. Inspect the reference and preserve its subject, identity, emotion, gaze, pose, number and placement of objects, silhouette, relative proportions, colors, outline weight, and any existing text EXACTLY. Keep the original 2D early-web emoticon style, simple colored shapes and original shading. Restore crisp contours and remove pixel stair-stepping without redesigning it, adding new features, making it photorealistic or 3D, adding cast shadows, captions or watermarks. Do not turn objects into faces. Preserve non-square source aspect ratio by centering the complete original composition inside the square output canvas, with no cropping or stretching. Output only one icon. Asset: UniEmoji BYR classic static high-resolution master.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "黑框眼镜、黄色笑脸及微笑一致。",
+  "reviewed_sha256": "f5cb8b6998e258f723fd602f97096787cbf392895a1ece0235f958acd96f5ddc"
+}

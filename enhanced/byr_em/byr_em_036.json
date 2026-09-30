@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_036",
+  "source_path": "origins/byr_em/byr_em_036.gif",
+  "source_sha256": "56468ce08fb17d1192b1ec66b2e586db0c243b412c4e0f51da9370703c5c8555",
+  "master": "enhanced/byr_em/byr_em_036.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one blue rain cloud with small raindrops below. The reference is only 20x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_036.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留蓝色雨云和下方多颗雨滴，下雨天气原意一致；云团轮廓和雨滴边缘平滑，160 px清楚。",
+  "reviewed_sha256": "92bac97c8ef6a2ea4fc7f92d4dcdc3def3d9f5930ff85b242f7679e081be6092"
+}

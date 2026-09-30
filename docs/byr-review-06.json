@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-30T03:11:06.867498+00:00",
+  "contact_sheet": "docs/byr-review-06.png",
+  "items": [
+    {
+      "id": "byr_ema_001",
+      "source": "origins/byr_ema/byr_ema_001.gif",
+      "source_sha256": "a78e1935482f755135f5e8e67517b7ff3b8655e0f1475d7c1a0c78c16a1bffdc",
+      "source_frame": 0,
+      "source_size": [
+        50,
+        50
+      ],
+      "master": "enhanced/byr_ema/byr_ema_001.png",
+      "master_sha256": "fcd8a0997ca5b46418b82984a72f709f2c8358cd52501aa8c879868b19980193",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "delivery_kind": "published",
+      "delivery": "output/byr_ema/byr_ema_001_hd.avif",
+      "delivery_sha256": "6d4896427ca76651e9f5259bcb6f17c20b1ef377437bb7b0d65858542127c5a9",
+      "delivery_size": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "byr_emb_001",
+      "source": "origins/byr_emb/byr_emb_001.gif",
+      "source_sha256": "d7b21a4799cd644811ed98c4dfb72ec6f9b45f75a5f66cf5c6944b613e228be5",
+      "source_frame": 0,
+      "source_size": [
+        50,
+        50
+      ],
+      "master": "enhanced/byr_emb/byr_emb_001.png",
+      "master_sha256": "1396b8d5ed27791bff575b56173196e088f801cfb66486d190c1ed45ba3121a4",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "delivery_kind": "published",
+      "delivery": "output/byr_emb/byr_emb_001_hd.avif",
+      "delivery_sha256": "478fc5e4e9993d06c28761499e4066bd17da4523a2fbae301f67c7d135b5990b",
+      "delivery_size": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "byr_emc_001",
+      "source": "origins/byr_emc/byr_emc_001.gif",
+      "source_sha256": "f50e261edf71cc889526b13ec7cd94fa35d336f3bae5c0d2146e44235e680886",
+      "source_frame": 0,
+      "source_size": [
+        50,
+        50
+      ],
+      "master": "enhanced/byr_emc/byr_emc_001.png",
+      "master_sha256": "24787b2c1a6d801e0ef554ae34403a3f27d4206129a772077e584b4e4148cb84",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "delivery_kind": "published",
+      "delivery": "output/byr_emc/byr_emc_001_hd.avif",
+      "delivery_sha256": "21116cae85eed47ee5592ea60478cde7da8a0e48ac913fdac04f5f51ddbccedc",
+      "delivery_size": [
+        160,
+        160
+      ]
+    }
+  ]
+}

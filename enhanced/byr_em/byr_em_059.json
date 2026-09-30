@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_059",
+  "source_path": "origins/byr_em/byr_em_059.gif",
+  "source_sha256": "65de4fb328f0e9bd43f262348876b900f93aa332b24002434f3a8d6b0c133d69",
+  "master": "enhanced/byr_em/byr_em_059.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one slender-stem cocktail glass with triangular bowl and its small garnish. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_059.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留高脚鸡尾酒杯、浅色饮料、红色签子及橄榄装饰，器物数量与构图一致；玻璃杯和杯脚无截断，160px展示清晰。",
+  "reviewed_sha256": "736713ca9d00b7f3a406a195b926b2afa422964a946fba1f488723e0465e28cd"
+}

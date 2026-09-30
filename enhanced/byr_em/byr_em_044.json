@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_044",
+  "source_path": "origins/byr_em/byr_em_044.gif",
+  "source_sha256": "f882f59082e5437697d45419ee057398584a87a975c22f369e5b7e7a580f4b5d",
+  "master": "enhanced/byr_em/byr_em_044.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one silver compact camera with a round lens. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_044.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留单台银色便携相机、右侧圆形镜头、左侧矩形闪光灯和顶部按钮；镜头与机身位置一致，细节适度平滑重建，160 px轮廓清楚。",
+  "reviewed_sha256": "b6b60e925e631f6d7e6dedd265b7f73c2ce5c508fb786f1a8a1435db4c3c76f9"
+}

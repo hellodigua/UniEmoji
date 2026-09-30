@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_061",
+  "source_path": "origins/byr_em/byr_em_061.gif",
+  "source_sha256": "c7c5a5260f7360fb40804c04bd84a9f2bfe8bfbd64356f186b8ea995d4db37a6",
+  "master": "enhanced/byr_em/byr_em_061.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one pale purple crescent moon with a sleepy face. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_061.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留紫色弯月、向右开口的月牙轮廓及睡眠表情；闭眼和侧面鼻形传达原有晚安含义，160px边缘完整、背景透明。",
+  "reviewed_sha256": "341ac27e8160aa8c92426f8a6c2fc0ecd6c5f4d13bc947fb00c74c8896869235"
+}

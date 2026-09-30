@@ -171,6 +171,43 @@ body {
   border-color: #667eea;
 }
 
+.emoji-copy {
+  display: block;
+  width: 100%;
+  color: inherit;
+  font: inherit;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.emoji-copy:focus-visible,
+.emoji-download:focus-visible {
+  outline: 2px solid #667eea;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.emoji-name {
+  overflow-wrap: anywhere;
+  font-size: 0.85rem;
+}
+
+.emoji-download {
+  display: inline-block;
+  margin-top: 8px;
+  color: #4758bd;
+  font-size: 0.75rem;
+  text-underline-offset: 2px;
+}
+
+.usage-hint {
+  margin-top: 12px;
+  color: white;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
 .emoji-image {
   width: 30px;
   height: 30px;
@@ -211,6 +248,18 @@ body {
 .weibo {
   background: linear-gradient(135deg, #ff6b6b 0%, #ffa726 100%);
 }
+.byr-em {
+  background: linear-gradient(135deg, #005a9c 0%, #42a5d5 100%);
+}
+.byr-ema {
+  background: linear-gradient(135deg, #258166 0%, #59af8d 100%);
+}
+.byr-emb {
+  background: linear-gradient(135deg, #9e5814 0%, #d99343 100%);
+}
+.byr-emc {
+  background: linear-gradient(135deg, #73529d 0%, #af84cf 100%);
+}
 
 /* 响应式设计 */
 @media (max-width: 768px) {
@@ -242,6 +291,12 @@ body {
     flex-direction: row;
     gap: 8px;
     text-align: left;
+    flex-wrap: wrap;
+  }
+
+  .platform-title {
+    font-size: 1.1rem;
+    gap: 8px;
   }
 }
 
