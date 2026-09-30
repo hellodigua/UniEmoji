@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_033",
+  "source_path": "origins/byr_em/byr_em_033.gif",
+  "source_sha256": "5c4ffac9b1c85c6b2f6383101f022be0ad8ba5c257a099573a00a9cc1760cb76",
+  "master": "enhanced/byr_em/byr_em_033.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a clean high-resolution 2D emoji with smooth antialiased outlines and simple gentle shading. Subject: exactly THREE green palm trees (left short, center tall, right short) with brown trunks on one small golden sandy island and a thin strip of blue water along the base. All three trees must be present. Preserve reference object count, arrangement, basic silhouette and palette. Tiny jagged pixels are resolution damage, not the style. Render continuous smooth curves, no pixel blocks or bitmap texture. Do not invent extra objects, limbs, text, faces or decoration. Transparent background and clean edges without outer glow, haze or shadow. Whole icon fits with a small margin. One icon only. Asset byr_em_033, corrective fidelity revision.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "修正版恢复三棵棕榈树，保留沙岛和水边，关键主体数量与原图一致；160 px三棵树、树干和岛边均清楚。",
+  "reviewed_sha256": "7c2aca4637b95d96f38188dd0d2170545d5871354e63cbec37aadf5eeba96f7d"
+}

@@ -1,0 +1,1247 @@
+{
+  "byr_em_001": {
+    "name": "微笑转眼",
+    "tags": [
+      "positive",
+      "playful",
+      "smiling",
+      "glancing"
+    ],
+    "keywords": [
+      "微笑",
+      "转眼",
+      "看看",
+      "笑脸",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_002": {
+    "name": "斜眼看",
+    "tags": [
+      "neutral",
+      "plain",
+      "side-eye",
+      "observing"
+    ],
+    "keywords": [
+      "斜眼",
+      "看看",
+      "观望",
+      "瞥一眼",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_003": {
+    "name": "吹派对喇叭",
+    "tags": [
+      "positive",
+      "playful",
+      "celebrating",
+      "party"
+    ],
+    "keywords": [
+      "庆祝",
+      "派对",
+      "吹喇叭",
+      "热闹",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_004": {
+    "name": "转眼睛",
+    "tags": [
+      "neutral",
+      "playful",
+      "eye-rolling",
+      "glancing"
+    ],
+    "keywords": [
+      "转眼睛",
+      "东张西望",
+      "看看",
+      "眼珠转动",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_005": {
+    "name": "困倦",
+    "tags": [
+      "neutral",
+      "plain",
+      "sleepy",
+      "tired"
+    ],
+    "keywords": [
+      "困了",
+      "困倦",
+      "打瞌睡",
+      "想睡觉",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_006": {
+    "name": "天使笑脸",
+    "tags": [
+      "positive",
+      "playful",
+      "angel",
+      "innocent",
+      "smiling"
+    ],
+    "keywords": [
+      "天使",
+      "光环",
+      "乖巧",
+      "无辜",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_007": {
+    "name": "愤怒",
+    "tags": [
+      "negative",
+      "plain",
+      "angry",
+      "red-face"
+    ],
+    "keywords": [
+      "愤怒",
+      "生气",
+      "火大",
+      "红脸",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_008": {
+    "name": "紧张",
+    "tags": [
+      "negative",
+      "plain",
+      "nervous",
+      "uneasy"
+    ],
+    "keywords": [
+      "紧张",
+      "不安",
+      "忐忑",
+      "纠结",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_009": {
+    "name": "打哈欠",
+    "tags": [
+      "neutral",
+      "plain",
+      "yawning",
+      "sleepy"
+    ],
+    "keywords": [
+      "哈欠",
+      "困",
+      "想睡",
+      "疲惫",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_010": {
+    "name": "拉链嘴",
+    "tags": [
+      "neutral",
+      "playful",
+      "zipper-mouth",
+      "silent"
+    ],
+    "keywords": [
+      "闭嘴",
+      "保密",
+      "不说话",
+      "拉链嘴",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_011": {
+    "name": "咬牙露齿",
+    "tags": [
+      "neutral",
+      "plain",
+      "clenched-teeth",
+      "grimacing"
+    ],
+    "keywords": [
+      "咬牙",
+      "露齿",
+      "呲牙",
+      "绷住",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_012": {
+    "name": "眼镜笑脸",
+    "tags": [
+      "positive",
+      "playful",
+      "glasses",
+      "smiling"
+    ],
+    "keywords": [
+      "眼镜",
+      "书呆子",
+      "学霸",
+      "微笑",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_013": {
+    "name": "挑眉怀疑",
+    "tags": [
+      "neutral",
+      "plain",
+      "skeptical",
+      "raised-eyebrow"
+    ],
+    "keywords": [
+      "怀疑",
+      "挑眉",
+      "真的吗",
+      "不信",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_014": {
+    "name": "双脸惊讶",
+    "tags": [
+      "neutral",
+      "playful",
+      "surprised",
+      "open-mouth",
+      "two-faces"
+    ],
+    "keywords": [
+      "惊讶",
+      "双脸",
+      "张嘴",
+      "吃惊",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_015": {
+    "name": "恶心绿脸",
+    "tags": [
+      "negative",
+      "plain",
+      "nauseated",
+      "sick"
+    ],
+    "keywords": [
+      "恶心",
+      "反胃",
+      "不舒服",
+      "绿脸",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_016": {
+    "name": "张嘴惊讶",
+    "tags": [
+      "neutral",
+      "plain",
+      "surprised",
+      "open-mouth"
+    ],
+    "keywords": [
+      "惊讶",
+      "震惊",
+      "张嘴",
+      "啊",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_017": {
+    "name": "脸红害羞",
+    "tags": [
+      "positive",
+      "playful",
+      "blushing",
+      "shy"
+    ],
+    "keywords": [
+      "脸红",
+      "害羞",
+      "不好意思",
+      "羞涩",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_018": {
+    "name": "微笑",
+    "tags": [
+      "positive",
+      "plain",
+      "smiling",
+      "friendly"
+    ],
+    "keywords": [
+      "微笑",
+      "笑脸",
+      "友好",
+      "开心",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_019": {
+    "name": "难过",
+    "tags": [
+      "negative",
+      "plain",
+      "sad",
+      "frowning"
+    ],
+    "keywords": [
+      "难过",
+      "伤心",
+      "不开心",
+      "沮丧",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_020": {
+    "name": "墨镜耍酷",
+    "tags": [
+      "positive",
+      "playful",
+      "sunglasses",
+      "cool"
+    ],
+    "keywords": [
+      "墨镜",
+      "酷",
+      "帅气",
+      "耍酷",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_021": {
+    "name": "开心大笑",
+    "tags": [
+      "positive",
+      "humorous",
+      "laughing",
+      "happy"
+    ],
+    "keywords": [
+      "哈哈",
+      "大笑",
+      "开心",
+      "乐了",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_022": {
+    "name": "吐舌头",
+    "tags": [
+      "positive",
+      "playful",
+      "tongue-out",
+      "teasing"
+    ],
+    "keywords": [
+      "吐舌",
+      "调皮",
+      "略略略",
+      "开玩笑",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_023": {
+    "name": "露齿发愣",
+    "tags": [
+      "neutral",
+      "playful",
+      "wide-eyes",
+      "awkward"
+    ],
+    "keywords": [
+      "发愣",
+      "尴尬笑",
+      "瞪眼",
+      "露齿",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_024": {
+    "name": "眨眼",
+    "tags": [
+      "positive",
+      "playful",
+      "winking",
+      "smiling"
+    ],
+    "keywords": [
+      "眨眼",
+      "使眼色",
+      "俏皮",
+      "你懂的",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_025": {
+    "name": "蜗牛",
+    "tags": [
+      "neutral",
+      "plain",
+      "snail",
+      "slow"
+    ],
+    "keywords": [
+      "蜗牛",
+      "慢慢来",
+      "慢吞吞",
+      "缓慢",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_026": {
+    "name": "餐具",
+    "tags": [
+      "neutral",
+      "plain",
+      "meal",
+      "plate",
+      "cutlery"
+    ],
+    "keywords": [
+      "餐具",
+      "吃饭",
+      "开饭",
+      "盘子",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_027": {
+    "name": "音乐光盘",
+    "tags": [
+      "neutral",
+      "plain",
+      "music",
+      "compact-disc"
+    ],
+    "keywords": [
+      "光盘",
+      "CD",
+      "音乐",
+      "唱片",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_028": {
+    "name": "披萨",
+    "tags": [
+      "positive",
+      "plain",
+      "pizza",
+      "food"
+    ],
+    "keywords": [
+      "披萨",
+      "比萨",
+      "吃东西",
+      "美食",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_029": {
+    "name": "足球",
+    "tags": [
+      "neutral",
+      "plain",
+      "football",
+      "sport"
+    ],
+    "keywords": [
+      "足球",
+      "踢球",
+      "运动",
+      "比赛",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_030": {
+    "name": "汽车",
+    "tags": [
+      "neutral",
+      "plain",
+      "car",
+      "travel"
+    ],
+    "keywords": [
+      "汽车",
+      "开车",
+      "出发",
+      "小轿车",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_031": {
+    "name": "飞机",
+    "tags": [
+      "neutral",
+      "plain",
+      "airplane",
+      "travel"
+    ],
+    "keywords": [
+      "飞机",
+      "飞行",
+      "起飞",
+      "旅行",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_032": {
+    "name": "雨伞",
+    "tags": [
+      "neutral",
+      "plain",
+      "umbrella",
+      "rain"
+    ],
+    "keywords": [
+      "雨伞",
+      "下雨",
+      "撑伞",
+      "遮雨",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_033": {
+    "name": "棕榈树",
+    "tags": [
+      "neutral",
+      "plain",
+      "palm-tree",
+      "vacation"
+    ],
+    "keywords": [
+      "棕榈树",
+      "海岛",
+      "度假",
+      "椰树",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_034": {
+    "name": "电脑",
+    "tags": [
+      "neutral",
+      "plain",
+      "computer",
+      "technology"
+    ],
+    "keywords": [
+      "电脑",
+      "上网",
+      "屏幕",
+      "计算机",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_035": {
+    "name": "手机",
+    "tags": [
+      "neutral",
+      "plain",
+      "mobile-phone",
+      "contact"
+    ],
+    "keywords": [
+      "手机",
+      "电话",
+      "联系",
+      "通讯",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_036": {
+    "name": "下雨",
+    "tags": [
+      "neutral",
+      "plain",
+      "rain",
+      "weather"
+    ],
+    "keywords": [
+      "下雨",
+      "雨天",
+      "阴雨",
+      "天气",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_037": {
+    "name": "硬币",
+    "tags": [
+      "neutral",
+      "plain",
+      "coins",
+      "money"
+    ],
+    "keywords": [
+      "硬币",
+      "金币",
+      "钱",
+      "财富",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_038": {
+    "name": "绵羊",
+    "tags": [
+      "neutral",
+      "plain",
+      "sheep",
+      "animal"
+    ],
+    "keywords": [
+      "绵羊",
+      "小羊",
+      "羊",
+      "动物",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_039": {
+    "name": "雷雨",
+    "tags": [
+      "neutral",
+      "plain",
+      "thunderstorm",
+      "lightning"
+    ],
+    "keywords": [
+      "雷雨",
+      "打雷",
+      "闪电",
+      "暴风雨",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_040": {
+    "name": "蝙蝠",
+    "tags": [
+      "neutral",
+      "playful",
+      "bat",
+      "animal"
+    ],
+    "keywords": [
+      "蝙蝠",
+      "夜晚",
+      "飞行",
+      "动物",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_041": {
+    "name": "啤酒",
+    "tags": [
+      "positive",
+      "plain",
+      "beer",
+      "cheers"
+    ],
+    "keywords": [
+      "啤酒",
+      "干杯",
+      "喝酒",
+      "碰杯",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_042": {
+    "name": "心碎",
+    "tags": [
+      "negative",
+      "plain",
+      "broken-heart",
+      "heartbroken"
+    ],
+    "keywords": [
+      "心碎",
+      "失恋",
+      "伤心",
+      "受伤",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_043": {
+    "name": "生日蛋糕",
+    "tags": [
+      "positive",
+      "supportive",
+      "birthday",
+      "cake",
+      "celebrating"
+    ],
+    "keywords": [
+      "生日",
+      "蛋糕",
+      "生日快乐",
+      "祝福",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_044": {
+    "name": "相机",
+    "tags": [
+      "neutral",
+      "plain",
+      "camera",
+      "photography"
+    ],
+    "keywords": [
+      "相机",
+      "拍照",
+      "摄影",
+      "留念",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_045": {
+    "name": "猫咪",
+    "tags": [
+      "positive",
+      "playful",
+      "cat",
+      "animal"
+    ],
+    "keywords": [
+      "猫咪",
+      "小猫",
+      "喵",
+      "猫猫",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_046": {
+    "name": "时钟",
+    "tags": [
+      "neutral",
+      "plain",
+      "clock",
+      "time"
+    ],
+    "keywords": [
+      "时钟",
+      "时间",
+      "几点",
+      "钟表",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_047": {
+    "name": "热饮",
+    "tags": [
+      "neutral",
+      "plain",
+      "hot-drink",
+      "cup"
+    ],
+    "keywords": [
+      "热饮",
+      "喝茶",
+      "咖啡",
+      "杯子",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_048": {
+    "name": "小恶魔",
+    "tags": [
+      "neutral",
+      "playful",
+      "devil",
+      "mischievous"
+    ],
+    "keywords": [
+      "恶魔",
+      "小恶魔",
+      "坏笑",
+      "调皮",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_049": {
+    "name": "狗狗",
+    "tags": [
+      "positive",
+      "playful",
+      "dog",
+      "animal"
+    ],
+    "keywords": [
+      "狗狗",
+      "小狗",
+      "汪",
+      "狗脸",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_050": {
+    "name": "信封",
+    "tags": [
+      "neutral",
+      "plain",
+      "envelope",
+      "mail"
+    ],
+    "keywords": [
+      "信封",
+      "邮件",
+      "来信",
+      "消息",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_051": {
+    "name": "电影胶片",
+    "tags": [
+      "neutral",
+      "plain",
+      "film",
+      "movie"
+    ],
+    "keywords": [
+      "电影",
+      "胶片",
+      "放映",
+      "看电影",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_052": {
+    "name": "女孩",
+    "tags": [
+      "neutral",
+      "plain",
+      "girl",
+      "person"
+    ],
+    "keywords": [
+      "女孩",
+      "女生",
+      "姑娘",
+      "小女孩",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_053": {
+    "name": "左侧拥抱",
+    "tags": [
+      "positive",
+      "supportive",
+      "hug",
+      "comforting"
+    ],
+    "keywords": [
+      "拥抱",
+      "抱抱",
+      "安慰",
+      "伸手",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_054": {
+    "name": "男孩",
+    "tags": [
+      "neutral",
+      "plain",
+      "boy",
+      "person"
+    ],
+    "keywords": [
+      "男孩",
+      "男生",
+      "少年",
+      "小男孩",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_055": {
+    "name": "右侧拥抱",
+    "tags": [
+      "positive",
+      "supportive",
+      "hug",
+      "comforting"
+    ],
+    "keywords": [
+      "拥抱",
+      "抱抱",
+      "安慰",
+      "接住",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_056": {
+    "name": "爱心",
+    "tags": [
+      "positive",
+      "supportive",
+      "heart",
+      "love"
+    ],
+    "keywords": [
+      "爱心",
+      "喜欢",
+      "爱你",
+      "红心",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_057": {
+    "name": "红唇亲吻",
+    "tags": [
+      "positive",
+      "playful",
+      "kiss",
+      "lips"
+    ],
+    "keywords": [
+      "亲吻",
+      "吻",
+      "么么哒",
+      "红唇",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_058": {
+    "name": "灯泡",
+    "tags": [
+      "positive",
+      "plain",
+      "lightbulb",
+      "idea"
+    ],
+    "keywords": [
+      "灯泡",
+      "灵感",
+      "有主意了",
+      "想法",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_059": {
+    "name": "鸡尾酒",
+    "tags": [
+      "positive",
+      "plain",
+      "cocktail",
+      "drink"
+    ],
+    "keywords": [
+      "鸡尾酒",
+      "喝一杯",
+      "酒杯",
+      "聚会",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_060": {
+    "name": "聊天伙伴",
+    "tags": [
+      "neutral",
+      "plain",
+      "people",
+      "chat"
+    ],
+    "keywords": [
+      "伙伴",
+      "好友",
+      "聊天",
+      "联系人",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_061": {
+    "name": "月亮",
+    "tags": [
+      "neutral",
+      "plain",
+      "moon",
+      "night"
+    ],
+    "keywords": [
+      "月亮",
+      "夜晚",
+      "晚安",
+      "弯月",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_062": {
+    "name": "音符",
+    "tags": [
+      "positive",
+      "plain",
+      "music",
+      "note"
+    ],
+    "keywords": [
+      "音符",
+      "音乐",
+      "听歌",
+      "旋律",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_063": {
+    "name": "电话听筒",
+    "tags": [
+      "neutral",
+      "plain",
+      "telephone",
+      "calling"
+    ],
+    "keywords": [
+      "电话",
+      "打电话",
+      "听筒",
+      "联系",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_064": {
+    "name": "礼物",
+    "tags": [
+      "positive",
+      "supportive",
+      "gift",
+      "celebrating"
+    ],
+    "keywords": [
+      "礼物",
+      "送礼",
+      "惊喜",
+      "礼盒",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_065": {
+    "name": "红玫瑰",
+    "tags": [
+      "positive",
+      "supportive",
+      "rose",
+      "love"
+    ],
+    "keywords": [
+      "玫瑰",
+      "鲜花",
+      "送花",
+      "浪漫",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_066": {
+    "name": "星星",
+    "tags": [
+      "positive",
+      "plain",
+      "star",
+      "sparkle"
+    ],
+    "keywords": [
+      "星星",
+      "闪亮",
+      "闪耀",
+      "五角星",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_067": {
+    "name": "拇指向下",
+    "tags": [
+      "negative",
+      "plain",
+      "thumbs-down",
+      "disapproval"
+    ],
+    "keywords": [
+      "踩",
+      "差评",
+      "不赞同",
+      "拇指向下",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_068": {
+    "name": "拇指向上",
+    "tags": [
+      "positive",
+      "supportive",
+      "thumbs-up",
+      "approval"
+    ],
+    "keywords": [
+      "赞",
+      "点赞",
+      "厉害",
+      "支持",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_069": {
+    "name": "凋谢玫瑰",
+    "tags": [
+      "negative",
+      "plain",
+      "wilted-flower",
+      "sad"
+    ],
+    "keywords": [
+      "凋谢",
+      "枯萎",
+      "失落",
+      "谢了的花",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_070": {
+    "name": "冒汗低头",
+    "tags": [
+      "negative",
+      "playful",
+      "sweating",
+      "embarrassed"
+    ],
+    "keywords": [
+      "冒汗",
+      "汗颜",
+      "尴尬",
+      "无奈",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_071": {
+    "name": "开怀笑",
+    "tags": [
+      "positive",
+      "humorous",
+      "laughing",
+      "joyful"
+    ],
+    "keywords": [
+      "开怀大笑",
+      "哈哈哈",
+      "开心",
+      "乐呵",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_072": {
+    "name": "蓝脸流汗",
+    "tags": [
+      "negative",
+      "playful",
+      "sweating",
+      "uneasy"
+    ],
+    "keywords": [
+      "蓝脸",
+      "流汗",
+      "紧张",
+      "尴尬",
+      "北邮人",
+      "经典"
+    ]
+  },
+  "byr_em_073": {
+    "name": "转头发愣",
+    "tags": [
+      "neutral",
+      "playful",
+      "turning-head",
+      "confused"
+    ],
+    "keywords": [
+      "转头",
+      "发愣",
+      "左右看",
+      "懵",
+      "北邮人",
+      "经典"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>北邮人表情 · 原图与高清对比</title>
+<style>
+  *{box-sizing:border-box}body{margin:0;background:#f3f5f8;color:#202b3b;font:15px/1.5 system-ui,sans-serif}main{max-width:1180px;margin:auto;padding:32px 20px}h1{font-size:28px;margin:0 0 8px}p{color:#516071}.controls{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}input,select,button{font:inherit;padding:10px 12px;border:1px solid #c8d0dd;border-radius:8px;background:white;color:inherit}input{flex:1;min-width:180px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px}.card{background:white;border:1px solid #dce2eb;border-radius:12px;padding:16px}.card h2{font-size:17px;margin:0}.meta{font-size:12px;color:#526579;margin:4px 0 12px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:8px}.image{height:160px;display:flex;align-items:center;justify-content:center;background:repeating-conic-gradient(#fff 0% 25%,#e6eaf0 0% 50%) 0/16px 16px;border-radius:6px}.dark .image{background:#172233}.image img{max-width:100%;max-height:160px;object-fit:contain}.original img{width:140px;height:140px;image-rendering:pixelated}.caption{font-size:12px;text-align:center;margin:6px 0}.status{color:#2352a3;font-size:12px}a{color:#2352a3}footer{margin:24px 0;font-size:13px}
+</style>
+<main>
+  <a href="../index.html">← UniEmoji</a>
+  <h1>北邮人表情 · 原图与高清对比</h1>
+  <p>左侧放大原图便于核对，右侧展示发布版本。动态原图完整保留；高清静态伴随图单独标明。AI 修复可能重建模糊细节，原始文件始终可下载。</p>
+  <div class="controls"><input id="query" aria-label="搜索名称或编号" placeholder="搜索名称或编号"><select id="group" aria-label="选择表情分组"><option value="">全部分组</option><option value="em">经典</option><option value="ema">悠嘻猴</option><option value="emb">兔斯基</option><option value="emc">洋葱头</option></select><select id="mode" aria-label="筛选处理方式"><option value="">全部素材</option><option value="ai">仅 AI 高清</option><option value="animated">仅原始动图</option></select><button id="background" aria-pressed="false">深色背景</button></div>
+  <p id="summary" role="status">正在读取素材清单…</p><div class="grid" id="grid"></div>
+  <footer><a href="byr-sources.json">原始来源</a> · <a href="byr-processing.json">处理记录</a> · <a href="../THIRD_PARTY_NOTICES.md">素材权利说明</a></footer>
+</main>
+<script>
+  const $=id=>document.getElementById(id);
+  let rows=[];
+  function image(path,name){const img=document.createElement('img');img.src='../'+path;img.alt=name;img.loading='lazy';return img;}
+  function render(){
+    const query=$('query').value.trim().toLowerCase(),group=$('group').value,mode=$('mode').value;
+    const selected=rows.filter(row=>(!group||row.source.group===group)&&(!query||(row.name+' '+row.source.id).toLowerCase().includes(query))&&(!mode||(mode==='ai'?!!row.process.master:row.source.animated)));
+    $('summary').textContent=`显示 ${selected.length} / ${rows.length} 张原始素材；原动图与静态伴随图在同一卡片中对照。`;
+    $('grid').replaceChildren();
+    for(const {source,process,name} of selected){
+      const card=document.createElement('article');card.className='card';
+      const h=document.createElement('h2');h.textContent=name;card.append(h);
+      const meta=document.createElement('p');meta.className='meta';meta.textContent=`${source.id} · ${source.width}×${source.height} · ${source.frames} 帧`;card.append(meta);
+      const pair=document.createElement('div');pair.className='pair';
+      const versions=[[source.path,'原始 GIF（放大）','original'],[process.static_companion||process.output,process.static_companion?'AI 高清静态伴随图':process.master?'AI 高清静态':source.animated?'原始动画保留':'原始静态图保留','']];
+      for(const [path,caption,cls] of versions){const column=document.createElement('div');const box=document.createElement('div');box.className='image '+cls;box.append(image(path,name));const label=document.createElement('div');label.className='caption';const a=document.createElement('a');a.href='../'+path;a.download=path.split('/').pop();a.textContent=caption;label.append(a);column.append(box,label);pair.append(column);}
+      card.append(pair);
+      if(process.master){const download=document.createElement('a');download.href='../'+process.master;download.download=process.master.split('/').pop();download.textContent='下载高清 PNG 母版';download.className='status';card.append(download);}
+      $('grid').append(card);
+    }
+  }
+  Promise.all([fetch('byr-sources.json').then(r=>r.json()),fetch('byr-processing.json').then(r=>r.json()),fetch('../emoji.json').then(r=>r.json())]).then(([sources,processing,emoji])=>{const mapped=new Map(processing.images.map(i=>[i.id,i]));const names=new Map(emoji.flatMap(g=>g.emojis.map(i=>[i.url,i.name])));rows=sources.images.map(source=>({source,process:mapped.get(source.id)})).filter(r=>r.process).map(r=>({...r,name:names.get(r.process.output)||r.source.id}));render();}).catch(error=>{$('summary').textContent='读取失败，请通过本地 HTTP 服务打开此页面。';console.error(error);});
+  for(const id of ['query','group','mode'])$(id).addEventListener(id==='query'?'input':'change',render);
+  $('background').addEventListener('click',()=>{const dark=document.body.classList.toggle('dark');$('background').setAttribute('aria-pressed',String(dark));$('background').textContent=dark?'棋盘背景':'深色背景';});
+</script>
+</html>

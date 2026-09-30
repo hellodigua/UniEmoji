@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_035",
+  "source_path": "origins/byr_em/byr_em_035.gif",
+  "source_sha256": "d7e5584bcf7295daaae3b6ea382a981e283b23d0fa56bfcad201b717e0f3b169",
+  "master": "enhanced/byr_em/byr_em_035.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one green and black candy-bar mobile phone with screen and keypad. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_035.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留单个倾斜的绿色按键手机、屏幕和数字键盘，160 px清楚；原图短天线在新造型中弱化，属于机型细节变化，手机原意保持。",
+  "reviewed_sha256": "fab5155d351f50cdde919806bdcd878e4e7771870a9ec83c766798f7b6935c0a"
+}

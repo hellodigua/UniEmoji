@@ -1,0 +1,1012 @@
+{
+  "byr_emc_000": {
+    "name": "砸电脑",
+    "tags": [
+      "negative",
+      "humorous",
+      "angry",
+      "computer"
+    ],
+    "keywords": [
+      "生气",
+      "愤怒",
+      "砸电脑",
+      "电脑",
+      "坏了",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_001": {
+    "name": "幸福",
+    "tags": [
+      "positive",
+      "supportive",
+      "happy",
+      "blessing"
+    ],
+    "keywords": [
+      "幸福",
+      "开心",
+      "祝福",
+      "美满",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_002": {
+    "name": "热得冒汗",
+    "tags": [
+      "negative",
+      "plain",
+      "hot",
+      "sweating"
+    ],
+    "keywords": [
+      "好热",
+      "炎热",
+      "热死了",
+      "冒汗",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_003": {
+    "name": "托腮微笑",
+    "tags": [
+      "positive",
+      "playful",
+      "smile",
+      "content"
+    ],
+    "keywords": [
+      "微笑",
+      "开心",
+      "托腮",
+      "满足",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_004": {
+    "name": "阴影低落",
+    "tags": [
+      "negative",
+      "plain",
+      "sad",
+      "gloomy"
+    ],
+    "keywords": [
+      "低落",
+      "郁闷",
+      "阴影",
+      "难过",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_005": {
+    "name": "尴尬苦笑",
+    "tags": [
+      "negative",
+      "humorous",
+      "awkward",
+      "smile"
+    ],
+    "keywords": [
+      "尴尬",
+      "苦笑",
+      "流汗",
+      "无奈",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_006": {
+    "name": "泪如泉涌",
+    "tags": [
+      "negative",
+      "humorous",
+      "cry",
+      "tears"
+    ],
+    "keywords": [
+      "大哭",
+      "流泪",
+      "泪奔",
+      "伤心",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_007": {
+    "name": "飞吻",
+    "tags": [
+      "positive",
+      "playful",
+      "kiss",
+      "love"
+    ],
+    "keywords": [
+      "飞吻",
+      "亲亲",
+      "爱你",
+      "么么哒",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_008": {
+    "name": "惊喜大笑",
+    "tags": [
+      "positive",
+      "playful",
+      "excited",
+      "laugh"
+    ],
+    "keywords": [
+      "惊喜",
+      "大笑",
+      "开心",
+      "兴奋",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_009": {
+    "name": "侠客登场",
+    "tags": [
+      "neutral",
+      "playful",
+      "cool",
+      "hero"
+    ],
+    "keywords": [
+      "侠客",
+      "忍者",
+      "登场",
+      "酷",
+      "炫酷",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_010": {
+    "name": "不耐烦",
+    "tags": [
+      "negative",
+      "sarcastic",
+      "annoyed",
+      "unimpressed"
+    ],
+    "keywords": [
+      "不耐烦",
+      "无语",
+      "不满",
+      "嫌弃",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_011": {
+    "name": "桌前犯困",
+    "tags": [
+      "negative",
+      "plain",
+      "tired",
+      "sleepy"
+    ],
+    "keywords": [
+      "犯困",
+      "疲惫",
+      "打瞌睡",
+      "桌前",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_012": {
+    "name": "哈哈大笑",
+    "tags": [
+      "positive",
+      "humorous",
+      "laugh",
+      "happy"
+    ],
+    "keywords": [
+      "哈哈",
+      "大笑",
+      "笑死",
+      "开心",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_013": {
+    "name": "脸红害羞",
+    "tags": [
+      "positive",
+      "playful",
+      "shy",
+      "blushing"
+    ],
+    "keywords": [
+      "害羞",
+      "脸红",
+      "不好意思",
+      "羞涩",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_014": {
+    "name": "踢足球",
+    "tags": [
+      "positive",
+      "playful",
+      "football",
+      "sport"
+    ],
+    "keywords": [
+      "足球",
+      "踢球",
+      "运动",
+      "射门",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_015": {
+    "name": "抽烟装酷",
+    "tags": [
+      "neutral",
+      "sarcastic",
+      "smoking",
+      "cool"
+    ],
+    "keywords": [
+      "抽烟",
+      "装酷",
+      "冷静",
+      "不屑",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_016": {
+    "name": "飞走了",
+    "tags": [
+      "neutral",
+      "humorous",
+      "flying",
+      "spin"
+    ],
+    "keywords": [
+      "飞走",
+      "飞天",
+      "转圈",
+      "飞远",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_017": {
+    "name": "坏笑亮刀",
+    "tags": [
+      "negative",
+      "sarcastic",
+      "mischievous",
+      "threat"
+    ],
+    "keywords": [
+      "坏笑",
+      "小刀",
+      "亮刀",
+      "威胁",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_018": {
+    "name": "生气踢飞",
+    "tags": [
+      "negative",
+      "humorous",
+      "angry",
+      "dismiss"
+    ],
+    "keywords": [
+      "生气",
+      "愤怒",
+      "踢飞",
+      "走开",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_019": {
+    "name": "敲木鱼",
+    "tags": [
+      "neutral",
+      "plain",
+      "calm",
+      "meditation"
+    ],
+    "keywords": [
+      "木鱼",
+      "敲木鱼",
+      "淡定",
+      "念经",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_020": {
+    "name": "怒火燃烧",
+    "tags": [
+      "negative",
+      "humorous",
+      "angry",
+      "rage"
+    ],
+    "keywords": [
+      "怒火",
+      "生气",
+      "愤怒",
+      "火冒三丈",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_021": {
+    "name": "倒地不起",
+    "tags": [
+      "negative",
+      "humorous",
+      "exhausted",
+      "defeated"
+    ],
+    "keywords": [
+      "倒地",
+      "晕倒",
+      "累趴",
+      "阵亡",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_022": {
+    "name": "头晕眼花",
+    "tags": [
+      "negative",
+      "humorous",
+      "dizzy",
+      "confused"
+    ],
+    "keywords": [
+      "头晕",
+      "晕了",
+      "眼花",
+      "迷糊",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_023": {
+    "name": "冻得发抖",
+    "tags": [
+      "negative",
+      "humorous",
+      "cold",
+      "shivering"
+    ],
+    "keywords": [
+      "好冷",
+      "冻僵",
+      "发抖",
+      "寒冷",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_024": {
+    "name": "愤怒追赶",
+    "tags": [
+      "negative",
+      "humorous",
+      "angry",
+      "chasing"
+    ],
+    "keywords": [
+      "追赶",
+      "奔跑",
+      "生气",
+      "怒吼",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_025": {
+    "name": "兔耳哭脸",
+    "tags": [
+      "negative",
+      "playful",
+      "cry",
+      "sad"
+    ],
+    "keywords": [
+      "兔耳",
+      "兔子",
+      "哭泣",
+      "流泪",
+      "伤心",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_026": {
+    "name": "脸红疑问",
+    "tags": [
+      "neutral",
+      "playful",
+      "confused",
+      "shy"
+    ],
+    "keywords": [
+      "疑问",
+      "问号",
+      "害羞",
+      "脸红",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_027": {
+    "name": "星星眼期待",
+    "tags": [
+      "positive",
+      "playful",
+      "excited",
+      "admiration"
+    ],
+    "keywords": [
+      "星星眼",
+      "期待",
+      "崇拜",
+      "喜欢",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_028": {
+    "name": "带球奔跑",
+    "tags": [
+      "positive",
+      "playful",
+      "football",
+      "running"
+    ],
+    "keywords": [
+      "足球",
+      "带球",
+      "跑步",
+      "运动",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_029": {
+    "name": "低头鞠躬",
+    "tags": [
+      "neutral",
+      "supportive",
+      "bow",
+      "apology"
+    ],
+    "keywords": [
+      "鞠躬",
+      "低头",
+      "道歉",
+      "对不起",
+      "感谢",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_030": {
+    "name": "打哈欠",
+    "tags": [
+      "neutral",
+      "plain",
+      "sleepy",
+      "yawn"
+    ],
+    "keywords": [
+      "哈欠",
+      "困了",
+      "无聊",
+      "想睡",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_031": {
+    "name": "哭着跑开",
+    "tags": [
+      "negative",
+      "humorous",
+      "cry",
+      "running"
+    ],
+    "keywords": [
+      "大哭",
+      "泪奔",
+      "跑开",
+      "伤心",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_032": {
+    "name": "可怜巴巴",
+    "tags": [
+      "negative",
+      "playful",
+      "pleading",
+      "innocent"
+    ],
+    "keywords": [
+      "可怜",
+      "委屈",
+      "求求你",
+      "拜托",
+      "水汪汪",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_033": {
+    "name": "足球砸脸",
+    "tags": [
+      "negative",
+      "humorous",
+      "football",
+      "impact"
+    ],
+    "keywords": [
+      "足球",
+      "被砸",
+      "砸脸",
+      "中招",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_034": {
+    "name": "呆住了",
+    "tags": [
+      "neutral",
+      "humorous",
+      "stunned",
+      "blank"
+    ],
+    "keywords": [
+      "发呆",
+      "呆住",
+      "傻眼",
+      "张嘴",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_035": {
+    "name": "捂嘴偷笑",
+    "tags": [
+      "positive",
+      "playful",
+      "giggle",
+      "mischievous"
+    ],
+    "keywords": [
+      "偷笑",
+      "窃喜",
+      "捂嘴",
+      "坏笑",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_036": {
+    "name": "面壁无语",
+    "tags": [
+      "negative",
+      "humorous",
+      "speechless",
+      "embarrassed"
+    ],
+    "keywords": [
+      "面壁",
+      "无语",
+      "尴尬",
+      "汗颜",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_037": {
+    "name": "闪亮双眼",
+    "tags": [
+      "positive",
+      "playful",
+      "excited",
+      "admiration"
+    ],
+    "keywords": [
+      "闪亮",
+      "星星眼",
+      "期待",
+      "崇拜",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_038": {
+    "name": "爱心眼",
+    "tags": [
+      "positive",
+      "playful",
+      "love",
+      "infatuated"
+    ],
+    "keywords": [
+      "爱心",
+      "喜欢",
+      "爱你",
+      "心动",
+      "花痴",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_039": {
+    "name": "趴地流汗",
+    "tags": [
+      "negative",
+      "humorous",
+      "awkward",
+      "defeated"
+    ],
+    "keywords": [
+      "趴地",
+      "流汗",
+      "尴尬",
+      "无奈",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_040": {
+    "name": "孤独坐着",
+    "tags": [
+      "negative",
+      "plain",
+      "lonely",
+      "awkward"
+    ],
+    "keywords": [
+      "孤独",
+      "寂寞",
+      "尴尬",
+      "郁闷",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_041": {
+    "name": "舒服泡澡",
+    "tags": [
+      "positive",
+      "plain",
+      "relaxed",
+      "bath"
+    ],
+    "keywords": [
+      "泡澡",
+      "洗澡",
+      "放松",
+      "舒服",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_042": {
+    "name": "惊吓灵魂出窍",
+    "tags": [
+      "negative",
+      "humorous",
+      "scared",
+      "shocked"
+    ],
+    "keywords": [
+      "惊吓",
+      "害怕",
+      "灵魂出窍",
+      "吓死",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_043": {
+    "name": "挥动小物",
+    "tags": [
+      "neutral",
+      "playful",
+      "holding",
+      "waving"
+    ],
+    "keywords": [
+      "挥动",
+      "摆动",
+      "背影",
+      "小物件",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_044": {
+    "name": "晚安睡觉",
+    "tags": [
+      "positive",
+      "supportive",
+      "sleep",
+      "goodnight"
+    ],
+    "keywords": [
+      "晚安",
+      "睡觉",
+      "美梦",
+      "月亮",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_045": {
+    "name": "骑车飞驰",
+    "tags": [
+      "neutral",
+      "playful",
+      "riding",
+      "speed"
+    ],
+    "keywords": [
+      "骑车",
+      "摩托车",
+      "飞驰",
+      "出发",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_046": {
+    "name": "尴尬陪笑",
+    "tags": [
+      "negative",
+      "humorous",
+      "awkward",
+      "smile"
+    ],
+    "keywords": [
+      "尴尬",
+      "陪笑",
+      "汗颜",
+      "不好意思",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_047": {
+    "name": "跪地痛哭",
+    "tags": [
+      "negative",
+      "humorous",
+      "cry",
+      "kneeling"
+    ],
+    "keywords": [
+      "跪地",
+      "大哭",
+      "痛哭",
+      "崩溃",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_048": {
+    "name": "生气质问",
+    "tags": [
+      "negative",
+      "plain",
+      "angry",
+      "questioning"
+    ],
+    "keywords": [
+      "生气",
+      "质问",
+      "不满",
+      "怎么回事",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_049": {
+    "name": "捧脸陶醉",
+    "tags": [
+      "positive",
+      "playful",
+      "dreamy",
+      "content"
+    ],
+    "keywords": [
+      "陶醉",
+      "捧脸",
+      "害羞",
+      "满足",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_050": {
+    "name": "喔哈哈",
+    "tags": [
+      "positive",
+      "humorous",
+      "laugh",
+      "text"
+    ],
+    "keywords": [
+      "喔",
+      "哈哈",
+      "大笑",
+      "文字",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_051": {
+    "name": "狡黠坏笑",
+    "tags": [
+      "neutral",
+      "sarcastic",
+      "mischievous",
+      "smirk"
+    ],
+    "keywords": [
+      "坏笑",
+      "狡黠",
+      "嘿嘿",
+      "得意",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_052": {
+    "name": "出示红牌",
+    "tags": [
+      "negative",
+      "plain",
+      "rejection",
+      "warning"
+    ],
+    "keywords": [
+      "红牌",
+      "警告",
+      "罚下",
+      "拒绝",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_053": {
+    "name": "出示黄牌",
+    "tags": [
+      "negative",
+      "plain",
+      "warning",
+      "referee"
+    ],
+    "keywords": [
+      "黄牌",
+      "警告",
+      "裁判",
+      "提醒",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_054": {
+    "name": "眨眼卖萌",
+    "tags": [
+      "positive",
+      "playful",
+      "wink",
+      "cute"
+    ],
+    "keywords": [
+      "眨眼",
+      "卖萌",
+      "可爱",
+      "比手势",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_055": {
+    "name": "暴怒咆哮",
+    "tags": [
+      "negative",
+      "humorous",
+      "angry",
+      "rage"
+    ],
+    "keywords": [
+      "暴怒",
+      "咆哮",
+      "大吼",
+      "火大",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_056": {
+    "name": "挥手再见",
+    "tags": [
+      "positive",
+      "supportive",
+      "goodbye",
+      "wave"
+    ],
+    "keywords": [
+      "再见",
+      "拜拜",
+      "挥手",
+      "告别",
+      "bye",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_057": {
+    "name": "伤心大哭",
+    "tags": [
+      "negative",
+      "plain",
+      "cry",
+      "sad"
+    ],
+    "keywords": [
+      "伤心",
+      "大哭",
+      "难过",
+      "流泪",
+      "洋葱头",
+      "北邮人"
+    ]
+  },
+  "byr_emc_058": {
+    "name": "抓狂大叫",
+    "tags": [
+      "negative",
+      "humorous",
+      "frustrated",
+      "scream"
+    ],
+    "keywords": [
+      "抓狂",
+      "大叫",
+      "崩溃",
+      "疯了",
+      "洋葱头",
+      "北邮人"
+    ]
+  }
+}

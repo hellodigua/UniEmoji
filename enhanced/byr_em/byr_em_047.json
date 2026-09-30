@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_047",
+  "source_path": "origins/byr_em/byr_em_047.gif",
+  "source_sha256": "47159b3fb7c850dc052119ab44a3d7517dca2d446c0592beacac388be9340f7a",
+  "master": "enhanced/byr_em/byr_em_047.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a clean high-resolution 2D emoji with smooth antialiased outlines and simple gentle shading. Subject: one single pale blue-white teacup with its handle on the right, dark hot drink inside and rising steam. NO SAUCER. NO PLATE. Only the single cup and steam; the cup itself is rounded and sits alone. Preserve reference object count, arrangement, basic silhouette and palette. Tiny jagged pixels are resolution damage, not the style. Render continuous smooth curves, no pixel blocks or bitmap texture. Do not invent extra objects, limbs, text, faces or decoration. Transparent background and clean edges without outer glow, haze or shadow. Whole icon fits with a small margin. One icon only. Asset byr_em_047, corrective fidelity revision.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "修正版保留单只浅色热饮杯、右侧杯把和上升蒸汽；上一版额外杯碟已移除，原图物件数量恢复，160 px杯沿、热气和杯把清楚。",
+  "reviewed_sha256": "0346adb42cb52cb695444cac617860ba8335917290e3fda7e2b44312096151ed"
+}

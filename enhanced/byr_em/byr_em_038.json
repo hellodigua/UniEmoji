@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_038",
+  "source_path": "origins/byr_em/byr_em_038.gif",
+  "source_sha256": "2b0860c7ab3d490651be7abdc0705bad642c0d30f9df1e46c93295b0547f7bae",
+  "master": "enhanced/byr_em/byr_em_038.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one gray-white wool sheep in side view with black head and legs. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_038.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留单只朝左的绵羊、深色头部、四腿和羊毛身体；灰色羊毛改为更白的蓬松质感，动物类别及数量正确，160 px清楚。",
+  "reviewed_sha256": "680b143caab2bda31e69425fc6378c6e4cbbc3c3a1e887423b25c9f289bcfa16"
+}

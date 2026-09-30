@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_066",
+  "source_path": "origins/byr_em/byr_em_066.gif",
+  "source_sha256": "36e07dee1bf41e195259c4e6f049546a1e25bd9d102d56834b3ce1e8d2980711",
+  "master": "enhanced/byr_em/byr_em_066.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one golden five-pointed star. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_066.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留单个黄色五角星，角数、朝向和星形轮廓一致；立体明暗不改变含义，160px下各尖角完整、透明边缘干净。",
+  "reviewed_sha256": "bd46f5cefb5674d427960c71391ea3374e69fabe30fff26fcfb72c007c0278b1"
+}

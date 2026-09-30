@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_054",
+  "source_path": "origins/byr_em/byr_em_054.gif",
+  "source_sha256": "71976ef3ab9cae991725595ba90eea94cc2e0c427226e031ce90c711819d97c1",
+  "master": "enhanced/byr_em/byr_em_054.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one full-body tiny boy with brown hair wearing green clothes; keep simple cartoon human proportions. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_054.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留一名正面站立男孩、绿色上衣、蓝紫长裤、双臂向两侧展开和分开的双腿；手臂略向下弯、面部与鞋子细节增多，但主体数量、衣着主色与全身动作一致，160 px清楚。",
+  "reviewed_sha256": "e01f4431bd61024a3d4aa9b322af62e936b32d86824c237817a9a7579d7fba5a"
+}

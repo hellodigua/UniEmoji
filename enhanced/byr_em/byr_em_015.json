@@ -1,0 +1,13 @@
+{
+  "source_id": "byr_em_015",
+  "source_path": "origins/byr_em/byr_em_015.gif",
+  "source_sha256": "0ef1e706296b429aeb18f9a0c6ac6c8b6e78783e57ffbac41d6752d644cb37a7",
+  "master": "enhanced/byr_em/byr_em_015.png",
+  "tool": "image_gen",
+  "prompt": "请忠实修复这张早期论坛小表情的清晰度，保留原图造型、构图、颜色、物件数量与位置。第一张是原图编辑目标；第二张是同一原图的最近邻像素放大，仅帮助你辨认细节，不是另一种设计。具体图意：明显发绿、恶心反胃的黄色脸，绿色区域必须清晰，眉毛担忧，眼睛睁大，嘴很小且不适地半张开。禁止微笑，禁止吐舌，不要把它画成开心的脸。 请恢复为平滑清楚的二维线条，去掉像素方块，不要保留放大马赛克。保持简单的渐变和轮廓，不做3D。真正透明背景，主体完整不裁切，单个表情，不添加文字或水印。Use case: precise-object-edit. Asset: byr_em_015.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "previous_attempt": "Previous candidate rejected for changing the source expression; see review history.",
+  "review_note": "绿色不适脸色、担忧眉形以及歪向一侧的紧张小嘴一致；上一版愉快吐舌已移除，恶心/不舒服的原意恢复。160 px清楚。",
+  "reviewed_sha256": "ed201dfc86b7cd7eef2ccfc3c2e11f373239923554ee523b78b87d4f40d81984"
+}

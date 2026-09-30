@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_emb_001",
+  "source_path": "origins/byr_emb/byr_emb_001.gif",
+  "master": "enhanced/byr_emb/byr_emb_001.png",
+  "tool": "image_gen",
+  "prompt": "Edit target: the attached original animated GIF. Produce one high-resolution STATIC restoration of the visible FIRST frame only, on a genuinely transparent background. Preserve the exact original character, face, expression, action, gaze, line shapes, silhouette, colors and object placement. This white long-eared rabbit cartoon must remain immediately recognizable as the same drawing. Clean up pixel stair-stepping and restore smooth crisp hand-drawn contours while retaining the simple flat early-web sticker aesthetic. Do not add 3D gloss or extra features. Keep exactly the existing text if any, no new text or watermark. The character occupies the same proportions of the square canvas. One icon only, not a sheet. Static companion to archived animation. Use case: precise-object-edit. Asset: UniEmoji BYR emb_001 high-resolution master.",
+  "kind": "static-companion",
+  "review": "accepted",
+  "review_note": "白色长耳兔、正面上半身、水平闭眼和淡定表情与原动画首帧一致。",
+  "reviewed_sha256": "1396b8d5ed27791bff575b56173196e088f801cfb66486d190c1ed45ba3121a4",
+  "source_sha256": "d7b21a4799cd644811ed98c4dfb72ec6f9b45f75a5f66cf5c6944b613e228be5"
+}

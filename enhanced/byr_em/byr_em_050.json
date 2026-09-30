@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_050",
+  "source_path": "origins/byr_em/byr_em_050.gif",
+  "source_sha256": "ce7fa0d1b0f5b8319ca52b60f0cd2e670cc6fb14b435682701d59f003e6d6ff9",
+  "master": "enhanced/byr_em/byr_em_050.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one pale-blue open envelope with a letter emerging. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_050.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留一只打开的蓝色信封和露出的浅黄色信纸；封口与插入关系一致，信纸补绘为无可读内容的短线，未增加可读文字或额外物件，160 px清楚。",
+  "reviewed_sha256": "61f9aa8aeb5171f30e06bf284e78a39a72f6ef38d41e7644af89d8c5d1532b6a"
+}

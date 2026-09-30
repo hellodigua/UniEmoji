@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_019",
+  "source_path": "origins/byr_em/byr_em_019.gif",
+  "source_sha256": "86959ad2708643dafef6ababa23f8f601a489b91bfccab12765e463c6db18d2c",
+  "master": "enhanced/byr_em/byr_em_019.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: 难过; negative, plain, sad, frowning. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_019.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留黄脸、眉眼担忧和明显下弯嘴角，难过表情一致；泪光般眼部高光属于轻微风格变化，160 px清楚。",
+  "reviewed_sha256": "67084cd1e3d3de3ce33193a75e06e6b7a5b4a017cff9b771ade487c274cd5a5b"
+}

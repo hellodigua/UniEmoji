@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_030",
+  "source_path": "origins/byr_em/byr_em_030.gif",
+  "source_sha256": "1154b6442da50fc03e06e1db35980207d961d93280dac5bf12f2debd576e7db1",
+  "master": "enhanced/byr_em/byr_em_030.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one red small car in side view. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_030.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留向左的红色小汽车、窗户和可见双车轮；从略带透视改为更侧面的造型，但车辆类别、方向和数量一致，160 px清楚。",
+  "reviewed_sha256": "b139ab576e9ce6e9508ae83c12d8f323e121003a475194852c1caf47944170aa"
+}

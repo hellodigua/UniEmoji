@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-30T03:11:06.646854+00:00",
+  "contact_sheet": "docs/byr-review-03.png",
+  "items": [
+    {
+      "id": "byr_em_031",
+      "source": "origins/byr_em/byr_em_031.gif",
+      "source_sha256": "cd75eadbd5b1b1efbd343a373d80026321275716a068af4f93a4bf10eca87122",
+      "source_frame": 0,
+      "source_size": [
+        19,
+        19
+      ],
+      "master": "enhanced/byr_em/byr_em_031.png",
+      "master_sha256": "c16371d79860f7fc5f1a0c1acb46e25bf856ddc2c67a153179f1a5010406c990",
+      "master_size": [
+        1536,
+        1024
+      ],
+      "delivery_kind": "published",
+      "delivery": "output/byr_em/byr_em_031.avif",
+      "delivery_sha256": "50b06b6242580827cde4f7256247b7e8c94f719c0bd6d7a23bac40a05a5be20e",
+      "delivery_size": [
+        160,
+        107
+      ]
+    },
+    {
+      "id": "byr_em_032",
+      "source": "origins/byr_em/byr_em_032.gif",
+      "source_sha256": "4994b94e392ecdc57963830a396ed282786165729bf5b3236c82000020748f3e",
+      "source_frame": 0,
+      "source_size": [
+        19,
+        19
+      ],
+      "master": "enhanced/byr_em/byr_em_032.png",
+      "master_sha256": "2fe825261e38f571d3e11b7f3a955d600c6c248b0126843ada7a96107ad803b6",
+      "master_size": [
+        1312,
+        1199
+      ],
+      "delivery_kind": "published",
+      "delivery": "output/byr_em/byr_em_032.avif",
+      "delivery_sha256": "ad42d2a2e6dd01702f6d28b45faf8e5dfb883f84b1e26ccfc77a047d878d49cb",
+      "delivery_size": [
+        160,
+        146
+      ]
+    },
+    {
+      "id": "byr_em_033",
+      "source": "origins/byr_em/byr_em_033.gif",
+      "source_sha256": "5c4ffac9b1c85c6b2f6383101f022be0ad8ba5c257a099573a00a9cc1760cb76",
+      "source_frame": 0,
+      "source_size": [
+        19,
+        19
+      ],
+      "master": "enhanced/byr_em/byr_em_033.png",
+      "master_sha256": "7c2aca4637b95d96f38188dd0d2170545d5871354e63cbec37aadf5eeba96f7d",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "delivery_kind": "published",
+      "delivery": "output/byr_em/byr_em_033.avif",
+      "delivery_sha256": "f4c54433bf2b42e736f71ae7cbd14ee118693b7a51a74d167fd8428a08e6ea6b",
+      "delivery_size": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "byr_em_034",
+      "source": "origins/byr_em/byr_em_034.gif",
+      "source_sha256": "381a62b636159dfdcfc637e2433316c8dda8f9f651b9f9363e842d1b10317894",
+      "source_frame": 0,
+      "source_size": [
+        19,
+        19
+      ],
+      "master": "enhanced/byr_em/byr_em_034.png",
+      "master_sha256": "776e830368cd51600467b5ccd1ace2dc6df77c6745a8bda9bdd603f1fb0b9db4",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "delivery_kind": "published",
+      "delivery": "output/byr_em/byr_em_034.avif",
+      "delivery_sha256": "594396667fcac71b9ccf292a6ddefa58166625dec2cfc60958a1c20cbc01273e",
+      "delivery_size": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "byr_em_035",
+      "source": "origins/byr_em/byr_em_035.gif",
+      "source_sha256": "d7e5584bcf7295daaae3b6ea382a981e283b23d0fa56bfcad201b717e0f3b169",
+      "source_frame": 0,
+      "source_size": [
+        19,
+        19
+      ],
+      "master": "enhanced/byr_em/byr_em_035.png",
+      "master_sha256": "fab5155d351f50cdde919806bdcd878e4e7771870a9ec83c766798f7b6935c0a",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "delivery_kind": "published",
+      "delivery": "output/byr_em/byr_em_035.avif",
+      "delivery_sha256": "658efe0c5b9f1cc2bf8aeb12f8652ec239373cb2c9a1b8edbae249ad533bb98f",
+      "delivery_size": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "byr_em_036",
+      "source": "origins/byr_em/byr_em_036.gif",
+      "source_sha256": "56468ce08fb17d1192b1ec66b2e586db0c243b412c4e0f51da9370703c5c8555",
+      "source_frame": 0,
+      "source_size": [
+        20,
+        19
+      ],
+      "master": "enhanced/byr_em/byr_em_036.png",
+      "master_sha256": "92bac97c8ef6a2ea4fc7f92d4dcdc3def3d9f5930ff85b242f7679e081be6092",
+      "master_size": [
+        1287,
+        1222
+      ],
+      "delivery_kind": "published",
+      "delivery": "output/byr_em/byr_em_036.avif",
+      "delivery_sha256": "4e60b6c42bb5ac7241ac1d55e51fbf4ca30a08f7e1310b31230e43f034d79738",
+      "delivery_size": [
+        160,
+        152
+      ]
+    },
+    {
+      "id": "byr_em_037",
+      "source": "origins/byr_em/byr_em_037.gif",
+      "source_sha256": "a062d2f5fb4009e90b558fc684655c5f32020e8a247a573e57941d2d6340ca03",
+      "source_frame": 0,
+      "source_size": [
+        19,
+        19
+      ],
+      "master": "enhanced/byr_em/byr_em_037.png",
+      "master_sha256": "eb47556fdac15991f4121936d8dc30d5a4fd361c4688084d7a51cdca945e2c6c",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "delivery_kind": "published",
+      "delivery": "output/byr_em/byr_em_037.avif",
+      "delivery_sha256": "6cb97dc1f27cd849869e29c129db158478067675ef831c15009b6693dc366a72",
+      "delivery_size": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "byr_em_038",
+      "source": "origins/byr_em/byr_em_038.gif",
+      "source_sha256": "2b0860c7ab3d490651be7abdc0705bad642c0d30f9df1e46c93295b0547f7bae",
+      "source_frame": 0,
+      "source_size": [
+        19,
+        19
+      ],
+      "master": "enhanced/byr_em/byr_em_038.png",
+      "master_sha256": "680b143caab2bda31e69425fc6378c6e4cbbc3c3a1e887423b25c9f289bcfa16",
+      "master_size": [
+        1536,
+        1024
+      ],
+      "delivery_kind": "published",
+      "delivery": "output/byr_em/byr_em_038.avif",
+      "delivery_sha256": "af9939848494699c32179e0c96eccf7f6242a8e786cc3597f077b1848651c8b7",
+      "delivery_size": [
+        160,
+        107
+      ]
+    },
+    {
+      "id": "byr_em_041",
+      "source": "origins/byr_em/byr_em_041.gif",
+      "source_sha256": "933b6908f335714e553c49172e838574ce5f9f805d44cc9761ae628422d66b9a",
+      "source_frame": 0,
+      "source_size": [
+        19,
+        19
+      ],
+      "master": "enhanced/byr_em/byr_em_041.png",
+      "master_sha256": "6e11f14405f2121cac6642ff464d2cb69c03e7b3796af951e5c2c05bf094ff5f",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "delivery_kind": "published",
+      "delivery": "output/byr_em/byr_em_041.avif",
+      "delivery_sha256": "36f98927503250b58bca045f5671c9710edd1e72c3d0aa2a4441e5d6d4562e27",
+      "delivery_size": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "byr_em_042",
+      "source": "origins/byr_em/byr_em_042.gif",
+      "source_sha256": "84e28be2eb0e4906fac2c60128e28a1d408eb1bf18de8ea1b8aada0bc343ae10",
+      "source_frame": 0,
+      "source_size": [
+        19,
+        19
+      ],
+      "master": "enhanced/byr_em/byr_em_042.png",
+      "master_sha256": "260bee76bf708d1e7e9bee27a829be62aa1724fe1219b849106ef7e8dc9f1a1a",
+      "master_size": [
+        1270,
+        1239
+      ],
+      "delivery_kind": "published",
+      "delivery": "output/byr_em/byr_em_042.avif",
+      "delivery_sha256": "e25966154a65d2905309a188a7abbafd69202066fcd797b094412cb9d17722a7",
+      "delivery_size": [
+        160,
+        156
+      ]
+    },
+    {
+      "id": "byr_em_044",
+      "source": "origins/byr_em/byr_em_044.gif",
+      "source_sha256": "f882f59082e5437697d45419ee057398584a87a975c22f369e5b7e7a580f4b5d",
+      "source_frame": 0,
+      "source_size": [
+        19,
+        19
+      ],
+      "master": "enhanced/byr_em/byr_em_044.png",
+      "master_sha256": "b6b60e925e631f6d7e6dedd265b7f73c2ce5c508fb786f1a8a1435db4c3c76f9",
+      "master_size": [
+        1295,
+        1215
+      ],
+      "delivery_kind": "published",
+      "delivery": "output/byr_em/byr_em_044.avif",
+      "delivery_sha256": "0296a606c1001bdaa6af06e88b2a7dcd8373f7fdfcd8bebd0f121552891cbe21",
+      "delivery_size": [
+        160,
+        150
+      ]
+    },
+    {
+      "id": "byr_em_045",
+      "source": "origins/byr_em/byr_em_045.gif",
+      "source_sha256": "5d0aae58450a34dc4eeeaae456e6a33ce9f5fb6e105e7420e7fed2c76baa70dd",
+      "source_frame": 0,
+      "source_size": [
+        19,
+        19
+      ],
+      "master": "enhanced/byr_em/byr_em_045.png",
+      "master_sha256": "a67dd79ee14d0625972a055e29899bea91f3eb487c3209b12f54eff1692ce75e",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "delivery_kind": "published",
+      "delivery": "output/byr_em/byr_em_045.avif",
+      "delivery_sha256": "427c915d8285b49948028ff794264fc385bfc8ca3a476d9044a80d6a2c942118",
+      "delivery_size": [
+        160,
+        160
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_034",
+  "source_path": "origins/byr_em/byr_em_034.gif",
+  "source_sha256": "381a62b636159dfdcfc637e2433316c8dda8f9f651b9f9363e842d1b10317894",
+  "master": "enhanced/byr_em/byr_em_034.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a clean high-resolution 2D emoji with smooth antialiased outlines and simple gentle shading. Subject: one desktop computer set: a gray-lavender CRT monitor in the left foreground with a cyan blue screen and stand, PLUS a distinct gray-purple upright tower computer behind it on the right, with a small bright green status light. Keep both monitor AND separate tower visible. No keyboard. Preserve reference object count, arrangement, basic silhouette and palette. Tiny jagged pixels are resolution damage, not the style. Render continuous smooth curves, no pixel blocks or bitmap texture. Do not invent extra objects, limbs, text, faces or decoration. Transparent background and clean edges without outer glow, haze or shadow. Whole icon fits with a small margin. One icon only. Asset byr_em_034, corrective fidelity revision.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "修正版恢复前侧蓝屏显示器与右后方独立主机，主机绿色指示灯也保留；物件数量和相对位置正确，160 px清楚。",
+  "reviewed_sha256": "776e830368cd51600467b5ccd1ace2dc6df77c6745a8bda9bdd603f1fb0b9db4"
+}

@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_065",
+  "source_path": "origins/byr_em/byr_em_065.gif",
+  "source_sha256": "640468b88e8f8eaf307a053b8a403e1acaa5906a7edc13da698aa14aed7f13cb",
+  "master": "enhanced/byr_em/byr_em_065.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one upright red rose with green stem and leaves. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_065.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留单枝红玫瑰、绿色花茎及左右叶片的主体与送花含义；花朵完整、没有额外对象，160px透明边缘干净。",
+  "reviewed_sha256": "4116d44d6bd0976aa5be596da45a6fc64b7acfdf5fa8aeb23e523bea69713614"
+}

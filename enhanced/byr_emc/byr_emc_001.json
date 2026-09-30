@@ -1,0 +1,13 @@
+{
+  "source_id": "byr_emc_001",
+  "source_path": "origins/byr_emc/byr_emc_001.gif",
+  "master": "enhanced/byr_emc/byr_emc_001.png",
+  "tool": "image_gen",
+  "prompt": "Use case: precise-object-edit. Restore this exact 50x50 GIF first frame as one crisp high-resolution 2D cartoon sticker with genuine transparency. The Chinese text on the pink vertical plaque MUST be exactly 幸福, 幸 above 福. It is NOT 春 and do not add 春. Preserve the original smiling white onion-shaped character on the right, tan triangular top, closed happy curved eyes, pink cheeks, the pink plaque on the left, and the small blue bead with yellow cord at the upper right. Match the reference composition, proportions, pose and outline shapes closely; smooth jagged pixel edges, retain flat simple early-web cartoon style, no 3D gloss, no new objects. Static companion to original GIF, single icon only, no watermark. Asset: UniEmoji byr_emc_001 restored static companion. Text verbatim: 幸福.",
+  "kind": "static-companion",
+  "review": "accepted",
+  "review_note": "洋葱头、开心眯眼、红色吊牌、黄色流苏和蓝珠均保留；牌中文字“幸福”正确。",
+  "previous_attempt": "Rejected: prompt misread source 幸福 as 春福; not published.",
+  "reviewed_sha256": "24787b2c1a6d801e0ef554ae34403a3f27d4206129a772077e584b4e4148cb84",
+  "source_sha256": "f50e261edf71cc889526b13ec7cd94fa35d336f3bae5c0d2146e44235e680886"
+}

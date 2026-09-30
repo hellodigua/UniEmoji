@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_001",
+  "source_path": "origins/byr_em/byr_em_001.gif",
+  "master": "enhanced/byr_em/byr_em_001.png",
+  "tool": "image_gen",
+  "prompt": "Faithful high-resolution STATIC restoration of visible first frame of 19x19 classic yellow forum smiley; preserve expression, eyes, brows, yellow-orange colors, tiny closed smile, proportions and silhouette; transparent background; no text, border or extra objects; restore antialias detail, early-web aesthetic.",
+  "kind": "static-companion",
+  "review": "accepted",
+  "review_note": "保留黄色圆脸、侧看眼神和闭嘴微笑；细节平滑与轻微风格变化可接受。",
+  "reviewed_sha256": "9c72df61d2aa16cd187a5e1881a11f227e56a6eedf17f52cf68a6d2c34306a5d",
+  "source_sha256": "27a659248deec1cd2bb76bd8bbfa717ba6047ae2cb36c43619945b1cdb539b55"
+}

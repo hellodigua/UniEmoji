@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_055",
+  "source_path": "origins/byr_em/byr_em_055.gif",
+  "source_sha256": "9da72bf34b06037467f3b2d5321d1d91034e4985b70336dcfdde28025d0c70be",
+  "master": "enhanced/byr_em/byr_em_055.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one green-shirt half-body person extending arms for the matching opposite side of a hug, preserve pose. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_055.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留单个金发人物的绿色上半身和朝画面右侧伸出的双臂，呈邀请拥抱姿态；脸部与手指细节更完整，人物数量、发色、衣色和拥抱方向一致，160 px清楚。",
+  "reviewed_sha256": "5103221e94b3ce672d7552f36728c92247a1705d5924558e2408b132b256ec9b"
+}

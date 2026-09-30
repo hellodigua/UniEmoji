@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_046",
+  "source_path": "origins/byr_em/byr_em_046.gif",
+  "source_sha256": "c43c1880a06c0fa4f2497fd98385b5f618c162b766e67aceb81ee01df51c6eb2",
+  "master": "enhanced/byr_em/byr_em_046.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one round pale-blue clock with a white dial. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_046.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留单个蓝色边框模拟时钟、白色表盘、刻度和指向右上及右侧的双指针；外壳由略带透视改为更正面的圆形，关键物件与时间方向一致，160 px平滑清楚。",
+  "reviewed_sha256": "b419b8640cfedc1e41a1e258703910178880a3645136ac531f244501c0c3dd0d"
+}

@@ -1,0 +1,429 @@
+{
+  "byr_emb_000": {
+    "name": "甩头登场",
+    "tags": [
+      "neutral",
+      "playful",
+      "energetic",
+      "entrance"
+    ],
+    "keywords": [
+      "登场",
+      "出场",
+      "甩头",
+      "摇头",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_001": {
+    "name": "郁闷大哭",
+    "tags": [
+      "negative",
+      "humorous",
+      "sad",
+      "frustrated",
+      "cry"
+    ],
+    "keywords": [
+      "郁闷",
+      "难过",
+      "大哭",
+      "崩溃",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_002": {
+    "name": "捧便便大喊",
+    "tags": [
+      "neutral",
+      "humorous",
+      "silly",
+      "poop",
+      "shout"
+    ],
+    "keywords": [
+      "便便",
+      "恶搞",
+      "大喊",
+      "重口味",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_003": {
+    "name": "左右摆手",
+    "tags": [
+      "neutral",
+      "playful",
+      "sway",
+      "dance"
+    ],
+    "keywords": [
+      "摆手",
+      "晃动",
+      "摇摆",
+      "跳舞",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_004": {
+    "name": "摇摆招手",
+    "tags": [
+      "positive",
+      "playful",
+      "wave",
+      "hello"
+    ],
+    "keywords": [
+      "招手",
+      "挥手",
+      "打招呼",
+      "摇摆",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_005": {
+    "name": "握拳冲刺",
+    "tags": [
+      "positive",
+      "playful",
+      "determined",
+      "excited"
+    ],
+    "keywords": [
+      "握拳",
+      "冲刺",
+      "加油",
+      "振奋",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_006": {
+    "name": "转头张望",
+    "tags": [
+      "neutral",
+      "plain",
+      "looking",
+      "around"
+    ],
+    "keywords": [
+      "转头",
+      "张望",
+      "左顾右盼",
+      "观察",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_007": {
+    "name": "泪流满面",
+    "tags": [
+      "negative",
+      "humorous",
+      "cry",
+      "sad"
+    ],
+    "keywords": [
+      "大哭",
+      "流泪",
+      "泪流满面",
+      "难过",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_008": {
+    "name": "挖鼻孔",
+    "tags": [
+      "neutral",
+      "sarcastic",
+      "bored",
+      "unimpressed"
+    ],
+    "keywords": [
+      "挖鼻",
+      "抠鼻",
+      "无聊",
+      "不屑",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_009": {
+    "name": "默默流泪",
+    "tags": [
+      "negative",
+      "plain",
+      "sad",
+      "tears"
+    ],
+    "keywords": [
+      "流泪",
+      "伤心",
+      "难过",
+      "委屈",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_010": {
+    "name": "便便环绕",
+    "tags": [
+      "negative",
+      "humorous",
+      "poop",
+      "frustrated"
+    ],
+    "keywords": [
+      "便便",
+      "环绕",
+      "恶搞",
+      "郁闷",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_011": {
+    "name": "擦汗",
+    "tags": [
+      "negative",
+      "humorous",
+      "sweating",
+      "awkward"
+    ],
+    "keywords": [
+      "擦汗",
+      "流汗",
+      "尴尬",
+      "汗颜",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_012": {
+    "name": "仰头摇摆",
+    "tags": [
+      "neutral",
+      "playful",
+      "sway",
+      "dance"
+    ],
+    "keywords": [
+      "仰头",
+      "摇摆",
+      "晃脑",
+      "扭动",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_013": {
+    "name": "背身招手",
+    "tags": [
+      "neutral",
+      "playful",
+      "wave",
+      "beckon"
+    ],
+    "keywords": [
+      "背影",
+      "回头",
+      "招手",
+      "勾手",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_014": {
+    "name": "回头捂嘴",
+    "tags": [
+      "neutral",
+      "playful",
+      "shy",
+      "giggle"
+    ],
+    "keywords": [
+      "回头",
+      "捂嘴",
+      "偷笑",
+      "害羞",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_015": {
+    "name": "甩头旋转",
+    "tags": [
+      "neutral",
+      "playful",
+      "shake",
+      "spin"
+    ],
+    "keywords": [
+      "甩头",
+      "旋转",
+      "摇头",
+      "晃脑",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_016": {
+    "name": "崩溃变脸",
+    "tags": [
+      "negative",
+      "humorous",
+      "overwhelmed",
+      "frustrated"
+    ],
+    "keywords": [
+      "崩溃",
+      "变脸",
+      "郁闷",
+      "恶搞",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_017": {
+    "name": "戴耳机听歌",
+    "tags": [
+      "positive",
+      "playful",
+      "music",
+      "dance"
+    ],
+    "keywords": [
+      "耳机",
+      "听歌",
+      "音乐",
+      "摇摆",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_018": {
+    "name": "闪亮得意",
+    "tags": [
+      "positive",
+      "playful",
+      "smug",
+      "proud"
+    ],
+    "keywords": [
+      "得意",
+      "傲娇",
+      "闪亮",
+      "自信",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_019": {
+    "name": "拿钱擦泪",
+    "tags": [
+      "negative",
+      "humorous",
+      "cry",
+      "money"
+    ],
+    "keywords": [
+      "钞票",
+      "钱",
+      "擦泪",
+      "哭泣",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_020": {
+    "name": "摆臂跳舞",
+    "tags": [
+      "positive",
+      "playful",
+      "dance",
+      "celebrate"
+    ],
+    "keywords": [
+      "跳舞",
+      "摆臂",
+      "摇摆",
+      "欢快",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_021": {
+    "name": "鄙视你们",
+    "tags": [
+      "negative",
+      "sarcastic",
+      "disdain",
+      "unimpressed"
+    ],
+    "keywords": [
+      "鄙视",
+      "你们",
+      "嫌弃",
+      "不屑",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_022": {
+    "name": "左右晃悠",
+    "tags": [
+      "neutral",
+      "playful",
+      "sway",
+      "idle"
+    ],
+    "keywords": [
+      "晃悠",
+      "摇摆",
+      "扭动",
+      "无聊",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_023": {
+    "name": "吃东西大喊",
+    "tags": [
+      "neutral",
+      "humorous",
+      "eating",
+      "shout"
+    ],
+    "keywords": [
+      "吃东西",
+      "擦嘴",
+      "大喊",
+      "张嘴",
+      "兔斯基",
+      "北邮人"
+    ]
+  },
+  "byr_emb_024": {
+    "name": "捧物摆动",
+    "tags": [
+      "neutral",
+      "playful",
+      "holding",
+      "sway"
+    ],
+    "keywords": [
+      "捧着",
+      "摆动",
+      "抱着",
+      "扭动",
+      "兔斯基",
+      "北邮人"
+    ]
+  }
+}

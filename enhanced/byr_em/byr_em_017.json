@@ -1,0 +1,13 @@
+{
+  "source_id": "byr_em_017",
+  "source_path": "origins/byr_em/byr_em_017.gif",
+  "source_sha256": "a88de128822edc1e72c6fd18cc911b9ef53b485efe3b1a9ac206b4cd76d1e237",
+  "master": "enhanced/byr_em/byr_em_017.png",
+  "tool": "image_gen",
+  "prompt": "请忠实修复这张早期论坛小表情的清晰度，保留原图造型、构图、颜色、物件数量与位置。第一张是原图编辑目标；第二张是同一原图的最近邻像素放大，仅帮助你辨认细节，不是另一种设计。具体图意：脸红害羞的黄色小脸，双颊明显红晕，视线侧上方，小小闭合的嘴。保持原图柔和害羞表情，不能画成忧愁皱眉、张嘴伤心或哭泣。 请恢复为平滑清楚的二维线条，去掉像素方块，不要保留放大马赛克。保持简单的渐变和轮廓，不做3D。真正透明背景，主体完整不裁切，单个表情，不添加文字或水印。Use case: precise-object-edit. Asset: byr_em_017.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "previous_attempt": "Previous candidate rejected for changing the source expression; see review history.",
+  "review_note": "红脸、上看眼神和小闭嘴保留，上一版明显悲伤的下垂嘴型已修正；现在为腼腆害羞表情。160 px清楚。",
+  "reviewed_sha256": "13d7f027dd31f68aacd44174b82e34f64d789450df7215db91b7e062b73bf3f2"
+}

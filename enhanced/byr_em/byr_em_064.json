@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_064",
+  "source_path": "origins/byr_em/byr_em_064.gif",
+  "source_sha256": "3f908cf7add093a3b2856224b13f82bd17a94cb967630bf28b4aac76404abc30",
+  "master": "enhanced/byr_em/byr_em_064.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a clean high-resolution 2D emoji with smooth outlines and gentle shading. Exactly ONE blue/cyan gift box in slight isometric view, wrapped with a bright RED ribbon, topped with a RED bow. The BOX is BLUE and CYAN; the ribbon and bow are RED. Preserve source composition and colors faithfully. No extra objects, no lettering. Smooth curves without pixel blocks, stair-step edges or texture. Truly transparent background, clean cutout edge, no glow, no haze, no drop shadow. Small margin around whole present. Asset byr_em_064, corrective color revision.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "修正版恢复蓝/青色礼盒配红色丝带和红色蝴蝶结，主体数量、礼物含义及主要配色与原图一致；160px透明边缘完整，前版颜色对调问题已解决。",
+  "reviewed_sha256": "44996167cc0c477c66650a4349ad3e9cf38d1e988388fa29668bf31e10df3d2e"
+}

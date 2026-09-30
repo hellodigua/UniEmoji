@@ -25,8 +25,8 @@
             <div class="stat-label">素材图</div>
           </div>
           <div class="stat-card">
-            <div class="stat-number">7</div>
-            <div class="stat-label">平台</div>
+            <div class="stat-number" id="totalPlatforms">0</div>
+            <div class="stat-label">表情分组</div>
           </div>
         </div>
       </div>
@@ -35,9 +35,11 @@
         <input
           type="text"
           class="search-input"
-          placeholder="搜索表情名称或平台英文名..."
+          placeholder="搜索名称、关键词或平台..."
           id="searchInput"
+          aria-label="搜索表情名称、关键词或平台"
         />
+        <p class="usage-hint">点击表情复制图片；动图会复制静帧，点「下载」保留原文件。</p>
       </div>
 
       <div id="platformsContainer">
@@ -75,19 +77,34 @@
 
       // 平台配置
       const platformConfig = {
-        tieba: { icon: "贴", class: "tieba" },
-        zhihu: { icon: "知", class: "zhihu" },
-        xiaohongshu: { icon: "红", class: "xiaohongshu" },
-        douyin: { icon: "抖", class: "douyin" },
-        qq: { icon: "Q", class: "qq" },
-        bilibili: { icon: "B", class: "bilibili" },
-        weibo: { icon: "微", class: "weibo" },
+        tieba: { name: "百度贴吧", icon: "贴", class: "tieba" },
+        zhihu: { name: "知乎", icon: "知", class: "zhihu" },
+        xiaohongshu: { name: "小红书", icon: "红", class: "xiaohongshu" },
+        douyin: { name: "抖音", icon: "抖", class: "douyin" },
+        qq: { name: "QQ", icon: "Q", class: "qq" },
+        bilibili: { name: "哔哩哔哩 B 站", icon: "B", class: "bilibili" },
+        weibo: { name: "微博", icon: "微", class: "weibo" },
+        byr_em: { name: "北邮人 · 经典", icon: "北", class: "byr-em" },
+        byr_ema: { name: "北邮人 · 悠嘻猴", icon: "猴", class: "byr-ema" },
+        byr_emb: { name: "北邮人 · 兔斯基", icon: "兔", class: "byr-emb" },
+        byr_emc: { name: "北邮人 · 洋葱头", icon: "葱", class: "byr-emc" },
       };
+
+      function escapeHtml(value) {
+        return String(value).replace(/[&<>"']/g, (character) => ({
+          "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+        }[character]));
+      }
+
+      function mayContainAnimation(emoji) {
+        return Boolean(emoji.animated || emoji.animation) || /\.(gif|webp)(?:$|[?#])/i.test(emoji.url);
+      }
 
       // 加载表情包数据
       async function loadEmojiData() {
         try {
           const response = await fetch("emoji.json");
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
           emojiData = await response.json();
           filteredData = [...emojiData];
           const names = emojiData.map((p) => p.platform);
@@ -116,6 +133,7 @@
         container.innerHTML = filteredData
           .map((platform, idx) => {
             const config = platformConfig[platform.platform] || {
+              name: platform.platform,
               icon: "?",
               class: "default",
             };
@@ -128,12 +146,12 @@
                                 <div class="platform-icon ${config.class}">${
               config.icon
             }</div>
-                                ${platform.platform}
+                                ${escapeHtml(config.name)}
                             </div>
                             <div class="platform-actions">
                                 ${
                                   showMoveUp
-                                    ? `<button class="pin-button" title="上移一位" onclick="moveUp('${platform.platform}')">上移</button>`
+                                    ? `<button class="pin-button" title="上移一位" data-move-up="${escapeHtml(platform.platform)}">上移</button>`
                                     : ""
                                 }
                                 <div class="platform-count">${
@@ -145,16 +163,20 @@
                             ${platform.emojis
                               .map(
                                 (emoji, index) => `
-                                <div class="emoji-item" onclick="copyImageToClipboard('${
-                                  emoji.url
-                                }')">
-                                    <img src="${emoji.url}" alt="${
-                                  emoji.name || "表情"
-                                }" class="emoji-image"
+                                <div class="emoji-item">
+                                  <button class="emoji-copy" data-copy-url="${escapeHtml(emoji.url)}"
+                                    data-static-copy="${mayContainAnimation(emoji)}"
+                                    title="${mayContainAnimation(emoji) ? "复制静态图片；下载可保留原文件" : "复制图片"}">
+                                    <img src="${escapeHtml(emoji.url)}" alt="${
+                                  escapeHtml(emoji.name || "表情")
+                                }" class="emoji-image" loading="lazy"
                                          onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiByeD0iOCIgZmlsbD0iI0Y1RjVGNSIvPgo8dGV4dCB4PSIzMCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIyNCIgZmlsbD0iIzk5OTk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+YvjwvdGV4dD4KPHN2Zz4K'">
                                     <div class="emoji-name">${
-                                      emoji.name || `表情 ${index + 1}`
+                                      escapeHtml(emoji.name || `表情 ${index + 1}`)
                                     }</div>
+                                  </button>
+                                  <a class="emoji-download" href="${escapeHtml(emoji.url)}" download
+                                    title="下载原文件，保留原有动画">下载</a>
                                 </div>
                             `
                               )
@@ -173,6 +195,7 @@
           0
         );
         document.getElementById("totalEmojis").textContent = totalEmojis;
+        document.getElementById("totalPlatforms").textContent = filteredData.length;
       }
 
       // 按自定义顺序排序
@@ -187,20 +210,21 @@
 
       // 搜索功能
       function filterEmojis(searchTerm) {
-        if (!searchTerm.trim()) {
+        const query = searchTerm.trim().toLowerCase();
+        if (!query) {
           filteredData = [...emojiData];
         } else {
           filteredData = emojiData
             .map((platform) => ({
               ...platform,
               emojis: platform.emojis.filter(
-                (emoji) =>
-                  (emoji.name || "")
-                    .toLowerCase()
-                    .includes(searchTerm.toLowerCase()) ||
-                  platform.platform
-                    .toLowerCase()
-                    .includes(searchTerm.toLowerCase())
+                (emoji) => [
+                  emoji.name || "",
+                  emoji.tags || [],
+                  emoji.keywords || [],
+                  platform.platform,
+                  platformConfig[platform.platform]?.name || "",
+                ].flat().some((value) => String(value).toLowerCase().includes(query))
               ),
             }))
             .filter((platform) => platform.emojis.length > 0);
@@ -225,7 +249,7 @@
       }
 
       // 复制图片到剪贴板
-      async function copyImageToClipboard(imageSrc) {
+      async function copyImageToClipboard(imageSrc, staticCopy = false) {
         try {
           // 创建一个临时的 canvas 来处理图片
           const canvas = document.createElement("canvas");
@@ -255,7 +279,7 @@
                       }),
                     ]);
 
-                    showToast("✅ 图片已复制到剪贴板！", "#4CAF50");
+                    showToast(staticCopy ? "✅ 已复制 PNG 静帧；点「下载」可保留原文件" : "✅ 图片已复制到剪贴板！", "#4CAF50");
                     resolve();
                   } catch (err) {
                     // 如果复制图片失败，回退到复制路径
@@ -324,6 +348,15 @@
       }
 
       // 事件监听
+      document.getElementById("platformsContainer").addEventListener("click", (event) => {
+        const copyButton = event.target.closest("[data-copy-url]");
+        if (copyButton) {
+          copyImageToClipboard(copyButton.dataset.copyUrl, copyButton.dataset.staticCopy === "true");
+        }
+        const moveButton = event.target.closest("[data-move-up]");
+        if (moveButton) moveUp(moveButton.dataset.moveUp);
+      });
+
       document.getElementById("searchInput").addEventListener("input", (e) => {
         filterEmojis(e.target.value);
       });

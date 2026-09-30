@@ -1,0 +1,13 @@
+{
+  "source_id": "byr_em_014",
+  "source_path": "origins/byr_em/byr_em_014.gif",
+  "source_sha256": "e281385aac71237f9927fa60b23127d9186ced9b7e28ba8365c95557de4db14d",
+  "master": "enhanced/byr_em/byr_em_014.png",
+  "tool": "image_gen",
+  "prompt": "请忠实修复这张早期论坛小表情的清晰度，保留原图造型、构图、颜色、物件数量与位置。第一张是原图编辑目标；第二张是同一原图的最近邻像素放大，仅帮助你辨认细节，不是另一种设计。具体图意：两张重叠的黄色惊讶脸，左上一个右下一个，两个都是大眼睛和O型张开的圆嘴。禁止笑、禁止吐舌、禁止加问号。 请恢复为平滑清楚的二维线条，去掉像素方块，不要保留放大马赛克。保持简单的渐变和轮廓，不做3D。真正透明背景，主体完整不裁切，单个表情，不添加文字或水印。Use case: precise-object-edit. Asset: byr_em_014.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "previous_attempt": "Previous candidate rejected for changing the source expression; see review history.",
+  "review_note": "两张脸的数量、前后重叠位置和圆形张嘴惊讶均与原图一致；上一版额外的吐舌嬉笑已移除。160 px清楚。",
+  "reviewed_sha256": "2fdea724d3d01cff4aaf159f67e38bd8749a1128eefb8d961346bef524bedb79"
+}

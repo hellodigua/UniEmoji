@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_ema_001",
+  "source_path": "origins/byr_ema/byr_ema_001.gif",
+  "master": "enhanced/byr_ema/byr_ema_001.png",
+  "tool": "image_gen",
+  "prompt": "Edit target: the attached original animated GIF. Produce one high-resolution STATIC restoration of the visible FIRST frame only, on a genuinely transparent background. Preserve the exact original character, face, expression, action, gaze, line shapes, silhouette, colors and object placement. This brown cartoon monkey must remain immediately recognizable as the same drawing. Clean up pixel stair-stepping and restore smooth crisp hand-drawn contours while retaining the simple flat early-web sticker aesthetic. Do not add 3D gloss or extra features. Keep exactly the existing text if any, no new text or watermark. The character occupies the same proportions of the square canvas. One icon only, not a sheet. Static companion to archived animation. Use case: precise-object-edit. Asset: UniEmoji BYR ema_001 high-resolution master.",
+  "kind": "static-companion",
+  "review": "accepted",
+  "review_note": "棕色猴子、闭眼流泪、波浪嘴以及左侧白旗全部保留；正确语义为举白旗投降。",
+  "reviewed_sha256": "fcd8a0997ca5b46418b82984a72f709f2c8358cd52501aa8c879868b19980193",
+  "source_sha256": "a78e1935482f755135f5e8e67517b7ff3b8655e0f1475d7c1a0c78c16a1bffdc"
+}

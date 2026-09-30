@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_042",
+  "source_path": "origins/byr_em/byr_em_042.gif",
+  "source_sha256": "84e28be2eb0e4906fac2c60128e28a1d408eb1bf18de8ea1b8aada0bc343ae10",
+  "master": "enhanced/byr_em/byr_em_042.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one red heart split down the middle. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_042.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留一颗红色爱心及中央贯穿的锯齿状裂口，心碎语义、两侧断裂关系和主色一致；光泽与轮廓平滑重建，160 px清楚。",
+  "reviewed_sha256": "260bee76bf708d1e7e9bee27a829be62aa1724fe1219b849106ef7e8dc9f1a1a"
+}

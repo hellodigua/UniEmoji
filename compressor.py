@@ -3,8 +3,8 @@
 """
 Emoji压缩转换工具
 功能：将origins目录中的图片转换为高效的AVIF格式，并调整到指定尺寸
-支持格式：PNG, JPG, WebP (自动检测实际格式)
-输出格式：AVIF (优先) 或 WebP (降级)
+支持格式：PNG, JPG, WebP, AVIF, GIF (自动检测实际格式)
+输出格式：AVIF (优先) 或 WebP (降级)；GIF 原样复制，保留动画
 """
 
 import os
@@ -24,6 +24,7 @@ class EmojiCompressor:
         self.quality = quality
         self.verbose = verbose
 
+        # BYR 由 scripts/prepare-byr.py 独立维护，避免覆盖 AI 增强后的发布图。
         # 平台目录映射 (现在origins目录已统一为英文名)
         self.platform_mapping = {
             'tieba': 'tieba',
@@ -80,6 +81,9 @@ class EmojiCompressor:
                 # JPEG格式检测
                 elif header.startswith(b'\xff\xd8\xff'):
                     return 'jpeg'
+                # GIF87a / GIF89a 格式检测
+                elif header.startswith((b'GIF87a', b'GIF89a')):
+                    return 'gif'
                 # AVIF格式检测
                 elif b'ftyp' in header and b'avif' in header:
                     return 'avif'
@@ -186,6 +190,20 @@ class EmojiCompressor:
 
         # 创建输出目录
         output_path.parent.mkdir(parents=True, exist_ok=True)
+
+        # GIF 不经过静态 PNG 管道：逐字节保留帧、时长、循环和透明度。
+        if original_format == 'gif':
+            gif_output = output_path.with_suffix('.gif')
+            try:
+                if not gif_output.exists() or not input_path.samefile(gif_output):
+                    shutil.copy2(input_path, gif_output)
+                original_size = input_path.stat().st_size
+                new_size = gif_output.stat().st_size
+            except OSError as error:
+                self._print(f"    ❌ GIF 原样复制失败: {error}")
+                return False, 0, 0
+            self._print("    ✅ GIF 原样保留（不缩放、不压缩、不做 AI 增强）")
+            return True, original_size, new_size, 'GIF', str(gif_output)
 
         # 临时文件路径
         temp_png_original = str(input_path) + '.temp_orig.png'
@@ -334,7 +352,7 @@ class EmojiCompressor:
                     'original_size': original_size,
                     'new_size': new_size,
                     'compression_ratio': compression_ratio,
-                    'target_size': f"{self.target_size}×{self.target_size}",
+                    'target_size': 'original' if output_format == 'GIF' else f"{self.target_size}×{self.target_size}",
                     'success': True
                 }
 
@@ -369,19 +387,18 @@ class EmojiCompressor:
         self._print("🚀 Emoji压缩转换工具启动", force=True)
         self._print("=" * 70, force=True)
 
-        # 检查必要工具
+        # GIF 原样复制不需要转换工具；静态图片仍需编码器。
         if not self.available_tools:
-            self._print("❌ 没有找到任何可用的转换工具", force=True)
-            self._print("请安装以下工具之一:", force=True)
+            self._print("⚠️ 未找到转换工具，仅 GIF 可以原样处理", force=True)
+            self._print("静态图片转换请安装以下工具:", force=True)
             self._print("  - libavif: brew install libavif", force=True)
             self._print("  - webp: brew install webp", force=True)
             self._print("  - ImageMagick: brew install imagemagick (可选)", force=True)
-            return None
 
         self._print(f"🔧 配置信息:", force=True)
         self._print(f"  输入目录: {self.input_dir}", force=True)
         self._print(f"  输出目录: {self.output_dir}", force=True)
-        self._print(f"  目标尺寸: {self.target_size}×{self.target_size}", force=True)
+        self._print(f"  目标尺寸: {self.target_size}×{self.target_size}（GIF 保留原始尺寸）", force=True)
         self._print(f"  质量设置: {self.quality}", force=True)
         self._print(f"  可用工具: {', '.join(self.available_tools)}", force=True)
 
@@ -541,7 +558,7 @@ def main():
     results = compressor.compress_all()
 
     if results:
-        print(f"\n🎉 压缩完成! 所有emoji已转换为{args.size}×{args.size}的高效格式!")
+        print(f"\n🎉 处理完成! 静态图片目标尺寸为{args.size}×{args.size}，GIF 保留原文件；结果见报告。")
     else:
         print("\n❌ 压缩失败，请检查工具安装和输入目录")
 

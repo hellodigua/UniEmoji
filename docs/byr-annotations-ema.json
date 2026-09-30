@@ -1,0 +1,724 @@
+{
+  "byr_ema_000": {
+    "name": "扭头微笑",
+    "tags": [
+      "positive",
+      "playful",
+      "turning-head",
+      "smiling"
+    ],
+    "keywords": [
+      "扭头",
+      "微笑",
+      "笑眯眯",
+      "可爱",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_001": {
+    "name": "举白旗投降",
+    "tags": [
+      "negative",
+      "playful",
+      "surrender",
+      "white-flag",
+      "crying"
+    ],
+    "keywords": [
+      "投降",
+      "认输",
+      "举白旗",
+      "流泪",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_002": {
+    "name": "惊讶喷水",
+    "tags": [
+      "neutral",
+      "humorous",
+      "surprised",
+      "spitting"
+    ],
+    "keywords": [
+      "惊讶",
+      "喷水",
+      "喷了",
+      "吓一跳",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_003": {
+    "name": "仰头",
+    "tags": [
+      "neutral",
+      "playful",
+      "head-up",
+      "pouting"
+    ],
+    "keywords": [
+      "仰头",
+      "抬头",
+      "撅嘴",
+      "哼",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_004": {
+    "name": "戴花花痴",
+    "tags": [
+      "positive",
+      "playful",
+      "admiring",
+      "flower",
+      "blushing"
+    ],
+    "keywords": [
+      "花痴",
+      "心动",
+      "喜欢",
+      "戴花",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_005": {
+    "name": "打电话",
+    "tags": [
+      "neutral",
+      "plain",
+      "calling",
+      "telephone"
+    ],
+    "keywords": [
+      "打电话",
+      "电话",
+      "聊天",
+      "联系",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_006": {
+    "name": "戴花微笑",
+    "tags": [
+      "positive",
+      "playful",
+      "smiling",
+      "flower",
+      "cute"
+    ],
+    "keywords": [
+      "微笑",
+      "戴花",
+      "可爱",
+      "笑眯眯",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_007": {
+    "name": "委屈流泪",
+    "tags": [
+      "negative",
+      "plain",
+      "crying",
+      "sad"
+    ],
+    "keywords": [
+      "委屈",
+      "流泪",
+      "哭了",
+      "难过",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_008": {
+    "name": "咧嘴笑",
+    "tags": [
+      "positive",
+      "humorous",
+      "grinning",
+      "amused"
+    ],
+    "keywords": [
+      "咧嘴笑",
+      "嘿嘿",
+      "乐了",
+      "笑嘻嘻",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_009": {
+    "name": "张嘴笑",
+    "tags": [
+      "positive",
+      "playful",
+      "laughing",
+      "happy"
+    ],
+    "keywords": [
+      "哈哈",
+      "张嘴笑",
+      "开心",
+      "高兴",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_010": {
+    "name": "咬牙流泪",
+    "tags": [
+      "negative",
+      "plain",
+      "crying",
+      "clenched-teeth"
+    ],
+    "keywords": [
+      "咬牙",
+      "流泪",
+      "委屈",
+      "强忍泪水",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_011": {
+    "name": "鞠躬笑",
+    "tags": [
+      "positive",
+      "supportive",
+      "bowing",
+      "smiling"
+    ],
+    "keywords": [
+      "鞠躬",
+      "谢谢",
+      "感谢",
+      "笑脸",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_012": {
+    "name": "天使升空",
+    "tags": [
+      "positive",
+      "playful",
+      "angel",
+      "flying"
+    ],
+    "keywords": [
+      "天使",
+      "升天",
+      "光环",
+      "飞起来",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_013": {
+    "name": "托腮委屈",
+    "tags": [
+      "negative",
+      "plain",
+      "sad",
+      "chin-in-hand"
+    ],
+    "keywords": [
+      "托腮",
+      "委屈",
+      "闷闷不乐",
+      "不开心",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_014": {
+    "name": "小猪睡觉",
+    "tags": [
+      "neutral",
+      "playful",
+      "pig",
+      "sleeping"
+    ],
+    "keywords": [
+      "小猪",
+      "睡觉",
+      "呼呼",
+      "鼻涕泡",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_015": {
+    "name": "戴花摇头",
+    "tags": [
+      "positive",
+      "playful",
+      "flower",
+      "head-shaking",
+      "smiling"
+    ],
+    "keywords": [
+      "戴花",
+      "摇头",
+      "卖萌",
+      "可爱",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_016": {
+    "name": "小猪大哭",
+    "tags": [
+      "negative",
+      "humorous",
+      "pig",
+      "crying"
+    ],
+    "keywords": [
+      "小猪",
+      "大哭",
+      "泪奔",
+      "伤心",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_017": {
+    "name": "斜眼无语",
+    "tags": [
+      "neutral",
+      "sarcastic",
+      "side-eye",
+      "speechless"
+    ],
+    "keywords": [
+      "斜眼",
+      "无语",
+      "冷眼",
+      "淡定",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_018": {
+    "name": "戴花吐舌",
+    "tags": [
+      "positive",
+      "playful",
+      "flower",
+      "tongue-out"
+    ],
+    "keywords": [
+      "戴花",
+      "吐舌",
+      "调皮",
+      "卖萌",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_019": {
+    "name": "阴影斜眼",
+    "tags": [
+      "negative",
+      "sarcastic",
+      "side-eye",
+      "menacing"
+    ],
+    "keywords": [
+      "斜眼",
+      "阴影",
+      "冷笑",
+      "盯着你",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_020": {
+    "name": "开心大笑",
+    "tags": [
+      "positive",
+      "humorous",
+      "laughing",
+      "joyful"
+    ],
+    "keywords": [
+      "哈哈哈",
+      "大笑",
+      "开心",
+      "笑出声",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_021": {
+    "name": "搓手坏笑",
+    "tags": [
+      "neutral",
+      "playful",
+      "smirking",
+      "mischievous"
+    ],
+    "keywords": [
+      "搓手",
+      "坏笑",
+      "嘿嘿",
+      "你懂的",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_022": {
+    "name": "爱你",
+    "tags": [
+      "positive",
+      "supportive",
+      "love",
+      "hearts"
+    ],
+    "keywords": [
+      "爱你",
+      "喜欢你",
+      "表白",
+      "爱心",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_023": {
+    "name": "双手合十",
+    "tags": [
+      "positive",
+      "supportive",
+      "hands-together",
+      "pleading"
+    ],
+    "keywords": [
+      "双手合十",
+      "拜托",
+      "求求了",
+      "谢谢",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_024": {
+    "name": "吓一跳",
+    "tags": [
+      "negative",
+      "humorous",
+      "startled",
+      "shocked"
+    ],
+    "keywords": [
+      "吓一跳",
+      "惊吓",
+      "受惊",
+      "震惊",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_025": {
+    "name": "眯眼得意",
+    "tags": [
+      "positive",
+      "playful",
+      "smirking",
+      "confident"
+    ],
+    "keywords": [
+      "得意",
+      "眯眼",
+      "坏笑",
+      "嘿嘿",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_026": {
+    "name": "小猪傻笑",
+    "tags": [
+      "positive",
+      "playful",
+      "pig",
+      "smiling"
+    ],
+    "keywords": [
+      "小猪",
+      "傻笑",
+      "笑眯眯",
+      "可爱",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_027": {
+    "name": "趴下无力",
+    "tags": [
+      "negative",
+      "plain",
+      "lying-down",
+      "tired"
+    ],
+    "keywords": [
+      "趴下",
+      "无力",
+      "累了",
+      "没精神",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_028": {
+    "name": "放鞭炮",
+    "tags": [
+      "positive",
+      "playful",
+      "firecrackers",
+      "celebrating"
+    ],
+    "keywords": [
+      "放鞭炮",
+      "庆祝",
+      "过年",
+      "热闹",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_029": {
+    "name": "举相机拍照",
+    "tags": [
+      "neutral",
+      "plain",
+      "camera",
+      "photography"
+    ],
+    "keywords": [
+      "拍照",
+      "相机",
+      "咔嚓",
+      "留念",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_030": {
+    "name": "晚安",
+    "tags": [
+      "positive",
+      "supportive",
+      "good-night",
+      "sleepy"
+    ],
+    "keywords": [
+      "晚安",
+      "睡觉",
+      "睡衣",
+      "好梦",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_031": {
+    "name": "戴花小猪打电话",
+    "tags": [
+      "neutral",
+      "playful",
+      "pig",
+      "calling",
+      "flower"
+    ],
+    "keywords": [
+      "小猪",
+      "戴花",
+      "电话",
+      "打电话",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_032": {
+    "name": "戴花害羞",
+    "tags": [
+      "positive",
+      "playful",
+      "blushing",
+      "flower",
+      "shy"
+    ],
+    "keywords": [
+      "害羞",
+      "脸红",
+      "戴花",
+      "羞涩",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_033": {
+    "name": "小猪眨眼",
+    "tags": [
+      "positive",
+      "playful",
+      "pig",
+      "winking"
+    ],
+    "keywords": [
+      "小猪",
+      "眨眼",
+      "卖萌",
+      "可爱",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_034": {
+    "name": "热得扇风",
+    "tags": [
+      "negative",
+      "plain",
+      "hot",
+      "fanning",
+      "sweating"
+    ],
+    "keywords": [
+      "热",
+      "扇风",
+      "扇子",
+      "热死了",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_035": {
+    "name": "墨镜耍酷",
+    "tags": [
+      "positive",
+      "playful",
+      "sunglasses",
+      "cool"
+    ],
+    "keywords": [
+      "墨镜",
+      "耍酷",
+      "帅气",
+      "酷",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_036": {
+    "name": "眯眼坏笑",
+    "tags": [
+      "neutral",
+      "playful",
+      "smirking",
+      "mischievous"
+    ],
+    "keywords": [
+      "眯眼",
+      "坏笑",
+      "嘿嘿",
+      "得意",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_037": {
+    "name": "眼镜猴偷笑",
+    "tags": [
+      "positive",
+      "playful",
+      "glasses",
+      "giggling"
+    ],
+    "keywords": [
+      "眼镜",
+      "偷笑",
+      "捂嘴",
+      "嘿嘿",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_038": {
+    "name": "急上厕所",
+    "tags": [
+      "negative",
+      "humorous",
+      "toilet",
+      "urgent"
+    ],
+    "keywords": [
+      "厕所",
+      "憋不住",
+      "内急",
+      "WC",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_039": {
+    "name": "恭喜发财",
+    "tags": [
+      "positive",
+      "supportive",
+      "new-year",
+      "blessing",
+      "wealth"
+    ],
+    "keywords": [
+      "恭喜发财",
+      "新年",
+      "祝福",
+      "拜年",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_040": {
+    "name": "哭着说爱你",
+    "tags": [
+      "positive",
+      "humorous",
+      "love",
+      "crying"
+    ],
+    "keywords": [
+      "爱你",
+      "我爱你",
+      "泪流满面",
+      "I love U",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  },
+  "byr_ema_041": {
+    "name": "转头撅嘴",
+    "tags": [
+      "neutral",
+      "playful",
+      "turning-head",
+      "pouting"
+    ],
+    "keywords": [
+      "转头",
+      "撅嘴",
+      "扭头",
+      "小情绪",
+      "北邮人",
+      "悠嘻猴"
+    ]
+  }
+}

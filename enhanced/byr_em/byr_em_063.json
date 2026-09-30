@@ -1,0 +1,12 @@
+{
+  "source_id": "byr_em_063",
+  "source_path": "origins/byr_em/byr_em_063.gif",
+  "source_sha256": "7d7797f5ff88456c307fa7ccbd17b0941ad9d2d9f91ab77ef88735a8bde84a67",
+  "master": "enhanced/byr_em/byr_em_063.png",
+  "tool": "image_gen",
+  "prompt": "Use case: style-transfer. Redraw the attached tiny reference as a CLEAN HIGH-RESOLUTION 2D EMOJI with smooth vector-like contours. Subject: one yellow telephone handset with curly cord. The reference is only 19x19 pixels: its jagged squares are LOW RESOLUTION DAMAGE, not a style to preserve. Infer continuous curves, clean antialiased outlines, smooth simple color fills and subtle gradients. Absolutely no pixel blocks, mosaic, stair-step edges or bitmap texture. Preserve the exact original subject, meaning, expression, gaze, pose, object count, arrangement, orientation, basic silhouette and colors; do not add features, faces, objects, text or scenery absent from the reference. Not photorealistic, not 3D, no outer glow, no haze, no drop shadow, no decorative effects. The reference composition is recognizable, only clearer. Truly transparent background with a clean cutout edge. Whole icon fits with a small margin and no cropping. One icon only. Asset byr_em_063.",
+  "kind": "static-restoration",
+  "review": "accepted",
+  "review_note": "保留单个黄色电话听筒、弯曲握柄及末端电话线，方向和通话含义一致；线缆细节更清晰，160px下主体未截断且背景透明。",
+  "reviewed_sha256": "828715f7cc4076acd466e244c19205e18eddb482e711b5bbbd7cc721927894d1"
+}
