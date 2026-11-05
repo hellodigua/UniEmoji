@@ -30,9 +30,9 @@ test("本地维护服务：保存、重载、校验与覆盖保护", async (t) =
       },
       body: JSON.stringify({ revision: session.revision, data }),
     });
-  await t.test("保留 40 个语义和各平台有效素材引用", async () => {
+  await t.test("保留 41 个语义和各平台有效素材引用", async () => {
     const { data } = await load();
-    assert.equal(data.semantics.length, 40);
+    assert.equal(data.semantics.length, 41);
     const catalog = JSON.parse(readFileSync(join(fixture, "emoji.json")));
     for (const row of data.semantics)
       for (const platform of data.platforms) {

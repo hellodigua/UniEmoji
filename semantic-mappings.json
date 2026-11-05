@@ -36,13 +36,13 @@
       "emoji": "😊",
       "label": "开心",
       "mappings": {
-        "tieba": "output/tieba/tb_02.avif",
+        "tieba": "output/tieba/tb_01.avif",
         "zhihu": "output/zhihu/zh_25.avif",
         "xiaohongshu": "output/xiaohongshu/xhs_01.avif",
         "douyin": "output/douyin/dy_001.avif",
         "qq": "output/qq/qq_001.avif",
         "bilibili": "output/bilibili/bl_03.avif",
-        "weibo": "output/weibo/wb_03.avif"
+        "weibo": "output/weibo/wb_14.avif"
       }
     },
     {
@@ -52,11 +52,11 @@
       "mappings": {
         "tieba": "output/tieba/tb_11.avif",
         "zhihu": "output/zhihu/zh_17.avif",
-        "xiaohongshu": "output/xiaohongshu/xhs_03.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_18.avif",
         "douyin": "output/douyin/dy_124.avif",
         "qq": "output/qq/qq_015.avif",
-        "bilibili": "output/bilibili/bl_32.avif",
-        "weibo": "output/weibo/wb_10.avif"
+        "bilibili": "output/bilibili/bl_59.avif",
+        "weibo": "output/weibo/wb_02.avif"
       }
     },
     {
@@ -66,11 +66,11 @@
       "mappings": {
         "tieba": "output/tieba/tb_13.avif",
         "zhihu": "output/zhihu/zh_03.avif",
-        "xiaohongshu": null,
+        "xiaohongshu": "output/xiaohongshu/xhs_09.avif",
         "douyin": "output/douyin/dy_058.avif",
         "qq": "output/qq/qq_048.avif",
-        "bilibili": null,
-        "weibo": null
+        "bilibili": "output/bilibili/bl_40.avif",
+        "weibo": "output/weibo/wb_81.avif"
       }
     },
     {
@@ -78,13 +78,13 @@
       "emoji": "👀",
       "label": "围观",
       "mappings": {
-        "tieba": null,
+        "tieba": "output/tieba/tb_50.avif",
         "zhihu": "output/zhihu/zh_21.avif",
         "xiaohongshu": "output/xiaohongshu/xhs_26.avif",
         "douyin": "output/douyin/dy_129.avif",
         "qq": "output/qq/qq_109.avif",
         "bilibili": "output/bilibili/bl_04.avif",
-        "weibo": "output/weibo/wb_22.avif"
+        "weibo": "output/weibo/wb_04.avif"
       }
     },
     {
@@ -94,11 +94,11 @@
       "mappings": {
         "tieba": "output/tieba/tb_24.avif",
         "zhihu": "output/zhihu/zh_14.avif",
-        "xiaohongshu": null,
+        "xiaohongshu": "output/xiaohongshu/xhs_34.avif",
         "douyin": "output/douyin/dy_004.avif",
-        "qq": "output/qq/qq_100.avif",
-        "bilibili": null,
-        "weibo": null
+        "qq": "output/qq/qq_011.avif",
+        "bilibili": "output/bilibili/bl_50.avif",
+        "weibo": "output/weibo/wb_67.avif"
       }
     },
     {
@@ -107,12 +107,12 @@
       "label": "无语",
       "mappings": {
         "tieba": "output/tieba/tb_10.avif",
-        "zhihu": null,
-        "xiaohongshu": null,
+        "zhihu": "output/zhihu/zh_20.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_35.avif",
         "douyin": "output/douyin/dy_035.avif",
-        "qq": null,
+        "qq": "output/qq/qq_043.avif",
         "bilibili": "output/bilibili/bl_31.avif",
-        "weibo": null
+        "weibo": "output/weibo/wb_63.avif"
       }
     },
     {
@@ -126,7 +126,7 @@
         "douyin": "output/douyin/dy_014.avif",
         "qq": "output/qq/qq_050.avif",
         "bilibili": "output/bilibili/bl_06.avif",
-        "weibo": null
+        "weibo": "output/weibo/wb_140.avif"
       }
     },
     {
@@ -134,13 +134,13 @@
       "emoji": "😵‍💫",
       "label": "过载",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
+        "tieba": "output/tieba/tb_04.avif",
+        "zhihu": "output/zhihu/zh_15.avif",
         "xiaohongshu": "output/xiaohongshu/xhs_09.avif",
         "douyin": "output/douyin/dy_145.avif",
         "qq": "output/qq/qq_143.avif",
-        "bilibili": null,
-        "weibo": "output/weibo/wb_20.avif"
+        "bilibili": "output/bilibili/bl_20.avif",
+        "weibo": "output/weibo/wb_19.avif"
       }
     },
     {
@@ -148,13 +148,13 @@
       "emoji": "😐",
       "label": "平静",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
-        "xiaohongshu": null,
+        "tieba": "output/tieba/tb_01.avif",
+        "zhihu": "output/zhihu/zh_18.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_01.avif",
         "douyin": "output/douyin/dy_100.avif",
-        "qq": "output/qq/qq_117.avif",
-        "bilibili": null,
-        "weibo": null
+        "qq": "output/qq/qq_053.avif",
+        "bilibili": "output/bilibili/bl_43.avif",
+        "weibo": "output/weibo/wb_34.avif"
       }
     },
     {
@@ -166,9 +166,9 @@
         "zhihu": "output/zhihu/zh_06.avif",
         "xiaohongshu": "output/xiaohongshu/xhs_13.avif",
         "douyin": "output/douyin/dy_046.avif",
-        "qq": "output/qq/qq_116.avif",
+        "qq": "output/qq/qq_013.avif",
         "bilibili": "output/bilibili/bl_27.avif",
-        "weibo": "output/weibo/wb_05.avif"
+        "weibo": "output/weibo/wb_06.avif"
       }
     },
     {
@@ -191,12 +191,12 @@
       "label": "流汗",
       "mappings": {
         "tieba": "output/tieba/tb_08.avif",
-        "zhihu": null,
+        "zhihu": "output/zhihu/zh_20.avif",
         "xiaohongshu": "output/xiaohongshu/xhs_04.avif",
         "douyin": "output/douyin/dy_110.avif",
         "qq": "output/qq/qq_043.avif",
-        "bilibili": null,
-        "weibo": "output/weibo/wb_24.avif"
+        "bilibili": "output/bilibili/bl_45.avif",
+        "weibo": "output/weibo/wb_27.avif"
       }
     },
     {
@@ -204,13 +204,13 @@
       "emoji": "🤔",
       "label": "思考",
       "mappings": {
-        "tieba": null,
+        "tieba": "output/tieba/tb_13.avif",
         "zhihu": "output/zhihu/zh_04.avif",
-        "xiaohongshu": null,
+        "xiaohongshu": "output/xiaohongshu/xhs_40.avif",
         "douyin": "output/douyin/dy_064.avif",
-        "qq": "output/qq/qq_053.avif",
+        "qq": "output/qq/qq_048.avif",
         "bilibili": "output/bilibili/bl_35.avif",
-        "weibo": null
+        "weibo": "output/weibo/wb_80.avif"
       }
     },
     {
@@ -218,27 +218,13 @@
       "emoji": "👌",
       "label": "好的",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
-        "xiaohongshu": null,
+        "tieba": "output/tieba/tb_87.avif",
+        "zhihu": "output/zhihu/zh_53.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_11.avif",
         "douyin": "output/douyin/dy_177.avif",
         "qq": "output/qq/qq_161.avif",
         "bilibili": "output/bilibili/bl_05.avif",
-        "weibo": null
-      }
-    },
-    {
-      "key": "nodding",
-      "emoji": "🙂‍↕️",
-      "label": "点头",
-      "mappings": {
-        "tieba": null,
-        "zhihu": null,
-        "xiaohongshu": null,
-        "douyin": null,
-        "qq": "output/qq/qq_134.avif",
-        "bilibili": null,
-        "weibo": null
+        "weibo": "output/weibo/wb_162.avif"
       }
     },
     {
@@ -246,13 +232,13 @@
       "emoji": "😴",
       "label": "睡觉",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
-        "xiaohongshu": null,
+        "tieba": "output/tieba/tb_33.avif",
+        "zhihu": "output/zhihu/zh_05.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_38.avif",
         "douyin": "output/douyin/dy_057.avif",
         "qq": "output/qq/qq_008.avif",
-        "bilibili": null,
-        "weibo": null
+        "bilibili": "output/bilibili/bl_56.avif",
+        "weibo": "output/weibo/wb_106.avif"
       }
     },
     {
@@ -261,7 +247,7 @@
       "label": "委屈",
       "mappings": {
         "tieba": "output/tieba/tb_16.avif",
-        "zhihu": null,
+        "zhihu": "output/zhihu/zh_42.avif",
         "xiaohongshu": "output/xiaohongshu/xhs_18.avif",
         "douyin": "output/douyin/dy_083.avif",
         "qq": "output/qq/qq_073.avif",
@@ -274,13 +260,13 @@
       "emoji": "🫣",
       "label": "偷看",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
+        "tieba": "output/tieba/tb_55.avif",
+        "zhihu": "output/zhihu/zh_23.avif",
         "xiaohongshu": "output/xiaohongshu/xhs_12.avif",
         "douyin": "output/douyin/dy_101.avif",
         "qq": "output/qq/qq_107.avif",
-        "bilibili": null,
-        "weibo": null
+        "bilibili": "output/bilibili/bl_06.avif",
+        "weibo": "output/weibo/wb_132.avif"
       }
     },
     {
@@ -289,12 +275,12 @@
       "label": "赞同",
       "mappings": {
         "tieba": "output/tieba/tb_12.avif",
-        "zhihu": null,
+        "zhihu": "output/zhihu/zh_39.avif",
         "xiaohongshu": "output/xiaohongshu/xhs_11.avif",
         "douyin": "output/douyin/dy_150.avif",
         "qq": "output/qq/qq_170.avif",
         "bilibili": "output/bilibili/bl_30.avif",
-        "weibo": "output/weibo/wb_28.avif"
+        "weibo": "output/weibo/wb_155.avif"
       }
     },
     {
@@ -302,13 +288,13 @@
       "emoji": "🫶",
       "label": "爱心",
       "mappings": {
-        "tieba": null,
+        "tieba": "output/tieba/tb_74.avif",
         "zhihu": "output/zhihu/zh_01.avif",
-        "xiaohongshu": null,
-        "douyin": "output/douyin/dy_016.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_08.avif",
+        "douyin": "output/douyin/dy_052.avif",
         "qq": "output/qq/qq_031.avif",
         "bilibili": "output/bilibili/bl_18.avif",
-        "weibo": "output/weibo/wb_14.avif"
+        "weibo": "output/weibo/wb_01.avif"
       }
     },
     {
@@ -316,13 +302,13 @@
       "emoji": "😳",
       "label": "害羞",
       "mappings": {
-        "tieba": null,
+        "tieba": "output/tieba/tb_39.avif",
         "zhihu": "output/zhihu/zh_02.avif",
         "xiaohongshu": "output/xiaohongshu/xhs_02.avif",
         "douyin": "output/douyin/dy_011.avif",
         "qq": "output/qq/qq_006.avif",
         "bilibili": "output/bilibili/bl_23.avif",
-        "weibo": null
+        "weibo": "output/weibo/wb_69.avif"
       }
     },
     {
@@ -330,13 +316,13 @@
       "emoji": "🤩",
       "label": "星星眼",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
-        "xiaohongshu": null,
+        "tieba": "output/tieba/tb_20.avif",
+        "zhihu": "output/zhihu/zh_29.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_05.avif",
         "douyin": "output/douyin/dy_024.avif",
         "qq": "output/qq/qq_030.avif",
         "bilibili": "output/bilibili/bl_02.avif",
-        "weibo": null
+        "weibo": "output/weibo/wb_05.avif"
       }
     },
     {
@@ -344,13 +330,13 @@
       "emoji": "😂",
       "label": "笑哭",
       "mappings": {
-        "tieba": null,
+        "tieba": "output/tieba/tb_35.avif",
         "zhihu": "output/zhihu/zh_26.avif",
         "xiaohongshu": "output/xiaohongshu/xhs_10.avif",
         "douyin": "output/douyin/dy_069.avif",
         "qq": "output/qq/qq_049.avif",
         "bilibili": "output/bilibili/bl_01.avif",
-        "weibo": "output/weibo/wb_06.avif"
+        "weibo": "output/weibo/wb_17.avif"
       }
     },
     {
@@ -358,13 +344,13 @@
       "emoji": "🥹",
       "label": "感动",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
-        "xiaohongshu": null,
+        "tieba": "output/tieba/tb_20.avif",
+        "zhihu": "output/zhihu/zh_29.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_05.avif",
         "douyin": "output/douyin/dy_133.avif",
-        "qq": null,
+        "qq": "output/qq/qq_079.avif",
         "bilibili": "output/bilibili/bl_10.avif",
-        "weibo": null
+        "weibo": "output/weibo/wb_08.avif"
       }
     },
     {
@@ -372,13 +358,13 @@
       "emoji": "😱",
       "label": "害怕",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
-        "xiaohongshu": null,
+        "tieba": "output/tieba/tb_51.avif",
+        "zhihu": "output/zhihu/zh_15.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_37.avif",
         "douyin": "output/douyin/dy_122.avif",
         "qq": "output/qq/qq_042.avif",
-        "bilibili": null,
-        "weibo": "output/weibo/wb_26.avif"
+        "bilibili": "output/bilibili/bl_25.avif",
+        "weibo": "output/weibo/wb_25.avif"
       }
     },
     {
@@ -386,13 +372,13 @@
       "emoji": "🤦",
       "label": "捂脸",
       "mappings": {
-        "tieba": null,
+        "tieba": "output/tieba/tb_63.avif",
         "zhihu": "output/zhihu/zh_07.avif",
         "xiaohongshu": "output/xiaohongshu/xhs_20.avif",
         "douyin": "output/douyin/dy_007.avif",
         "qq": "output/qq/qq_085.avif",
         "bilibili": "output/bilibili/bl_26.avif",
-        "weibo": null
+        "weibo": "output/weibo/wb_27.avif"
       }
     },
     {
@@ -400,13 +386,13 @@
       "emoji": "🙄",
       "label": "白眼",
       "mappings": {
-        "tieba": null,
+        "tieba": "output/tieba/tb_43.avif",
         "zhihu": "output/zhihu/zh_27.avif",
-        "xiaohongshu": null,
+        "xiaohongshu": "output/xiaohongshu/xhs_35.avif",
         "douyin": "output/douyin/dy_098.avif",
         "qq": "output/qq/qq_022.avif",
-        "bilibili": null,
-        "weibo": "output/weibo/wb_19.avif"
+        "bilibili": "output/bilibili/bl_54.avif",
+        "weibo": "output/weibo/wb_11.avif"
       }
     },
     {
@@ -414,13 +400,13 @@
       "emoji": "😮‍💨",
       "label": "叹气",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
+        "tieba": "output/tieba/tb_11.avif",
+        "zhihu": "output/zhihu/zh_17.avif",
         "xiaohongshu": "output/xiaohongshu/xhs_25.avif",
         "douyin": "output/douyin/dy_134.avif",
-        "qq": null,
-        "bilibili": null,
-        "weibo": null
+        "qq": "output/qq/qq_015.avif",
+        "bilibili": "output/bilibili/bl_31.avif",
+        "weibo": "output/weibo/wb_13.avif"
       }
     },
     {
@@ -428,13 +414,13 @@
       "emoji": "😫",
       "label": "抓狂",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
+        "tieba": "output/tieba/tb_31.avif",
+        "zhihu": "output/zhihu/zh_14.avif",
         "xiaohongshu": "output/xiaohongshu/xhs_19.avif",
         "douyin": "output/douyin/dy_074.avif",
         "qq": "output/qq/qq_018.avif",
-        "bilibili": null,
-        "weibo": null
+        "bilibili": "output/bilibili/bl_55.avif",
+        "weibo": "output/weibo/wb_97.avif"
       }
     },
     {
@@ -444,11 +430,11 @@
       "mappings": {
         "tieba": "output/tieba/tb_03.avif",
         "zhihu": "output/zhihu/zh_16.avif",
-        "xiaohongshu": null,
+        "xiaohongshu": "output/xiaohongshu/xhs_41.avif",
         "douyin": "output/douyin/dy_012.avif",
         "qq": "output/qq/qq_012.avif",
         "bilibili": "output/bilibili/bl_13.avif",
-        "weibo": null
+        "weibo": "output/weibo/wb_62.avif"
       }
     },
     {
@@ -456,13 +442,13 @@
       "emoji": "🤭",
       "label": "偷笑",
       "mappings": {
-        "tieba": null,
+        "tieba": "output/tieba/tb_36.avif",
         "zhihu": "output/zhihu/zh_08.avif",
         "xiaohongshu": "output/xiaohongshu/xhs_07.avif",
         "douyin": "output/douyin/dy_062.avif",
         "qq": "output/qq/qq_020.avif",
-        "bilibili": null,
-        "weibo": null
+        "bilibili": "output/bilibili/bl_41.avif",
+        "weibo": "output/weibo/wb_77.avif"
       }
     },
     {
@@ -471,12 +457,12 @@
       "label": "阴阳",
       "mappings": {
         "tieba": "output/tieba/tb_14.avif",
-        "zhihu": null,
-        "xiaohongshu": null,
+        "zhihu": "output/zhihu/zh_24.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_17.avif",
         "douyin": "output/douyin/dy_126.avif",
         "qq": "output/qq/qq_075.avif",
-        "bilibili": null,
-        "weibo": null
+        "bilibili": "output/bilibili/bl_42.avif",
+        "weibo": "output/weibo/wb_76.avif"
       }
     },
     {
@@ -486,11 +472,11 @@
       "mappings": {
         "tieba": "output/tieba/tb_05.avif",
         "zhihu": "output/zhihu/zh_05.avif",
-        "xiaohongshu": null,
-        "douyin": null,
-        "qq": null,
-        "bilibili": null,
-        "weibo": "output/weibo/wb_18.avif"
+        "xiaohongshu": "output/xiaohongshu/xhs_39.avif",
+        "douyin": "output/douyin/dy_127.avif",
+        "qq": "output/qq/qq_045.avif",
+        "bilibili": "output/bilibili/bl_58.avif",
+        "weibo": "output/weibo/wb_09.avif"
       }
     },
     {
@@ -498,13 +484,13 @@
       "emoji": "🎉",
       "label": "庆祝",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
+        "tieba": "output/tieba/tb_71.avif",
+        "zhihu": "output/zhihu/zh_10.avif",
         "xiaohongshu": "output/xiaohongshu/xhs_21.avif",
         "douyin": "output/douyin/dy_095.avif",
         "qq": "output/qq/qq_032.avif",
-        "bilibili": null,
-        "weibo": null
+        "bilibili": "output/bilibili/bl_73.avif",
+        "weibo": "output/weibo/wb_183.avif"
       }
     },
     {
@@ -512,13 +498,13 @@
       "emoji": "💪",
       "label": "加油",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
-        "xiaohongshu": null,
+        "tieba": "output/tieba/tb_18.avif",
+        "zhihu": "output/zhihu/zh_10.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_21.avif",
         "douyin": "output/douyin/dy_052.avif",
         "qq": "output/qq/qq_089.avif",
-        "bilibili": null,
-        "weibo": null
+        "bilibili": "output/bilibili/bl_77.avif",
+        "weibo": "output/weibo/wb_44.avif"
       }
     },
     {
@@ -526,13 +512,13 @@
       "emoji": "🙏",
       "label": "谢谢",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
-        "xiaohongshu": null,
+        "tieba": "output/tieba/tb_03.avif",
+        "zhihu": "output/zhihu/zh_28.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_05.avif",
         "douyin": "output/douyin/dy_019.avif",
         "qq": "output/qq/qq_124.avif",
-        "bilibili": null,
-        "weibo": null
+        "bilibili": "output/bilibili/bl_78.avif",
+        "weibo": "output/weibo/wb_160.avif"
       }
     },
     {
@@ -540,13 +526,13 @@
       "emoji": "🙇",
       "label": "抱歉",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
-        "xiaohongshu": null,
-        "douyin": "output/douyin/dy_137.avif",
-        "qq": null,
-        "bilibili": null,
-        "weibo": null
+        "tieba": "output/tieba/tb_09.avif",
+        "zhihu": "output/zhihu/zh_13.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_15.avif",
+        "douyin": "output/douyin/dy_006.avif",
+        "qq": "output/qq/qq_009.avif",
+        "bilibili": "output/bilibili/bl_32.avif",
+        "weibo": "output/weibo/wb_12.avif"
       }
     },
     {
@@ -554,27 +540,13 @@
       "emoji": "🤗",
       "label": "抱抱",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
-        "xiaohongshu": null,
+        "tieba": "output/tieba/tb_18.avif",
+        "zhihu": "output/zhihu/zh_57.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_06.avif",
         "douyin": "output/douyin/dy_020.avif",
         "qq": "output/qq/qq_150.avif",
-        "bilibili": null,
-        "weibo": null
-      }
-    },
-    {
-      "key": "please",
-      "emoji": "🤲",
-      "label": "拜托",
-      "mappings": {
-        "tieba": null,
-        "zhihu": null,
-        "xiaohongshu": null,
-        "douyin": "output/douyin/dy_132.avif",
-        "qq": "output/qq/qq_138.avif",
-        "bilibili": null,
-        "weibo": null
+        "bilibili": "output/bilibili/bl_83.avif",
+        "weibo": "output/weibo/wb_125.avif"
       }
     },
     {
@@ -582,13 +554,55 @@
       "emoji": "👏",
       "label": "鼓掌",
       "mappings": {
-        "tieba": null,
-        "zhihu": null,
-        "xiaohongshu": null,
+        "tieba": "output/tieba/tb_18.avif",
+        "zhihu": "output/zhihu/zh_01.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_21.avif",
         "douyin": "output/douyin/dy_018.avif",
         "qq": "output/qq/qq_066.avif",
-        "bilibili": null,
-        "weibo": null
+        "bilibili": "output/bilibili/bl_44.avif",
+        "weibo": "output/weibo/wb_61.avif"
+      }
+    },
+    {
+      "key": "surprised",
+      "emoji": "😮",
+      "label": "惊讶",
+      "mappings": {
+        "tieba": "output/tieba/tb_25.avif",
+        "zhihu": "output/zhihu/zh_15.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_05.avif",
+        "douyin": "output/douyin/dy_054.avif",
+        "qq": "output/qq/qq_014.avif",
+        "bilibili": "output/bilibili/bl_25.avif",
+        "weibo": "output/weibo/wb_28.avif"
+      }
+    },
+    {
+      "key": "love",
+      "emoji": "😍",
+      "label": "喜欢",
+      "mappings": {
+        "tieba": "output/tieba/tb_26.avif",
+        "zhihu": "output/zhihu/zh_01.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_14.avif",
+        "douyin": "output/douyin/dy_002.avif",
+        "qq": "output/qq/qq_003.avif",
+        "bilibili": "output/bilibili/bl_21.avif",
+        "weibo": "output/weibo/wb_73.avif"
+      }
+    },
+    {
+      "key": "goodbye",
+      "emoji": "👋",
+      "label": "再见",
+      "mappings": {
+        "tieba": "output/tieba/tb_02.avif",
+        "zhihu": "output/zhihu/zh_19.avif",
+        "xiaohongshu": "output/xiaohongshu/xhs_24.avif",
+        "douyin": "output/douyin/dy_086.avif",
+        "qq": "output/qq/qq_063.avif",
+        "bilibili": "output/bilibili/bl_53.avif",
+        "weibo": "output/weibo/wb_93.avif"
       }
     }
   ]

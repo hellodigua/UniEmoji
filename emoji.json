@@ -350,9 +350,9 @@
       },
       {
         "url": "output/tieba/tb_50.avif",
-        "name": "送花",
-        "tags": ["positive", "supportive", "flowers", "affection", "appreciation"],
-        "keywords": ["送花", "鲜花送你", "谢谢", "喜欢你"]
+        "name": "吃瓜",
+        "tags": ["neutral", "plain", "eating", "observing", "spectating"],
+        "keywords": ["吃瓜", "围观", "看戏", "前排", "坐等后续"]
       },
       {
         "url": "output/tieba/tb_51.avif",
@@ -392,9 +392,9 @@
       },
       {
         "url": "output/tieba/tb_57.avif",
-        "name": "捂嘴惊讶",
-        "tags": ["neutral", "plain", "covering-mouth", "surprised", "wide-eyed"],
-        "keywords": ["捂嘴惊讶", "震惊", "天哪", "不敢说"]
+        "name": "喷笑",
+        "tags": ["positive", "humorous", "spitting", "laughing", "tears", "covering-mouth"],
+        "keywords": ["喷笑", "笑喷", "笑出眼泪", "忍不住笑"]
       },
       {
         "url": "output/tieba/tb_58.avif",
@@ -3957,14 +3957,7 @@
       {
         "url": "output/bilibili/bl_16.avif",
         "name": "脱单doge",
-        "tags": [
-          "positive",
-          "humorous",
-          "playful",
-          "heart-eyes",
-          "loving",
-          "shipping"
-        ],
+        "tags": ["positive", "humorous", "playful", "rose", "loving", "shipping"],
         "keywords": ["脱单doge", "doge", "爱心", "kdl", "在一起"]
       },
       {
@@ -4437,76 +4430,45 @@
     "emojis": [
       {
         "url": "output/weibo/wb_01.avif",
-        "name": "微笑",
-        "tags": [
-          "positive",
-          "sarcastic",
-          "smiling",
-          "passive-aggressive",
-          "speechless",
-          "judging"
-        ],
-        "keywords": ["微笑", "呵呵", "懂了", "不予置评", "坐等反转"]
+        "name": "爱你",
+        "tags": ["positive", "supportive", "heart", "blowing-kiss", "loving", "grateful"],
+        "keywords": ["爱你", "比心", "喜欢", "感谢", "么么哒"]
       },
       {
         "url": "output/weibo/wb_02.avif",
-        "name": "可爱",
-        "tags": [
-          "positive",
-          "playful",
-          "sarcastic",
-          "cute",
-          "dismissive",
-          "speechless",
-          "patronizing"
-        ],
-        "keywords": ["可爱", "就这？", "无语", "天真", "哦"]
+        "name": "悲伤",
+        "tags": ["negative", "plain", "sad", "upset"],
+        "keywords": ["悲伤", "难过", "郁闷", "心碎"]
       },
       {
         "url": "output/weibo/wb_03.avif",
-        "name": "太开心",
-        "tags": ["positive", "plain", "happy", "laughing", "joyful", "excited"],
-        "keywords": ["太开心", "高兴", "快乐", "耶"]
+        "name": "馋嘴",
+        "tags": ["neutral", "playful", "sarcastic", "drooling", "desiring", "envious"],
+        "keywords": ["馋嘴", "想吃", "饿了", "羡慕", "流口水"]
       },
       {
         "url": "output/weibo/wb_04.avif",
-        "name": "嘻嘻",
-        "tags": ["positive", "playful", "sarcastic", "smiling", "scheming"],
-        "keywords": ["嘻嘻", "嘿嘿", "不好意思", "装傻"]
+        "name": "吃瓜",
+        "tags": ["neutral", "plain", "eating", "spectating", "gossiping", "waiting", "neutral-observer"],
+        "keywords": ["吃瓜", "前排", "蹲后续", "让瓜飞一会儿", "有瓜"]
       },
       {
         "url": "output/weibo/wb_05.avif",
+        "name": "憧憬",
+        "tags": ["positive", "plain", "star-eyes", "admiring", "loving"],
+        "keywords": ["憧憬", "崇拜", "星星眼", "大佬", "好棒"]
+      },
+      {
+        "url": "output/weibo/wb_06.avif",
         "name": "哈哈",
         "tags": ["positive", "humorous", "laughing", "amused"],
         "keywords": ["哈哈", "大笑", "笑了", "搞笑"]
       },
       {
-        "url": "output/weibo/wb_06.avif",
-        "name": "笑cry",
-        "tags": [
-          "positive",
-          "humorous",
-          "sarcastic",
-          "laughing",
-          "crying",
-          "frustrated-funny",
-          "amused",
-          "speechless"
-        ],
-        "keywords": ["笑cry", "笑哭", "笑死", "太好笑了", "哈哈哈哈"]
-      },
-      {
         "url": "output/weibo/wb_07.avif",
-        "name": "馋嘴",
-        "tags": [
-          "neutral",
-          "playful",
-          "sarcastic",
-          "drooling",
-          "desiring",
-          "envious"
-        ],
-        "keywords": ["馋嘴", "想吃", "饿了", "羡慕", "流口水"]
+        "name": "可爱",
+        "tags": ["positive", "playful", "sarcastic", "cute", "dismissive", "speechless", "patronizing"],
+        "keywords": ["可爱", "就这？", "无语", "天真", "哦"]
       },
       {
         "url": "output/weibo/wb_08.avif",
@@ -4523,112 +4485,75 @@
       },
       {
         "url": "output/weibo/wb_09.avif",
-        "name": "失望",
-        "tags": ["negative", "plain", "disappointed", "sad"],
-        "keywords": ["失望", "难过", "伤心", "塌房了"]
-      },
-      {
-        "url": "output/weibo/wb_10.avif",
-        "name": "悲伤",
-        "tags": ["negative", "plain", "sad", "upset"],
-        "keywords": ["悲伤", "难过", "郁闷", "心碎"]
-      },
-      {
-        "url": "output/weibo/wb_11.avif",
-        "name": "泪",
-        "tags": [
-          "negative",
-          "plain",
-          "crying",
-          "moved",
-          "frustrated",
-          "overwhelmed"
-        ],
-        "keywords": ["泪", "哭了", "感动", "破防", "呜呜呜"]
-      },
-      {
-        "url": "output/weibo/wb_12.avif",
-        "name": "允悲",
-        "tags": [
-          "negative",
-          "humorous",
-          "crying",
-          "laughing",
-          "schadenfreude",
-          "pitying",
-          "frustrated-funny"
-        ],
-        "keywords": ["允悲", "哭笑不得", "又好笑又心疼", "蚌埠住了", "绷不住了"]
-      },
-      {
-        "url": "output/weibo/wb_13.avif",
-        "name": "苦涩",
-        "tags": ["negative", "plain", "sad", "crying", "frustrated"],
-        "keywords": ["苦涩", "委屈", "宝宝心里苦", "难受"]
-      },
-      {
-        "url": "output/weibo/wb_14.avif",
-        "name": "爱你",
-        "tags": [
-          "positive",
-          "supportive",
-          "heart",
-          "blowing-kiss",
-          "loving",
-          "grateful"
-        ],
-        "keywords": ["爱你", "比心", "喜欢", "感谢", "么么哒"]
-      },
-      {
-        "url": "output/weibo/wb_15.avif",
-        "name": "憧憬",
-        "tags": ["positive", "plain", "star-eyes", "admiring", "loving"],
-        "keywords": ["憧憬", "崇拜", "星星眼", "大佬", "好棒"]
-      },
-      {
-        "url": "output/weibo/wb_16.avif",
-        "name": "哇",
-        "tags": ["positive", "supportive", "surprised", "amazed", "impressed"],
-        "keywords": ["哇", "哇塞", "厉害了", "牛"]
-      },
-      {
-        "url": "output/weibo/wb_17.avif",
-        "name": "笑而不语",
-        "tags": ["neutral", "sarcastic", "smirking", "knowing-look", "judging"],
-        "keywords": ["笑而不语", "看穿一切", "你懂的", "吃瓜", "坐等"]
-      },
-      {
-        "url": "output/weibo/wb_18.avif",
         "name": "酷",
         "tags": ["positive", "plain", "sunglasses", "confident"],
         "keywords": ["酷", "帅", "cool", "大佬出街"]
       },
       {
-        "url": "output/weibo/wb_19.avif",
+        "url": "output/weibo/wb_10.avif",
+        "name": "允悲",
+        "tags": ["negative", "humorous", "crying", "laughing", "schadenfreude", "pitying", "frustrated-funny"],
+        "keywords": ["允悲", "哭笑不得", "又好笑又心疼", "蚌埠住了", "绷不住了"]
+      },
+      {
+        "url": "output/weibo/wb_11.avif",
         "name": "白眼",
-        "tags": [
-          "negative",
-          "sarcastic",
-          "eye-roll",
-          "disdain",
-          "dismissive",
-          "speechless",
-          "annoyed"
-        ],
+        "tags": ["negative", "sarcastic", "eye-roll", "disdain", "dismissive", "speechless", "annoyed"],
         "keywords": ["白眼", "懒得理你", "无语", "yue", "翻白眼"]
       },
       {
-        "url": "output/weibo/wb_20.avif",
+        "url": "output/weibo/wb_12.avif",
+        "name": "泪",
+        "tags": ["negative", "plain", "crying", "moved", "frustrated", "overwhelmed"],
+        "keywords": ["泪", "哭了", "感动", "破防", "呜呜呜"]
+      },
+      {
+        "url": "output/weibo/wb_13.avif",
+        "name": "失望",
+        "tags": ["negative", "plain", "disappointed", "sad"],
+        "keywords": ["失望", "难过", "伤心", "塌房了"]
+      },
+      {
+        "url": "output/weibo/wb_14.avif",
+        "name": "太开心",
+        "tags": ["positive", "plain", "happy", "laughing", "joyful", "excited"],
+        "keywords": ["太开心", "高兴", "快乐", "耶"]
+      },
+      {
+        "url": "output/weibo/wb_15.avif",
+        "name": "微笑",
+        "tags": ["positive", "sarcastic", "smiling", "passive-aggressive", "speechless", "judging"],
+        "keywords": ["微笑", "呵呵", "懂了", "不予置评", "坐等反转"]
+      },
+      {
+        "url": "output/weibo/wb_16.avif",
+        "name": "笑而不语",
+        "tags": ["neutral", "sarcastic", "smirking", "knowing-look", "judging"],
+        "keywords": ["笑而不语", "看穿一切", "你懂的", "吃瓜", "坐等"]
+      },
+      {
+        "url": "output/weibo/wb_17.avif",
+        "name": "笑cry",
+        "tags": ["positive", "humorous", "sarcastic", "laughing", "crying", "frustrated-funny", "amused", "speechless"],
+        "keywords": ["笑cry", "笑哭", "笑死", "太好笑了", "哈哈哈哈"]
+      },
+      {
+        "url": "output/weibo/wb_18.avif",
+        "name": "嘻嘻",
+        "tags": ["positive", "playful", "sarcastic", "smiling", "scheming"],
+        "keywords": ["嘻嘻", "嘿嘿", "不好意思", "装傻"]
+      },
+      {
+        "url": "output/weibo/wb_19.avif",
         "name": "裂开",
-        "tags": [
-          "negative",
-          "surreal",
-          "cracking",
-          "shocked",
-          "overwhelmed",
-          "speechless"
-        ],
+        "tags": ["negative", "surreal", "cracking", "shocked", "overwhelmed", "speechless"],
         "keywords": ["裂开", "我裂开了", "心态崩了", "傻了", "麻了"]
+      },
+      {
+        "url": "output/weibo/wb_20.avif",
+        "name": "苦涩",
+        "tags": ["negative", "plain", "sad", "crying", "frustrated"],
+        "keywords": ["苦涩", "委屈", "宝宝心里苦", "难受"]
       },
       {
         "url": "output/weibo/wb_21.avif",
@@ -4638,17 +4563,9 @@
       },
       {
         "url": "output/weibo/wb_22.avif",
-        "name": "吃瓜",
-        "tags": [
-          "neutral",
-          "plain",
-          "eating",
-          "spectating",
-          "gossiping",
-          "waiting",
-          "neutral-observer"
-        ],
-        "keywords": ["吃瓜", "前排", "蹲后续", "让瓜飞一会儿", "有瓜"]
+        "name": "哇",
+        "tags": ["positive", "supportive", "surprised", "amazed", "impressed"],
+        "keywords": ["哇", "哇塞", "厉害了", "牛"]
       },
       {
         "url": "output/weibo/wb_23.avif",
@@ -4658,58 +4575,45 @@
       },
       {
         "url": "output/weibo/wb_24.avif",
-        "name": "流汗",
-        "tags": ["neutral", "plain", "sweating", "awkward", "speechless"],
-        "keywords": ["流汗", "汗", "尴尬", "无语"]
+        "name": "皱眉",
+        "tags": ["negative", "plain", "frowning", "doubting", "displeased"],
+        "keywords": ["皱眉", "不悦", "感觉不对", "疑惑"]
       },
       {
         "url": "output/weibo/wb_25.avif",
-        "name": "捂嘴哭",
-        "tags": [
-          "negative",
-          "plain",
-          "crying",
-          "mouth-covered",
-          "sad",
-          "pitying"
-        ],
-        "keywords": ["捂嘴哭", "委屈", "偷偷哭", "心疼"]
-      },
-      {
-        "url": "output/weibo/wb_26.avif",
         "name": "惊恐",
         "tags": ["negative", "plain", "scared", "shocked"],
         "keywords": ["惊恐", "害怕", "吓死", "什么鬼"]
       },
       {
-        "url": "output/weibo/wb_27.avif",
-        "name": "yeah",
-        "tags": ["positive", "supportive", "victory-hand", "celebrating"],
-        "keywords": ["yeah", "耶", "胜利", "好耶"]
-      },
-      {
-        "url": "output/weibo/wb_28.avif",
+        "url": "output/weibo/wb_26.avif",
         "name": "点赞",
-        "tags": [
-          "positive",
-          "supportive",
-          "thumbs-up",
-          "agreeing",
-          "approving"
-        ],
+        "tags": ["positive", "supportive", "star-eyes", "agreeing", "approving"],
         "keywords": ["点赞", "赞", "支持", "顶", "说得好"]
       },
       {
-        "url": "output/weibo/wb_29.avif",
+        "url": "output/weibo/wb_27.avif",
+        "name": "流汗",
+        "tags": ["neutral", "plain", "sweating", "awkward", "speechless"],
+        "keywords": ["流汗", "汗", "尴尬", "无语"]
+      },
+      {
+        "url": "output/weibo/wb_28.avif",
         "name": "震惊",
         "tags": ["neutral", "plain", "shocked", "disbelief"],
         "keywords": ["震惊", "惊了", "难以置信", "我惊了"]
       },
       {
+        "url": "output/weibo/wb_29.avif",
+        "name": "捂嘴哭",
+        "tags": ["negative", "plain", "crying", "mouth-covered", "sad", "pitying"],
+        "keywords": ["捂嘴哭", "委屈", "偷偷哭", "心疼"]
+      },
+      {
         "url": "output/weibo/wb_30.avif",
-        "name": "皱眉",
-        "tags": ["negative", "plain", "frowning", "doubting", "displeased"],
-        "keywords": ["皱眉", "不悦", "感觉不对", "疑惑"]
+        "name": "yeah",
+        "tags": ["positive", "supportive", "victory-hand", "celebrating"],
+        "keywords": ["yeah", "耶", "胜利", "好耶"]
       },
       {
         "url": "output/weibo/wb_31.avif",

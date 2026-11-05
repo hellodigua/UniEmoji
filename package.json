@@ -8,7 +8,7 @@
     "build": "npm run copy-images",
     "clean": "rm -rf dist && echo 'Dist directory cleaned'",
     "edit-mappings": "node scripts/mapping-editor-server.mjs",
-    "test:mappings": "node --test scripts/mapping-editor-server.test.mjs"
+    "test:mappings": "node --test scripts/mapping-editor-server.test.mjs scripts/mapping-draft.test.mjs"
   },
   "keywords": [
     "uniemoji",

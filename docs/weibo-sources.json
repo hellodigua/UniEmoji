@@ -8,7 +8,7 @@
     "从 PC热门表情、其他两个分组的 267 个面板项目中筛选通用黄脸、手势、动物、物品、日常及节日表达，排除 59 个人物/角色/宣传或主题形象项目。",
     "“加油”在两个分组中重复出现，按图片地址去重一次；筛选后共 207 个表情。未收录绿植、掌宝及影视角色等独立主题分组。",
     "sourceName 沿用面板名称；sourceSize 为下载图片的实际像素尺寸。标签与关键词由项目补充。",
-    "wb_01 至 wb_30 保留原有素材、编号和标注；来源地址表示当前面板对应项，旧素材可能与当前图样有差异，不表示旧文件由该地址下载。",
+    "wb_01 至 wb_30 保留原有素材和编号；旧标注曾与图片错位，现按实际图样与官方面板图片逐项比对，校正名称、标签、关键词及本记录中的编号对应关系。来源地址与 sourceSize 表示当前面板同名图样，不表示旧文件由该地址下载，也未据此替换旧素材。",
     "wb_31 至 wb_207 保存面板所提供的原始 PNG；以 compressor.py 质量 50 生成透明 AVIF，最长边为 min(60, 原图最长边)，不放大小图。",
     "原图尺寸为 202 张 96×96、4 张 64×64、1 张 36×36；NO 保持 36×36 输出。所保存的是面板直接引用的原图，不保证为平台可提供的最高分辨率。"
   ],
@@ -120,7 +120,7 @@
       ]
     },
     {
-      "id": "wb_30",
+      "id": "wb_24",
       "sourceName": "皱眉",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/5f/2025_frown_mobile.png",
       "sourceSize": [
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "id": "wb_29",
+      "id": "wb_28",
       "sourceName": "震惊",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/54/2025_shock_mobile.png",
       "sourceSize": [
@@ -138,7 +138,7 @@
       ]
     },
     {
-      "id": "wb_28",
+      "id": "wb_26",
       "sourceName": "点赞",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/07/2025_like_mobile.png",
       "sourceSize": [
@@ -165,7 +165,7 @@
       ]
     },
     {
-      "id": "wb_27",
+      "id": "wb_30",
       "sourceName": "yeah",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/56/2025_yeah_mobile.png",
       "sourceSize": [
@@ -174,7 +174,7 @@
       ]
     },
     {
-      "id": "wb_26",
+      "id": "wb_25",
       "sourceName": "惊恐",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/e8/2025_jingkong_mobile.png",
       "sourceSize": [
@@ -300,7 +300,7 @@
       ]
     },
     {
-      "id": "wb_24",
+      "id": "wb_27",
       "sourceName": "流汗",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/56/2025_liuhan_mobile.png",
       "sourceSize": [
@@ -309,7 +309,7 @@
       ]
     },
     {
-      "id": "wb_25",
+      "id": "wb_29",
       "sourceName": "捂嘴哭",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/b4/2025_wuzuiku_mobile.png",
       "sourceSize": [
@@ -417,7 +417,7 @@
       ]
     },
     {
-      "id": "wb_01",
+      "id": "wb_15",
       "sourceName": "微笑",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/f4/201810_hehe_mobile.png",
       "sourceSize": [
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "id": "wb_02",
+      "id": "wb_07",
       "sourceName": "可爱",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/78/201810_keai_mobile.png",
       "sourceSize": [
@@ -435,7 +435,7 @@
       ]
     },
     {
-      "id": "wb_03",
+      "id": "wb_14",
       "sourceName": "太开心",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/a6/201810_taikaixin_mobile.png",
       "sourceSize": [
@@ -453,7 +453,7 @@
       ]
     },
     {
-      "id": "wb_04",
+      "id": "wb_18",
       "sourceName": "嘻嘻",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/8e/201810_xixi_mobile.png",
       "sourceSize": [
@@ -462,7 +462,7 @@
       ]
     },
     {
-      "id": "wb_05",
+      "id": "wb_06",
       "sourceName": "哈哈",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/c5/201810_haha_mobile.png",
       "sourceSize": [
@@ -471,7 +471,7 @@
       ]
     },
     {
-      "id": "wb_06",
+      "id": "wb_17",
       "sourceName": "笑cry",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/f1/201810_xiaoku_mobile.png",
       "sourceSize": [
@@ -489,7 +489,7 @@
       ]
     },
     {
-      "id": "wb_07",
+      "id": "wb_03",
       "sourceName": "馋嘴",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/e9/201810_chanzui_mobile.png",
       "sourceSize": [
@@ -561,7 +561,7 @@
       ]
     },
     {
-      "id": "wb_09",
+      "id": "wb_13",
       "sourceName": "失望",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/3d/201810_shiwang_mobile.png",
       "sourceSize": [
@@ -570,7 +570,7 @@
       ]
     },
     {
-      "id": "wb_10",
+      "id": "wb_02",
       "sourceName": "悲伤",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/49/201810_beishang_mobile.png",
       "sourceSize": [
@@ -579,7 +579,7 @@
       ]
     },
     {
-      "id": "wb_11",
+      "id": "wb_12",
       "sourceName": "泪",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/87/201810_lei_mobile.png",
       "sourceSize": [
@@ -588,7 +588,7 @@
       ]
     },
     {
-      "id": "wb_12",
+      "id": "wb_10",
       "sourceName": "允悲",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/65/201810_ybnew_mobile.png",
       "sourceSize": [
@@ -597,7 +597,7 @@
       ]
     },
     {
-      "id": "wb_13",
+      "id": "wb_20",
       "sourceName": "苦涩",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/5f/2021_bitter_mobile.png",
       "sourceSize": [
@@ -624,7 +624,7 @@
       ]
     },
     {
-      "id": "wb_14",
+      "id": "wb_01",
       "sourceName": "爱你",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/db/201810_aini_mobile.png",
       "sourceSize": [
@@ -669,7 +669,7 @@
       ]
     },
     {
-      "id": "wb_15",
+      "id": "wb_05",
       "sourceName": "憧憬",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/77/201810_xingxingyan_mobile.png",
       "sourceSize": [
@@ -678,7 +678,7 @@
       ]
     },
     {
-      "id": "wb_16",
+      "id": "wb_22",
       "sourceName": "哇",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/79/2022_wow_mobile.png",
       "sourceSize": [
@@ -705,7 +705,7 @@
       ]
     },
     {
-      "id": "wb_17",
+      "id": "wb_16",
       "sourceName": "笑而不语",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/24/201810_heiheihei_mobile.png",
       "sourceSize": [
@@ -732,7 +732,7 @@
       ]
     },
     {
-      "id": "wb_18",
+      "id": "wb_09",
       "sourceName": "酷",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/af/201810_ku_mobile.png",
       "sourceSize": [
@@ -849,7 +849,7 @@
       ]
     },
     {
-      "id": "wb_20",
+      "id": "wb_19",
       "sourceName": "裂开",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/6d/202011_liekai_mobile.png",
       "sourceSize": [
@@ -894,7 +894,7 @@
       ]
     },
     {
-      "id": "wb_19",
+      "id": "wb_11",
       "sourceName": "白眼",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/a0/201810_landelini_mobile.png",
       "sourceSize": [
@@ -1020,7 +1020,7 @@
       ]
     },
     {
-      "id": "wb_22",
+      "id": "wb_04",
       "sourceName": "吃瓜",
       "sourceUrl": "https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/0b/201810_chigua_mobile.png",
       "sourceSize": [

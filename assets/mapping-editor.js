@@ -1,8 +1,24 @@
 import { loadJSON, renderTable, element, imageFor } from "./mapping-table.js";
 import { recommendCandidates } from "./mapping-candidates.mjs";
+import { recoverDraft } from "./mapping-draft.mjs";
 const $ = (selector) => document.querySelector(selector);
 let data, catalog, baseline, revision, token, active, selected;
 let saving = false;
+let recoveredConflicts = [];
+const draftKey = "uniemoji-mapping-draft-v1";
+function showError(message) {
+  $("#editor-error").textContent = message;
+  $("#editor-error").hidden = false;
+}
+function persistDraft() {
+  try {
+    if (changed.size)
+      sessionStorage.setItem(draftKey, JSON.stringify({ data, baseline, conflicts: recoveredConflicts }));
+    else sessionStorage.removeItem(draftKey);
+  } catch {
+    showError("浏览器无法备份草稿，请勿刷新或关闭页面，先保存到本地文件。");
+  }
+}
 const changed = new Set();
 const candidates = new Map();
 const dialog = $("#picker");
@@ -28,6 +44,7 @@ function update() {
     : changed.size
       ? `${changed.size} 项修改未保存`
       : "已与本地文件同步";
+  persistDraft();
 }
 function chooseInline(semantic, platform, url) {
   if (saving) return;
@@ -116,6 +133,11 @@ window.addEventListener("beforeunload", (event) => {
   }
 });
 $("#save").addEventListener("click", async () => {
+  if (saving || !changed.size) return;
+  const conflicts = recoveredConflicts.filter(key => changed.has(key));
+  if (conflicts.length && !window.confirm(
+    `恢复的草稿与本地文件有 ${conflicts.length} 处冲突（${conflicts.join("、")}）。确认使用当前页面的选择覆盖这些位置吗？`,
+  )) return;
   saving = true;
   update();
   $("#editor-error").hidden = true;
@@ -127,12 +149,17 @@ $("#save").addEventListener("click", async () => {
     });
     const result = await response.json();
     if (!response.ok) throw new Error(result.error || "保存失败");
+    if (typeof result.revision !== "string") throw new Error("服务未确认保存成功");
+    const saved = await loadJSON("api/mappings");
+    if (saved.revision !== result.revision ||
+        JSON.stringify(saved.data) !== JSON.stringify(data))
+      throw new Error("保存后的文件与当前选择不一致，请刷新恢复草稿并核对");
     revision = result.revision;
     baseline = structuredClone(data);
+    recoveredConflicts = [];
   } catch (error) {
-    $("#editor-error").textContent =
-      `${error.message}。当前修改仍保留在页面中。`;
-    $("#editor-error").hidden = false;
+    showError(`未保存成功：${error.message}。当前选择仍保留；草稿备份可用时，在此标签页刷新会自动恢复。`);
+    $("#editor-error").scrollIntoView({ block: "nearest" });
   } finally {
     saving = false;
     update();
@@ -147,6 +174,21 @@ try {
   revision = session.revision;
   token = session.token;
   catalog = source;
+  baseline = structuredClone(data);
+  try {
+    const draft = sessionStorage.getItem(draftKey);
+    if (draft) {
+      const recovery = recoverDraft(data, JSON.parse(draft), catalog);
+      data = recovery.data;
+      recoveredConflicts = recovery.conflicts;
+      if (recovery.restored || recovery.skipped)
+        showError(`已恢复 ${recovery.restored} 项草稿，尚未保存到文件。` +
+          (recovery.conflicts.length ? `其中 ${recovery.conflicts.length} 项与文件冲突，保存前需确认。` : "") +
+          (recovery.skipped ? `${recovery.skipped} 项语义或素材已移除，未恢复。` : ""));
+    }
+  } catch {
+    showError("无法读取浏览器草稿，已加载本地文件。");
+  }
   for (const semantic of data.semantics) {
     for (const platform of data.platforms) {
       candidates.set(
@@ -158,7 +200,6 @@ try {
       );
     }
   }
-  baseline = structuredClone(data);
   update();
 } catch (error) {
   $("#save-status").textContent = "未连接本地维护服务";
