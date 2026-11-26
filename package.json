@@ -6,7 +6,8 @@
   "scripts": {
     "copy-images": "rm -rf dist && mkdir -p dist && find output -name '*.avif' -exec cp {} dist/ \\; && cp LICENSE THIRD_PARTY_NOTICES.md dist/ && echo 'All images copied to dist directory' && find dist -name '*.avif' | wc -l | xargs echo 'Total files copied:'",
     "build": "npm run copy-images",
-    "clean": "rm -rf dist && echo 'Dist directory cleaned'"
+    "clean": "rm -rf dist && echo 'Dist directory cleaned'",
+    "dev": "python3 -m http.server --bind 127.0.0.1"
   },
   "keywords": [
     "uniemoji",

@@ -6,7 +6,7 @@ Same meanings, any face.
 
 一句话解释：UniEmoji 让 AI 用上丰富多样的表情包。通过统一 emoji 的语义，关联不同风格的表情图片，AI 回复中的 emoji 就能呈现为对应的表情包，让同一种表达拥有不同的面孔。
 
-[访问官网](https://hellodigua.github.io/UniEmoji/) · [协议文档](https://hellodigua.github.io/UniEmoji/protocol.html) · [素材库](https://hellodigua.github.io/UniEmoji/gallery.html)
+[访问官网](https://hellodigua.github.io/UniEmoji/) · [浏览器扩展](https://hellodigua.github.io/UniEmoji/browser-extension.html) · [协议文档](https://hellodigua.github.io/UniEmoji/protocol.html) · [素材库](https://hellodigua.github.io/UniEmoji/gallery.html)
 
 ## 同样是大哭，让AI使用同一种语义表达
 
@@ -20,10 +20,14 @@ Same meanings, any face.
 
 | 实现 | 适配项目 | 备注 |
 | --- | --- | --- |
-| [uniemoji-browser-extension](https://github.com/hellodigua/uniemoji-browser-extension) | 浏览器扩展 | 已适配 DeepSeek、Gemini |
+| [uniemoji-browser-extension](https://github.com/hellodigua/uniemoji-browser-extension) | 浏览器扩展 | 已适配 DeepSeek、Gemini、ChatGPT、豆包、千问和 Kimi |
 | [dsh-emoji](https://github.com/hellodigua/dsh-emoji) | deepseek-harness | — |
 
 欢迎为更多应用开发基于 UniEmoji 的实现。
+
+## 官网开发
+
+官网页面位于本仓库根目录，运行 `npm run dev` 后访问 http://localhost:8000 。页面结构和迁移顺序见 [官网维护说明](docs/WEBSITE.md)。
 
 ## 许可与素材权利
 
